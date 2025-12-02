@@ -2,16 +2,26 @@
   {
     "id": 1,
     "name": "Autódromo José Carlos Pace",
-    "similarNames": ["Autódromo de Interlagos"],
+    "similarNames": ["Autódromo de Interlagos"]
   },
   {
     "id": 2,
     "name": "Circuit de la Sarthe",
-    "similarNames": ["24 Hours of Le Mans"],
+    "similarNames": ["24 Hours of Le Mans"]
   },
   {
     "id": 3,
     "name": "Autodromo Nazionale Monza",
-    "similarNames": [""],
+    "similarNames": [""]
   },
+  {
+    "id": 4,
+    "name": "Circuit de Spa-Francorchamps",
+    "similarNames": [""]
+  },
+  {
+    "id": 5,
+    "name": "Circuit de Barcelona-Catalunya",
+    "similarNames": [""]
+  }
 ]

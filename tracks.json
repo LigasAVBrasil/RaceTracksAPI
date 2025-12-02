@@ -3,10 +3,10 @@
     "id": 1,
     "name": "Autódromo José Carlos Pace",
     "similarNames": ["Autódromo de Interlagos"]
-  }
+  },
   {
     "id": 2,
     "name": "Circuit de la Sarthe",
     "similarNames": ["24 Hours of Le Mans"]
-  }
+  };
 ]

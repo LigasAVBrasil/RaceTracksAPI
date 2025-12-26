@@ -1,27 +1,86 @@
 [
-  {
-    "id": 1,
-    "name": "Autódromo José Carlos Pace",
-    "similarNames": ["Autódromo de Interlagos"]
-  },
-  {
-    "id": 2,
-    "name": "Circuit de la Sarthe",
-    "similarNames": ["24 Hours of Le Mans"]
-  },
-  {
-    "id": 3,
-    "name": "Autodromo Nazionale Monza",
-    "similarNames": [""]
-  },
-  {
-    "id": 4,
-    "name": "Circuit de Spa-Francorchamps",
-    "similarNames": [""]
-  },
-  {
-    "id": 5,
-    "name": "Circuit de Barcelona-Catalunya",
-    "similarNames": [""]
-  }
+    {
+        "id": 1,
+        "name": "Autódromo José Carlos Pace",
+        "similarNames": [
+            "Autódromo de Interlagos"
+        ],
+        "latitude": "-23.702098578231480",
+        "longitude": "-46.697717823023980",
+        "country": "BR",
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Course",
+                "image_id": "1.1"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Circuit de la Sarthe",
+        "similarNames": [
+            "24 Hours of Le Mans"
+        ],
+        "latitude": "47.940286783499830",
+        "longitude": "0.222581725100576",
+        "country": "FR",
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Course",
+                "image_id": "2.1"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Autodromo Nazionale Monza",
+        "similarNames": null,
+        "latitude": "45.618151757430990",
+        "longitude": "9.283706345634773",
+        "country": "IT",
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Course",
+                "image_id": "3.1"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Circuit de Spa-Francorchamps",
+        "similarNames": null,
+        "latitude": "50.436631058782815",
+        "longitude": "5.969022946780056",
+        "country": "BE",
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Course",
+                "image_id": "4.1"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Circuit de Barcelona-Catalunya",
+        "similarNames": null,
+        "latitude": "41.569610291856240",
+        "longitude": "2.258508703901764",
+        "country": "ES",
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Course",
+                "image_id": "5.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Course + Chicane",
+                "image_id": "5.2"
+            }
+        ]
+    }
 ]

@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "name": "Autódromo José Carlos Pace",
+        "similarNames": [
+            "Autódromo de Interlagos",
+            "São Paulo Grand Prix",
+            "Interlagos Circuit"
+        ],
+        "latitude": "-23.702098578231480",
+        "longitude": "-46.697717823023980",
+        "country": "BR",
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Course",
+                "image_id": "1.1"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Circuit de la Sarthe",
+        "similarNames": [
+            "24 Hours of Le Mans"
+        ],
+        "latitude": "47.940286783499830",
+        "longitude": "0.222581725100576",
+        "country": "FR",
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Course",
+                "image_id": "2.1"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Autodromo Nazionale Monza",
+        "similarNames": [
+            "Italian Grand Prix"
+        ],
+        "latitude": "45.618151757430990",
+        "longitude": "9.283706345634773",
+        "country": "IT",
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Course",
+                "image_id": "3.1"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Circuit de Spa-Francorchamps",
+        "similarNames": [
+            "Belgian Grand Prix"
+        ],
+        "latitude": "50.436631058782815",
+        "longitude": "5.969022946780056",
+        "country": "BE",
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Course",
+                "image_id": "4.1"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Circuit de Barcelona-Catalunya",
+        "similarNames": [
+            "Spanish Grand Prix"
+        ],
+        "latitude": "41.569610291856240",
+        "longitude": "2.258508703901764",
+        "country": "ES",
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Course",
+                "image_id": "5.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Course + Chicane",
+                "image_id": "5.2"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Albert Park Circuit",
+        "similarNames": [
+            "Australian Grand Prix"
+        ],
+        "latitude": "-37.847137393860790",
+        "longitude": "144.971273447114070",
+        "country": "AU",
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Course",
+                "image_id": "6.1"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Shanghai International Circuit",
+        "similarNames": [
+            "Chinese Grand Prix",
+            "Shanghai E-Prix"
+        ],
+        "latitude": "31.337495702516800",
+        "longitude": "121.224418950973790",
+        "country": "CN",
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Course",
+                "image_id": "7.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "West Long",
+                "image_id": "7.2"
+            }
+        ]
+    }
+]

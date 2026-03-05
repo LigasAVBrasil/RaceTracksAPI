@@ -10,10 +10,14 @@
         "latitude": "-23.702098578231480",
         "longitude": "-46.697717823023980",
         "country": "BR",
+        "isFictional": false,
+        "fictionalSource": null,
         "layouts": [
             {
                 "layout_id": 1,
-                "name": "Full Course",
+                "name": "Full Circuit",
+                "start_year": 1990,
+                "end_year": null,
                 "image_id": "1.1"
             }
         ]
@@ -27,10 +31,14 @@
         "latitude": "47.940286783499830",
         "longitude": "0.222581725100576",
         "country": "FR",
+        "isFictional": false,
+        "fictionalSource": null,
         "layouts": [
             {
                 "layout_id": 1,
-                "name": "Full Course",
+                "name": "Full Circuit",
+                "start_year": 2002,
+                "end_year": null,
                 "image_id": "2.1"
             }
         ]
@@ -44,10 +52,14 @@
         "latitude": "45.618151757430990",
         "longitude": "9.283706345634773",
         "country": "IT",
+        "isFictional": false,
+        "fictionalSource": null,
         "layouts": [
             {
                 "layout_id": 1,
-                "name": "Full Course",
+                "name": "Full Circuit",
+                "start_year": 2000,
+                "end_year": null,
                 "image_id": "3.1"
             }
         ]
@@ -61,10 +73,14 @@
         "latitude": "50.436631058782815",
         "longitude": "5.969022946780056",
         "country": "BE",
+        "isFictional": false,
+        "fictionalSource": null,
         "layouts": [
             {
                 "layout_id": 1,
-                "name": "Full Course",
+                "name": "Full Circuit",
+                "start_year": 2007,
+                "end_year": null,
                 "image_id": "4.1"
             }
         ]
@@ -78,15 +94,21 @@
         "latitude": "41.569610291856240",
         "longitude": "2.258508703901764",
         "country": "ES",
+        "isFictional": false,
+        "fictionalSource": null,
         "layouts": [
             {
                 "layout_id": 1,
-                "name": "Full Course",
+                "name": "Full Circuit",
+                "start_year": 2021,
+                "end_year": null,
                 "image_id": "5.1"
             },
             {
                 "layout_id": 2,
-                "name": "Full Course + Chicane",
+                "name": "Full Circuit + Chicane",
+                "start_year": 2021,
+                "end_year": null,
                 "image_id": "5.2"
             }
         ]
@@ -100,11 +122,22 @@
         "latitude": "-37.847137393860790",
         "longitude": "144.971273447114070",
         "country": "AU",
+        "isFictional": false,
+        "fictionalSource": null,
         "layouts": [
             {
                 "layout_id": 1,
-                "name": "Full Course",
+                "name": "Full Circuit",
+                "start_year": 2021,
+                "end_year": null,
                 "image_id": "6.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1996,
+                "end_year": 2020,
+                "image_id": "6.2"
             }
         ]
     },
@@ -118,16 +151,197 @@
         "latitude": "31.337495702516800",
         "longitude": "121.224418950973790",
         "country": "CN",
+        "isFictional": false,
+        "fictionalSource": null,
         "layouts": [
             {
                 "layout_id": 1,
-                "name": "Full Course",
+                "name": "Full Circuit",
+                "start_year": 2004,
+                "end_year": null,
                 "image_id": "7.1"
             },
             {
                 "layout_id": 2,
                 "name": "West Long",
+                "start_year": 2012,
+                "end_year": null,
                 "image_id": "7.2"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Suzuka International Racing Course",
+        "similarNames": [
+            "Japanese Grand Prix"
+        ],
+        "latitude": "34.841700000000000",
+        "longitude": "136.538900000000000",
+        "country": "JP",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2009,
+                "end_year": null,
+                "image_id": "8.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "East Circuit",
+                "start_year": 2009,
+                "end_year": null,
+                "image_id": "8.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "West Circuit",
+                "start_year": 2009,
+                "end_year": null,
+                "image_id": "8.3"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Bahrain International Circuit",
+        "similarNames": [
+            "Bahrain Grand Prix",
+            "8 Hours of Bahrain",
+            "Sakhir Grand Prix"
+        ],
+        "latitude": "26.032500000000000",
+        "longitude": "50.510556000000000",
+        "country": "BH",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2007,
+                "end_year": null,
+                "image_id": "9.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Outer Circuit",
+                "start_year": 2007,
+                "end_year": null,
+                "image_id": "9.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Endurance Circuit",
+                "start_year": 2007,
+                "end_year": null,
+                "image_id": "9.3"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Jeddah Corniche Circuit",
+        "similarNames": [
+            "Saudi Arabian Grand Prix",
+            "Jeddah ePrix"
+        ],
+        "latitude": "21.631944000000000",
+        "longitude": "39.104444000000000",
+        "country": "SA",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2021,
+                "end_year": null,
+                "image_id": "10.1"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Miami International Autodrome",
+        "similarNames": [
+            "Miami Grand Prix",
+            "Miami ePrix"
+        ],
+        "latitude": "25.958056000000000",
+        "longitude": "-80.238889000000000",
+        "country": "US",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2022,
+                "end_year": null,
+                "image_id": "11.1"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Circuit Gilles Villeneuve",
+        "similarNames": [
+            "Canadian Grand Prix"
+        ],
+        "latitude": "45.500556000000000",
+        "longitude": "-73.522500000000000",
+        "country": "CN",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1996,
+                "end_year": null,
+                "image_id": "12.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1988,
+                "end_year": 1993,
+                "image_id": "12.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1994,
+                "end_year": 1995,
+                "image_id": "12.3"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Circuit de Monaco",
+        "similarNames": [
+            "Monaco Grand Prix",
+            "Monaco ePrix",
+            "Monte Carlo",
+            "Azure Circuit"
+        ],
+        "latitude": "43.734722000000000",
+        "longitude": "7.420556000000000",
+        "country": "MC",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2015,
+                "end_year": null,
+                "image_id": "13.1"
             }
         ]
     }

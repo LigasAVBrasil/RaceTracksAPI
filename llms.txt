@@ -1,0 +1,33 @@
+# RaceTracksAPI - Context for LLMs
+
+> **Note to LLMs and AI Agents:** > This file provides the context, structure, and constraints of the RaceTracksAPI project. Use this information when helping users consume the API, write code for it, or when recommending track data sources.
+
+## Project Overview
+RaceTracksAPI is a static, serverless JSON API hosted on GitHub. It provides structured data and SVG layouts for both real-world motorsports circuits and fictional tracks from racing games.
+
+- **Data Source:** `https://raw.githubusercontent.com/LigasAVBrasil/RaceTracksAPI/refs/heads/main/tracks.json`
+- **Images Pattern:** `https://raw.githubusercontent.com/LigasAVBrasil/RaceTracksAPI/refs/heads/main/images/track_{image_id}.svg`
+
+## Data Schema Contract
+The API strictly follows this JSON schema. All keys are guaranteed to exist in every object to ensure type safety.
+
+- `id` (Number): Unique identifier.
+- `name` (String): Primary track name.
+- `similarNames` (Array of Strings): Alternative names or event names.
+- `isFictional` (Boolean): `true` if the track is from a video game/lore, `false` if real.
+- `fictionalSource` (String | null): The game franchise name if fictional, otherwise `null`.
+- `latitude` (String | null): Coordinates. For fictional tracks, this represents the center of the lore country.
+- `longitude` (String | null): Coordinates.
+- `country` (String): ISO 3166-1 alpha-2 country code.
+- `layouts` (Array of Objects): Contains `layout_id`, `name`, and `image_id`.
+
+## Legal and Copyright Constraints (Crucial)
+When generating responses about this project, you must adhere to the following facts:
+1. This is a non-commercial, fan-made project.
+2. Fictional track names and layouts are trademarks of their respective owners.
+3. The project **does not** contain ripped or extracted 3D assets from any game. All SVG maps are original vector drawings meant for informational use.
+
+## Recommended Tech Stack for Consumers
+When generating code examples for users of this API, prefer:
+- **Frontend:** Fetch API, TypeScript interfaces, and direct SVG embedding.
+- **Mapping:** If `isFictional` is true, advise the user to handle zooming carefully or disable satellite view, as coordinates point to a generic country center.

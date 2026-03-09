@@ -1,225 +1,260 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RaceTracksAPI - Circuit Maps & Data</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>RaceTracksAPI - Circuit Maps & Data</title>
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
 
-        :root {
-            --bg-color: #121212;
-            --card-bg: #1e1e1e;
-            --text-main: #f5f5f5;
-            --text-muted: #a0a0a0;
-            --accent-red: #e10600;
-            --accent-blue: #0055ff;
-        }
+			:root {
+				--bg-color: #121212;
+				--card-bg: #1e1e1e;
+				--text-main: #f5f5f5;
+				--text-muted: #a0a0a0;
+				--accent-red: #e10600;
+				--accent-blue: #0055ff;
+			}
 
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
+			body {
+				font-family: "Inter", sans-serif;
+				background-color: var(--bg-color);
+				color: var(--text-main);
+				margin: 0;
+				padding: 0;
+				line-height: 1.6;
+			}
 
-        header {
-            text-align: center;
-            padding: 4rem 2rem;
-            background: linear-gradient(180deg, #1a1a1a 0%, var(--bg-color) 100%);
-            border-bottom: 1px solid #333;
-        }
+			header {
+				text-align: center;
+				padding: 4rem 2rem;
+				background: linear-gradient(180deg, #1a1a1a 0%, var(--bg-color) 100%);
+				border-bottom: 1px solid #333;
+			}
 
-        header h1 {
-            font-size: 3rem;
-            margin: 0;
-            font-weight: 800;
-            letter-spacing: -1px;
-        }
+			header h1 {
+				font-size: 3rem;
+				margin: 0;
+				font-weight: 800;
+				letter-spacing: -1px;
+			}
 
-        header p {
-            color: var(--text-muted);
-            max-width: 600px;
-            margin: 1rem auto;
-            font-size: 1.1rem;
-        }
+			header p {
+				color: var(--text-muted);
+				max-width: 600px;
+				margin: 1rem auto;
+				font-size: 1.1rem;
+			}
 
-        .github-link {
-            display: inline-block;
-            margin-top: 1.5rem;
-            padding: 0.8rem 1.5rem;
-            background-color: #fff;
-            color: #000;
-            text-decoration: none;
-            font-weight: 600;
-            border-radius: 4px;
-            transition: background 0.2s;
-        }
+			.github-link {
+				display: inline-block;
+				margin-top: 1.5rem;
+				padding: 0.8rem 1.5rem;
+				background-color: #fff;
+				color: #000;
+				text-decoration: none;
+				font-weight: 600;
+				border-radius: 4px;
+				transition: background 0.2s;
+			}
 
-        .github-link:hover {
-            background-color: #ddd;
-        }
+			.github-link:hover {
+				background-color: #ddd;
+			}
 
-        main {
-            max-width: 1200px;
-            margin: 3rem auto;
-            padding: 0 2rem;
-        }
+			main {
+				max-width: 1200px;
+				margin: 3rem auto;
+				padding: 0 2rem;
+			}
 
-        .track-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2rem;
-        }
+			.track-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+				gap: 2rem;
+			}
 
-        .card {
-            background-color: var(--card-bg);
-            border: 1px solid #333;
-            border-radius: 12px;
-            overflow: hidden;
-            transition: transform 0.2s, border-color 0.2s;
-            display: flex;
-            flex-direction: column;
-        }
+			.card {
+				background-color: var(--card-bg);
+				border: 1px solid #333;
+				border-radius: 12px;
+				overflow: hidden;
+				transition:
+					transform 0.2s,
+					border-color 0.2s;
+				display: flex;
+				flex-direction: column;
+			}
 
-        .card:hover {
-            transform: translateY(-5px);
-            border-color: #555;
-        }
+			.card:hover {
+				transform: translateY(-5px);
+				border-color: #555;
+			}
 
-        .card-image {
-            width: 100%;
-            height: 200px;
-            background-color: #111;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 1rem;
-            box-sizing: border-box;
-            border-bottom: 1px solid #333;
-        }
+			.card-image {
+				width: 100%;
+				height: 200px;
+				background-color: #111;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 1rem;
+				box-sizing: border-box;
+				border-bottom: 1px solid #333;
+			}
 
-        .card-image img {
-            max-width: 100%;
-            max-height: 100%;
-            filter: invert(1) opacity(0.8); 
-            transition: filter 0.2s;
-        }
+			.card-image img {
+				max-width: 100%;
+				max-height: 100%;
+				filter: invert(1) opacity(0.8);
+				transition: filter 0.2s;
+			}
 
-        .card:hover .card-image img {
-            filter: invert(1) opacity(1);
-        }
+			.card:hover .card-image img {
+				filter: invert(1) opacity(1);
+			}
 
-        .card-content {
-            padding: 1.5rem;
-            flex-grow: 1;
-        }
+			.card-content {
+				padding: 1.5rem;
+				flex-grow: 1;
+			}
 
-        .badge {
-            display: inline-block;
-            padding: 0.2rem 0.6rem;
-            font-size: 0.75rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            border-radius: 4px;
-            margin-bottom: 1rem;
-        }
+			.badge {
+				display: inline-block;
+				padding: 0.2rem 0.6rem;
+				font-size: 0.75rem;
+				font-weight: 600;
+				text-transform: uppercase;
+				border-radius: 4px;
+				margin-bottom: 1rem;
+			}
 
-        .badge.real {
-            background-color: rgba(225, 6, 0, 0.1);
-            color: var(--accent-red);
-            border: 1px solid rgba(225, 6, 0, 0.3);
-        }
+			.badge.real {
+				background-color: rgba(225, 6, 0, 0.1);
+				color: var(--accent-red);
+				border: 1px solid rgba(225, 6, 0, 0.3);
+			}
 
-        .badge.fictional {
-            background-color: rgba(0, 85, 255, 0.1);
-            color: #6699ff;
-            border: 1px solid rgba(0, 85, 255, 0.3);
-        }
+			.badge.fictional {
+				background-color: rgba(0, 85, 255, 0.1);
+				color: #6699ff;
+				border: 1px solid rgba(0, 85, 255, 0.3);
+			}
 
-        .card h2 {
-            margin: 0 0 0.5rem 0;
-            font-size: 1.25rem;
-        }
+			.card h2 {
+				margin: 0 0 0.5rem 0;
+				font-size: 1.25rem;
+			}
 
-        .card h3 {
-            margin: 0 0 1rem 0;
-            font-size: 1rem;
-            color: var(--text-muted);
-            font-weight: 400;
-        }
+			.card h3 {
+				margin: 0 0 1rem 0;
+				font-size: 1rem;
+				color: var(--text-muted);
+				font-weight: 400;
+			}
 
-        .card-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: auto;
-            padding-top: 1rem;
-            border-top: 1px solid #333;
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-    </style>
-</head>
-<body>
+			.card-footer {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-top: auto;
+				padding-top: 1rem;
+				border-top: 1px solid #333;
+				font-size: 0.85rem;
+				color: var(--text-muted);
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>RaceTracksAPI</h1>
+			<p>
+				A free, open-source JSON API providing structured data and high-quality
+				SVG maps for real-world and fictional racing circuits.
+			</p>
+			<a
+				href="https://github.com/LigasAVBrasil/RaceTracksAPI"
+				class="github-link"
+				>View on GitHub</a
+			>
+		</header>
 
-    <header>
-        <h1>RaceTracksAPI</h1>
-        <p>A free, open-source JSON API providing structured data and high-quality SVG maps for real-world and fictional racing circuits.</p>
-        <a href="https://github.com/LigasAVBrasil/RaceTracksAPI" class="github-link">View on GitHub</a>
-    </header>
+		<main>
+			<div class="track-grid" id="track-grid"></div>
+		</main>
 
-    <main>
-        <div class="track-grid" id="track-grid">
-            </div>
-    </main>
+		<script>
+			async function loadTracks() {
+				const grid = document.getElementById("track-grid");
 
-    <script>
-        async function loadTracks() {
-            const grid = document.getElementById('track-grid');
-            
-            try {
-                const response = await fetch('./tracks.json');
-                const tracks = await response.json();
+				try {
+					const response = await fetch("./tracks.json");
+					const tracks = await response.json();
 
-                tracks.forEach(track => {
-                    if (!track.layouts || track.layouts.length === 0) return;
+					tracks.forEach((track) => {
+						if (!track.layouts || track.layouts.length === 0) return;
 
-                    track.layouts.forEach(layout => {
-                        const card = document.createElement('div');
-                        card.className = 'card';
-                        
-                        const isFictional = track.isFictional === true;
-                        const badgeClass = isFictional ? 'badge fictional' : 'badge real';
-                        const badgeText = isFictional ? `Fictional (${track.fictionalSource})` : 'Real World Circuit';
+						track.layouts.forEach((layout) => {
+							const card = document.createElement("div");
+							card.className = "card";
 
-                        card.innerHTML = `
+							const isFictional = track.isFictional === true;
+							const badgeClass = isFictional ? "badge fictional" : "badge real";
+							const badgeText = isFictional
+								? `Fictional (${track.fictionalSource})`
+								: "Real World Circuit";
+
+							let yearString = "";
+							if (layout.start_year) {
+								const endYear = layout.end_year ? layout.end_year : "Present";
+								yearString = ` (${layout.start_year} - ${endYear})`;
+							}
+
+							card.innerHTML = `
                             <div class="card-image">
                                 <img src="./images/track_${layout.image_id}.svg" alt="Map of ${track.name} - ${layout.name}" onerror="this.style.display='none'">
                             </div>
                             <div class="card-content">
                                 <span class="${badgeClass}">${badgeText}</span>
                                 <h2>${track.name}</h2>
-                                <h3>Layout: ${layout.name}</h3>
+                                <h3>Layout: ${layout.name}${yearString}</h3>
                                 <div class="card-footer">
-                                    <span>📍 Country: ${track.country}</span>
+                                    <span style="display: flex; align-items: center; gap: 5px;">
+                						<img src="https://flagsapi.com/${track.country}/flat/64.png" style="width: 24px; height: auto;" alt="${track.country} flag">
+                						${track.country}
+            						</span>
                                     <span>ID: ${layout.image_id}</span>
                                 </div>
                             </div>
                         `;
-                        grid.appendChild(card);
-                    });
-                });
-            } catch (error) {
-                console.error("Error loading tracks:", error);
-                grid.innerHTML = `<p style="color: var(--accent-red); text-align: center; width: 100%;">Failed to load track data. Make sure tracks.json exists.</p>`;
-            }
-        }
+							grid.appendChild(card);
+						});
+					});
 
-        document.addEventListener('DOMContentLoaded', loadTracks);
-    </script>
+					const comingSoonCard = document.createElement("div");
+					comingSoonCard.className = "card";
+					comingSoonCard.style.borderStyle = "dashed";
+					comingSoonCard.style.borderColor = "#555";
+					comingSoonCard.style.justifyContent = "center";
+					comingSoonCard.style.alignItems = "center";
+					comingSoonCard.style.textAlign = "center";
+					comingSoonCard.style.minHeight = "350px";
 
-</body>
+					comingSoonCard.innerHTML = `
+                    <div class="card-content" style="display: flex; flex-direction: column; justify-content: center;">
+                        <h2 style="color: var(--text-muted); margin-bottom: 0.5rem; font-size: 1.5rem;">🚧</h2>
+                        <h2 style="color: var(--text-muted); margin-bottom: 0.5rem;">More tracks coming soon...</h2>
+                        <p style="color: #777; font-size: 0.9rem;">We are continuously expanding our database.</p>
+                    </div>
+                `;
+					grid.appendChild(comingSoonCard);
+				} catch (error) {
+					console.error("Error loading tracks:", error);
+					grid.innerHTML = `<p style="color: var(--accent-red); text-align: center; width: 100%;">Failed to load track data. Make sure tracks.json exists.</p>`;
+				}
+			}
+
+			document.addEventListener("DOMContentLoaded", loadTracks);
+		</script>
+	</body>
 </html>

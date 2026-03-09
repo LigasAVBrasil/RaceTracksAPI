@@ -27,6 +27,11 @@ The API provides an `image_id` inside each layout object. To get the correspondi
 If the layout for *Autódromo José Carlos Pace (Interlagos)* has `"image_id": "1.1"`, the image URL will be:
 `https://raw.githubusercontent.com/LigasAVBrasil/RaceTracksAPI/refs/heads/main/images/track_1.1.svg`
 
+### 🕰️ Handling Historical Layouts
+Some circuits have undergone physical modifications over the years without changing their layout designation. For example, the dataset might contain multiple layouts named `"Full Circuit"` for the same track (such as *Albert Park Circuit* or *Circuit Gilles Villeneuve*). 
+
+To properly differentiate between classic and modern configurations, you must evaluate the `start_year` and `end_year` properties within the layout objects. An `end_year` of `null` indicates that the layout is the current, active version.
+
 ---
 
 ## 📄 Data Structure Example
@@ -48,6 +53,8 @@ We use a strict data contract. This means fields like `isFictional` and `fiction
       {
         "layout_id": 1,
         "name": "Full Circuit",
+        "start_year": 1990,
+        "end_year": null,
         "image_id": "1.1"
       }
     ]
@@ -65,6 +72,8 @@ We use a strict data contract. This means fields like `isFictional` and `fiction
       {
         "layout_id": 1,
         "name": "Seaside",
+        "start_year": 2017,
+        "end_year": null,
         "image_id": "12.1"
       }
     ]
@@ -82,6 +91,8 @@ If you are consuming this API in a TypeScript environment, you can use the follo
 export interface TrackLayout {
   layout_id: number;
   name: string;
+  start_year: number | null;
+  end_year: number | null;
   image_id: string;
 }
 

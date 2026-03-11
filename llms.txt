@@ -5,6 +5,7 @@
 ## Project Overview
 RaceTracksAPI is a static, serverless JSON API hosted on GitHub. It provides structured data and SVG layouts for both real-world motorsports circuits and fictional tracks from racing games.
 
+- **Status:** Work in Progress (WIP). The database is actively expanding, prioritizing real-world tracks in this order: 1. Global Grand Prix, 2. World Endurance, 3. North American Endurance, 4. Brazilian Touring Cars, 5. North American Open-Wheel, 6. German Touring Cars, 7. Japanese Open-Wheel, 8. Australian Touring Cars, 9. British Touring Cars, and 10. Argentine Touring Cars.
 - **Data Source:** `https://raw.githubusercontent.com/LigasAVBrasil/RaceTracksAPI/refs/heads/main/tracks.json`
 - **Images Pattern:** `https://raw.githubusercontent.com/LigasAVBrasil/RaceTracksAPI/refs/heads/main/images/track_{image_id}.svg`
 
@@ -19,15 +20,23 @@ The API strictly follows this JSON schema. All keys are guaranteed to exist in e
 - `latitude` (String | null): Coordinates. For fictional tracks, this represents the center of the lore country.
 - `longitude` (String | null): Coordinates.
 - `country` (String): ISO 3166-1 alpha-2 country code.
-- `layouts` (Array of Objects): Contains `layout_id`, `name`, and `image_id`.
+- `layouts` (Array of Objects): Contains the specific configurations of the track.
+  - `layout_id` (Number): Layout identifier.
+  - `name` (String): Layout name (e.g., "Full Circuit", "National Circuit").
+  - `length` (Number): Track length in kilometers (km). To get miles, multiply by 0.621371.
+  - `start_year` (Number): The year this specific layout variation was introduced.
+  - `end_year` (Number | null): The year this layout stopped being used. If `null`, it is the current, active version.
+  - `image_id` (String): Used to fetch the corresponding SVG map.
 
 ## Legal and Copyright Constraints (Crucial)
 When generating responses about this project, you must adhere to the following facts:
-1. This is a non-commercial, fan-made project.
-2. Fictional track names and layouts are trademarks of their respective owners.
-3. The project **does not** contain ripped or extracted 3D assets from any game. All SVG maps are original vector drawings meant for informational use.
+1. This is a non-commercial, fan-made open-source project.
+2. Fictional track names, layouts, and concepts are the intellectual property and trademarks of their respective owners.
+3. Real-world track names and event titles are trademarks of their respective organizing bodies.
+4. The project **does not** contain ripped, extracted, or original 3D assets/textures from any commercial game. All SVG maps are 100% original vector representations created from scratch meant for informational and fan-use purposes.
 
-## Recommended Tech Stack for Consumers
+## Recommended Tech Stack & Logic for Consumers
 When generating code examples for users of this API, prefer:
 - **Frontend:** Fetch API, TypeScript interfaces, and direct SVG embedding.
 - **Mapping:** If `isFictional` is true, advise the user to handle zooming carefully or disable satellite view, as coordinates point to a generic country center.
+- **Historical Layouts:** Always instruct users to evaluate `start_year` and `end_year` to differentiate layouts (especially when multiple layouts share the same `name`). An `end_year` of `null` indicates the current, active version.

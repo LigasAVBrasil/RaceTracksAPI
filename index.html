@@ -180,79 +180,163 @@
 		</header>
 
 		<main>
+			<div
+				class="filter-section"
+				style="
+					margin-bottom: 2rem;
+					display: flex;
+					align-items: center;
+					gap: 1rem;
+				"
+			>
+				<label
+					for="region-filter"
+					style="font-weight: 600; color: var(--text-muted)"
+					>Filter by Region:</label
+				>
+				<select
+					id="region-filter"
+					style="
+						padding: 0.5rem 1rem;
+						border-radius: 6px;
+						background-color: var(--card-bg);
+						color: var(--text-main);
+						border: 1px solid #333;
+						font-family: inherit;
+						font-size: 1rem;
+						cursor: pointer;
+					"
+				>
+					<option value="All">All Regions</option>
+					<option value="Africa">Africa</option>
+					<option value="Asia">Asia</option>
+					<option value="Europe">Europe</option>
+					<option value="Middle East">Middle East</option>
+					<option value="North America">North America</option>
+					<option value="Oceania">Oceania</option>
+					<option value="South America">South America</option>
+				</select>
+			</div>
 			<div class="track-grid" id="track-grid"></div>
 		</main>
 
 		<script>
+			let allTracksData = [];
+
+			const regionMap = {
+				BR: "South America",
+				US: "North America",
+				CA: "North America",
+				FR: "Europe",
+				IT: "Europe",
+				BE: "Europe",
+				ES: "Europe",
+				MC: "Europe",
+				AT: "Europe",
+				UK: "Europe",
+				HU: "Europe",
+				CN: "Asia",
+				JP: "Asia",
+				BH: "Middle East",
+				SA: "Middle East",
+				AU: "Oceania",
+			};
+
+			function renderTracks(tracksToRender) {
+				const grid = document.getElementById("track-grid");
+				grid.innerHTML = "";
+
+				tracksToRender.forEach((track) => {
+					if (!track.layouts || track.layouts.length === 0) return;
+
+					track.layouts.forEach((layout) => {
+						const card = document.createElement("div");
+						card.className = "card";
+
+						const isFictional = track.isFictional === true;
+						const badgeClass = isFictional ? "badge fictional" : "badge real";
+						const badgeText = isFictional
+							? `Fictional (${track.fictionalSource})`
+							: "Real World Circuit";
+
+						let yearString = "";
+						if (layout.start_year) {
+							const endYear = layout.end_year ? layout.end_year : "Present";
+							yearString = ` (${layout.start_year} - ${endYear})`;
+						}
+
+						card.innerHTML = `
+							<div class="card-image">
+								<img src="./images/track_${layout.image_id}.svg" alt="Map of ${track.name} - ${layout.name}" onerror="this.style.display='none'">
+							</div>
+							<div class="card-content">
+								<span class="${badgeClass}">${badgeText}</span>
+								<h2>${track.name}</h2>
+								<h3>Layout: ${layout.name}${yearString}</h3>
+								
+								<p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--text-muted);">
+									<strong>Length:</strong> ${layout.length} km
+								</p>
+
+								<div class="card-footer">
+									<span style="display: flex; align-items: center; gap: 5px;">
+										<img src="https://flagsapi.com/${track.country}/flat/64.png" style="width: 24px; height: auto;" alt="${track.country} flag">
+										${track.country}
+									</span>
+									<span>ID: ${layout.image_id}</span>
+								</div>
+							</div>
+            			`;
+						grid.appendChild(card);
+					});
+				});
+
+				const comingSoonCard = document.createElement("div");
+				comingSoonCard.className = "card";
+				comingSoonCard.style.borderStyle = "dashed";
+				comingSoonCard.style.borderColor = "#555";
+				comingSoonCard.style.justifyContent = "center";
+				comingSoonCard.style.alignItems = "center";
+				comingSoonCard.style.textAlign = "center";
+				comingSoonCard.style.minHeight = "350px";
+
+				comingSoonCard.innerHTML = `
+					<div class="card-content" style="display: flex; flex-direction: column; justify-content: center;">
+						<h2 style="color: var(--text-muted); margin-bottom: 0.5rem; font-size: 1.5rem;">🚧</h2>
+						<h2 style="color: var(--text-muted); margin-bottom: 0.5rem;">More tracks coming soon...</h2>
+						<p style="color: #777; font-size: 0.9rem;">We are continuously expanding our database.</p>
+					</div>
+				`;
+				grid.appendChild(comingSoonCard);
+			}
+
 			async function loadTracks() {
 				const grid = document.getElementById("track-grid");
-
 				try {
 					const response = await fetch("./tracks.json");
-					const tracks = await response.json();
-
-					tracks.forEach((track) => {
-						if (!track.layouts || track.layouts.length === 0) return;
-
-						track.layouts.forEach((layout) => {
-							const card = document.createElement("div");
-							card.className = "card";
-
-							const isFictional = track.isFictional === true;
-							const badgeClass = isFictional ? "badge fictional" : "badge real";
-							const badgeText = isFictional
-								? `Fictional (${track.fictionalSource})`
-								: "Real World Circuit";
-
-							let yearString = "";
-							if (layout.start_year) {
-								const endYear = layout.end_year ? layout.end_year : "Present";
-								yearString = ` (${layout.start_year} - ${endYear})`;
-							}
-
-							card.innerHTML = `
-                            <div class="card-image">
-                                <img src="./images/track_${layout.image_id}.svg" alt="Map of ${track.name} - ${layout.name}" onerror="this.style.display='none'">
-                            </div>
-                            <div class="card-content">
-                                <span class="${badgeClass}">${badgeText}</span>
-                                <h2>${track.name}</h2>
-                                <h3>Layout: ${layout.name}${yearString}</h3>
-                                <div class="card-footer">
-                                    <span style="display: flex; align-items: center; gap: 5px;">
-                						<img src="https://flagsapi.com/${track.country}/flat/64.png" style="width: 24px; height: auto;" alt="${track.country} flag">
-                						${track.country}
-            						</span>
-                                    <span>ID: ${layout.image_id}</span>
-                                </div>
-                            </div>
-                        `;
-							grid.appendChild(card);
-						});
-					});
-
-					const comingSoonCard = document.createElement("div");
-					comingSoonCard.className = "card";
-					comingSoonCard.style.borderStyle = "dashed";
-					comingSoonCard.style.borderColor = "#555";
-					comingSoonCard.style.justifyContent = "center";
-					comingSoonCard.style.alignItems = "center";
-					comingSoonCard.style.textAlign = "center";
-					comingSoonCard.style.minHeight = "350px";
-
-					comingSoonCard.innerHTML = `
-                    <div class="card-content" style="display: flex; flex-direction: column; justify-content: center;">
-                        <h2 style="color: var(--text-muted); margin-bottom: 0.5rem; font-size: 1.5rem;">🚧</h2>
-                        <h2 style="color: var(--text-muted); margin-bottom: 0.5rem;">More tracks coming soon...</h2>
-                        <p style="color: #777; font-size: 0.9rem;">We are continuously expanding our database.</p>
-                    </div>
-                `;
-					grid.appendChild(comingSoonCard);
+					allTracksData = await response.json();
+					renderTracks(allTracksData);
 				} catch (error) {
 					console.error("Error loading tracks:", error);
 					grid.innerHTML = `<p style="color: var(--accent-red); text-align: center; width: 100%;">Failed to load track data. Make sure tracks.json exists.</p>`;
 				}
 			}
+
+			document
+				.getElementById("region-filter")
+				.addEventListener("change", (event) => {
+					const selectedRegion = event.target.value;
+
+					if (selectedRegion === "All") {
+						renderTracks(allTracksData);
+					} else {
+						const filteredTracks = allTracksData.filter((track) => {
+							const trackRegion = regionMap[track.country];
+							return trackRegion === selectedRegion;
+						});
+						renderTracks(filteredTracks);
+					}
+				});
 
 			document.addEventListener("DOMContentLoaded", loadTracks);
 		</script>

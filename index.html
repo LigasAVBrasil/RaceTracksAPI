@@ -13,7 +13,6 @@
 				--text-main: #f5f5f5;
 				--text-muted: #a0a0a0;
 				--accent-red: #e10600;
-				--accent-blue: #0055ff;
 			}
 
 			body {
@@ -216,6 +215,20 @@
 					<option value="Oceania">Oceania</option>
 					<option value="South America">South America</option>
 				</select>
+
+				<span
+					id="track-counter"
+					style="
+						color: var(--accent-red);
+						font-size: 0.9rem;
+						font-weight: 600;
+						background-color: rgba(225, 6, 0, 0.1);
+						padding: 0.3rem 0.8rem;
+						border-radius: 20px;
+					"
+				>
+					Carregando...
+				</span>
 			</div>
 			<div class="track-grid" id="track-grid"></div>
 		</main>
@@ -245,11 +258,13 @@
 			function renderTracks(tracksToRender) {
 				const grid = document.getElementById("track-grid");
 				grid.innerHTML = "";
+				let layoutCount = 0;
 
 				tracksToRender.forEach((track) => {
 					if (!track.layouts || track.layouts.length === 0) return;
 
 					track.layouts.forEach((layout) => {
+						layoutCount++;
 						const card = document.createElement("div");
 						card.className = "card";
 
@@ -272,7 +287,7 @@
 							<div class="card-content">
 								<span class="${badgeClass}">${badgeText}</span>
 								<h2>${track.name}</h2>
-								<h3>Layout: ${layout.name}${yearString}</h3>
+								<h3><strong>Layout:</strong> ${layout.name}${yearString}</h3>
 								
 								<p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--text-muted);">
 									<strong>Length:</strong> ${layout.length} km
@@ -290,6 +305,11 @@
 						grid.appendChild(card);
 					});
 				});
+
+				const counterElement = document.getElementById("track-counter");
+				if (counterElement) {
+					counterElement.textContent = `${layoutCount} Layout(s)`;
+				}
 
 				const comingSoonCard = document.createElement("div");
 				comingSoonCard.className = "card";
@@ -319,6 +339,8 @@
 				} catch (error) {
 					console.error("Error loading tracks:", error);
 					grid.innerHTML = `<p style="color: var(--accent-red); text-align: center; width: 100%;">Failed to load track data. Make sure tracks.json exists.</p>`;
+					const counterElement = document.getElementById("track-counter");
+					if (counterElement) counterElement.textContent = "Erro ao carregar";
 				}
 			}
 

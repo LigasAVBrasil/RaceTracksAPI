@@ -64,6 +64,118 @@
                 "end_year": null,
                 "length": "5.793",
                 "image_id": "3.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Junior Circuit",
+                "start_year": 1959,
+                "end_year": null,
+                "length": "2.405",
+                "image_id": "3.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Oval Circuit",
+                "start_year": 1922,
+                "end_year": 1938,
+                "length": "4.490",
+                "image_id": "3.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Florio Circuit",
+                "start_year": 1930,
+                "end_year": 1938,
+                "length": "6.662",
+                "image_id": "3.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Full Circuit",
+                "start_year": 1922,
+                "end_year": 1933,
+                "length": "10.000",
+                "image_id": "3.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "Florio Circuit",
+                "start_year": 1934,
+                "end_year": 1934,
+                "length": "4.329",
+                "image_id": "3.6"
+            },
+            {
+                "layout_id": 7,
+                "name": "Vedano Road Circuit",
+                "start_year": 1948,
+                "end_year": 1954,
+                "length": "6.292",
+                "image_id": "3.7"
+            },
+            {
+                "layout_id": 8,
+                "name": "Test Circuit",
+                "start_year": 1948,
+                "end_year": 1954,
+                "length": "4.690",
+                "image_id": "3.8"
+            },
+            {
+                "layout_id": 9,
+                "name": "Full Circuit",
+                "start_year": 1955,
+                "end_year": 1965,
+                "length": "10.000",
+                "image_id": "3.9"
+            },
+            {
+                "layout_id": 10,
+                "name": "Oval Circuit",
+                "start_year": 1955,
+                "end_year": 1969,
+                "length": "4.248",
+                "image_id": "3.10"
+            },
+            {
+                "layout_id": 11,
+                "name": "Road Circuit",
+                "start_year": 1957,
+                "end_year": 1971,
+                "length": "5.750",
+                "image_id": "3.11"
+            },
+            {
+                "layout_id": 12,
+                "name": "Full Circuit",
+                "start_year": 1966,
+                "end_year": 1969,
+                "length": "10.100",
+                "image_id": "3.12"
+            },
+            {
+                "layout_id": 13,
+                "name": "Full Circuit",
+                "start_year": 1972,
+                "end_year": 1973,
+                "length": "5.775",
+                "image_id": "3.13"
+            },
+            {
+                "layout_id": 14,
+                "name": "Full Circuit",
+                "start_year": 1976,
+                "end_year": 1993,
+                "length": "5.800",
+                "image_id": "3.14"
+            },
+            {
+                "layout_id": 15,
+                "name": "Full Circuit",
+                "start_year": 1994,
+                "end_year": 1999,
+                "length": "5.770",
+                "image_id": "3.15"
             }
         ]
     },

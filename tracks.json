@@ -402,6 +402,22 @@
                 "end_year": null,
                 "length": "3.051",
                 "image_id": "7.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Intermediate Circuit",
+                "start_year": 2004,
+                "end_year": null,
+                "length": "4.603",
+                "image_id": "7.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "West Short Circuit",
+                "start_year": 2012,
+                "end_year": null,
+                "length": "2.201",
+                "image_id": "7.4"
             }
         ]
     },
@@ -420,7 +436,7 @@
             {
                 "layout_id": 1,
                 "name": "Full Circuit",
-                "start_year": 2009,
+                "start_year": 2003,
                 "end_year": null,
                 "length": "5.807",
                 "image_id": "8.1"
@@ -428,7 +444,7 @@
             {
                 "layout_id": 2,
                 "name": "East Circuit",
-                "start_year": 2009,
+                "start_year": 1987,
                 "end_year": null,
                 "length": "2.243",
                 "image_id": "8.2"
@@ -436,10 +452,26 @@
             {
                 "layout_id": 3,
                 "name": "West Circuit",
-                "start_year": 2009,
+                "start_year": 1987,
                 "end_year": null,
                 "length": "3.466",
                 "image_id": "8.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Full Circuit",
+                "start_year": 1962,
+                "end_year": 1982,
+                "length": "6.004",
+                "image_id": "8.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Full Circuit",
+                "start_year": 1987,
+                "end_year": 2002,
+                "length": "5.859",
+                "image_id": "8.5"
             }
         ]
     },
@@ -460,7 +492,7 @@
             {
                 "layout_id": 1,
                 "name": "Full Circuit",
-                "start_year": 2007,
+                "start_year": 2005,
                 "end_year": null,
                 "length": "5.412",
                 "image_id": "9.1"
@@ -468,7 +500,7 @@
             {
                 "layout_id": 2,
                 "name": "Outer Circuit",
-                "start_year": 2007,
+                "start_year": 2005,
                 "end_year": null,
                 "length": "3.543",
                 "image_id": "9.2"
@@ -476,10 +508,26 @@
             {
                 "layout_id": 3,
                 "name": "Endurance Circuit",
-                "start_year": 2007,
+                "start_year": 2005,
                 "end_year": null,
                 "length": "6.299",
                 "image_id": "9.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Inner Oasis Circuit",
+                "start_year": 2004,
+                "end_year": null,
+                "length": "2.550",
+                "image_id": "9.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Paddock Circuit",
+                "start_year": 2004,
+                "end_year": null,
+                "length": "3.705",
+                "image_id": "9.5"
             }
         ]
     },
@@ -833,6 +881,316 @@
                 "end_year": 2019,
                 "length": "4.320",
                 "image_id": "17.6"
+            },
+            {
+                "layout_id": 7,
+                "name": "Full Circuit",
+                "start_year": 1948,
+                "end_year": 1971,
+                "length": "4.195",
+                "image_id": "17.7"
+            },
+            {
+                "layout_id": 8,
+                "name": "Full Circuit",
+                "start_year": 1972,
+                "end_year": 1979,
+                "length": "4.226",
+                "image_id": "17.8"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Baku City Circuit",
+        "similarNames": [
+            "Azerbaijan Grand Prix"
+        ],
+        "latitude": "40.372500000000000",
+        "longitude": "49.853333000000000",
+        "country": "AZ",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2016,
+                "end_year": null,
+                "length": "6.003",
+                "image_id": "18.1"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Marina Bay Street Circuit",
+        "similarNames": [
+            "Singapore Grand Prix"
+        ],
+        "latitude": "1.291531000000000",
+        "longitude": "103.863850000000000",
+        "country": "SG",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2023,
+                "end_year": null,
+                "length": "4.928",
+                "image_id": "19.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 2009,
+                "end_year": 2012,
+                "length": "5.073",
+                "image_id": "19.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 2013,
+                "end_year": 2014,
+                "length": "5.065",
+                "image_id": "19.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Full Circuit",
+                "start_year": 2015,
+                "end_year": 2022,
+                "length": "5.065",
+                "image_id": "19.4"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Circuit of the Americas",
+        "similarNames": [
+            "United States Grand Prix",
+            "Lone Star Le Mans",
+            "6 Hours of the Circuit of the Americas"
+        ],
+        "latitude": "30.132778000000000",
+        "longitude": "-97.641111000000000",
+        "country": "US",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2012,
+                "end_year": null,
+                "length": "5.515",
+                "image_id": "20.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "National Circuit",
+                "start_year": 2012,
+                "end_year": null,
+                "length": "3.702",
+                "image_id": "20.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "National Extended Circuit",
+                "start_year": 2025,
+                "end_year": null,
+                "length": "3.862",
+                "image_id": "20.3"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Autódromo Hermanos Rodríguez",
+        "similarNames": [
+            "Mexican Grand Prix"
+        ],
+        "latitude": "19.406111000000000",
+        "longitude": "-99.092500000000000",
+        "country": "MX",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2015,
+                "end_year": null,
+                "length": "4.304",
+                "image_id": "21.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1959,
+                "end_year": 1985,
+                "length": "5.000",
+                "image_id": "21.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1986,
+                "end_year": 2014,
+                "length": "4.421",
+                "image_id": "21.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Electric Circuit",
+                "start_year": 2016,
+                "end_year": 2016,
+                "length": "2.092",
+                "image_id": "21.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Electric Circuit",
+                "start_year": 2023,
+                "end_year": 2025,
+                "length": "2.630",
+                "image_id": "21.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "Oval Circuit",
+                "start_year": 1962,
+                "end_year": null,
+                "length": "1.607",
+                "image_id": "21.6"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Las Vegas Strip Circuit",
+        "similarNames": [
+            "Las Vegas Grand Prix"
+        ],
+        "latitude": "36.109950000000000",
+        "longitude": "-115.162170000000000",
+        "country": "US",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2023,
+                "end_year": null,
+                "length": "6.116",
+                "image_id": "22.1"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Lusail International Circuit",
+        "similarNames": [
+            "Qatar Grand Prix",
+            "Qatar 1812 km"
+        ],
+        "latitude": "25.490000000000000",
+        "longitude": "51.454167000000000",
+        "country": "QA",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2004,
+                "end_year": null,
+                "length": "5.400",
+                "image_id": "23.1"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Yas Marina Circuit",
+        "similarNames": [
+            "Abu Dhabi Grand Prix",
+            "6H Abu Dhabi"
+        ],
+        "latitude": "24.467222000000000",
+        "longitude": "54.603056000000000",
+        "country": "AE",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2021,
+                "end_year": null,
+                "length": "5.281",
+                "image_id": "24.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Corkscrew Circuit",
+                "start_year": 2021,
+                "end_year": null,
+                "length": "3.904",
+                "image_id": "24.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "North Circuit",
+                "start_year": 2021,
+                "end_year": null,
+                "length": "3.300",
+                "image_id": "24.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "South Circuit",
+                "start_year": 2021,
+                "end_year": null,
+                "length": "2.360",
+                "image_id": "24.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Full Circuit",
+                "start_year": 2009,
+                "end_year": 2021,
+                "length": "5.554",
+                "image_id": "24.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "Corkscrew Circuit",
+                "start_year": 2009,
+                "end_year": 2021,
+                "length": "4.730",
+                "image_id": "24.6"
+            },
+            {
+                "layout_id": 7,
+                "name": "North Circuit",
+                "start_year": 2009,
+                "end_year": 2021,
+                "length": "3.130",
+                "image_id": "24.7"
+            },
+            {
+                "layout_id": 8,
+                "name": "South Circuit",
+                "start_year": 2009,
+                "end_year": 2021,
+                "length": "2.360",
+                "image_id": "24.8"
             }
         ]
     }

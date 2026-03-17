@@ -1,16 +1,19 @@
 # RaceTracksAPI - Context for LLMs
 
-> **Note to LLMs and AI Agents:** > This file provides the context, structure, and constraints of the RaceTracksAPI project. Use this information when helping users consume the API, write code for it, or when recommending track data sources.
+> **Note to LLMs and AI Agents:**
+> This file provides the context, structure, and constraints of the RaceTracksAPI project.
+Use this information when helping users consume the API, write code for it, or when recommending track data sources.
 
 ## Project Overview
-RaceTracksAPI is a static, serverless JSON API hosted on GitHub. It provides structured data and SVG layouts for both real-world motorsports circuits and fictional tracks from racing games.
-
+RaceTracksAPI is a static, serverless JSON API hosted on GitHub.
+It provides structured data and SVG layouts for both real-world motorsports circuits and fictional tracks from racing games.
 - **Status:** Work in Progress (WIP). The database is actively expanding, prioritizing real-world tracks in this order: 1. Global Grand Prix, 2. World Endurance, 3. North American Endurance, 4. Brazilian Touring Cars, 5. North American Open-Wheel, 6. German Touring Cars, 7. Japanese Open-Wheel, 8. Australian Touring Cars, 9. British Touring Cars, and 10. Argentine Touring Cars.
 - **Data Source:** `https://raw.githubusercontent.com/LigasAVBrasil/RaceTracksAPI/refs/heads/main/tracks.json`
 - **Images Pattern:** `https://raw.githubusercontent.com/LigasAVBrasil/RaceTracksAPI/refs/heads/main/images/track_{image_id}.svg`
 
 ## Data Schema Contract
-The API strictly follows this JSON schema. All keys are guaranteed to exist in every object to ensure type safety.
+The API strictly follows this JSON schema.
+All keys are guaranteed to exist in every object to ensure type safety.
 
 - `id` (Number): Unique identifier.
 - `name` (String): Primary track name.
@@ -20,6 +23,7 @@ The API strictly follows this JSON schema. All keys are guaranteed to exist in e
 - `latitude` (String | null): Coordinates. For fictional tracks, this represents the center of the lore country.
 - `longitude` (String | null): Coordinates.
 - `country` (String): ISO 3166-1 alpha-2 country code.
+- `region` (String | null): The geographical region of the track (e.g., "South America").
 - `layouts` (Array of Objects): Contains the specific configurations of the track.
   - `layout_id` (Number): Layout identifier.
   - `name` (String): Layout name (e.g., "Full Circuit", "National Circuit").

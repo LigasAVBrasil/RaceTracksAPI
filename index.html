@@ -236,25 +236,6 @@
 		<script>
 			let allTracksData = [];
 
-			const regionMap = {
-				BR: "South America",
-				US: "North America",
-				CA: "North America",
-				FR: "Europe",
-				IT: "Europe",
-				BE: "Europe",
-				ES: "Europe",
-				MC: "Europe",
-				AT: "Europe",
-				UK: "Europe",
-				HU: "Europe",
-				CN: "Asia",
-				JP: "Asia",
-				BH: "Middle East",
-				SA: "Middle East",
-				AU: "Oceania",
-			};
-
 			function renderTracks(tracksToRender) {
 				const grid = document.getElementById("track-grid");
 				grid.innerHTML = "";
@@ -352,10 +333,9 @@
 					if (selectedRegion === "All") {
 						renderTracks(allTracksData);
 					} else {
-						const filteredTracks = allTracksData.filter((track) => {
-							const trackRegion = regionMap[track.country];
-							return trackRegion === selectedRegion;
-						});
+						const filteredTracks = allTracksData.filter(
+							(track) => track.region === selectedRegion,
+						);
 						renderTracks(filteredTracks);
 					}
 				});

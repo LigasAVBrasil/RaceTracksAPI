@@ -7,9 +7,10 @@
             "São Paulo Grand Prix",
             "Interlagos Circuit"
         ],
+        "country": "BR",
+        "region": "South America",
         "latitude": "-23.702098578231480",
         "longitude": "-46.697717823023980",
-        "country": "BR",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -37,9 +38,10 @@
         "similarNames": [
             "24 Hours of Le Mans"
         ],
+        "country": "FR",
+        "region": "Europe",
         "latitude": "47.940286783499830",
         "longitude": "0.222581725100576",
-        "country": "FR",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -99,9 +101,10 @@
         "similarNames": [
             "Italian Grand Prix"
         ],
+        "country": "IT",
+        "region": "Europe",
         "latitude": "45.618151757430990",
         "longitude": "9.283706345634773",
-        "country": "IT",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -234,9 +237,10 @@
             "Belgian Grand Prix",
             "6 Hours of Spa-Francorchamps"
         ],
+        "country": "BE",
+        "region": "Europe",
         "latitude": "50.436631058782815",
         "longitude": "5.969022946780056",
-        "country": "BE",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -296,9 +300,10 @@
         "similarNames": [
             "Spanish Grand Prix"
         ],
+        "country": "ES",
+        "region": "Europe",
         "latitude": "41.569610291856240",
         "longitude": "2.258508703901764",
-        "country": "ES",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -350,9 +355,10 @@
         "similarNames": [
             "Australian Grand Prix"
         ],
+        "country": "AU",
+        "region": "Oceania",
         "latitude": "-37.847137393860790",
         "longitude": "144.971273447114070",
-        "country": "AU",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -381,9 +387,10 @@
             "Chinese Grand Prix",
             "Shanghai E-Prix"
         ],
+        "country": "CN",
+        "region": "Asia",
         "latitude": "31.337495702516800",
         "longitude": "121.224418950973790",
-        "country": "CN",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -427,9 +434,10 @@
         "similarNames": [
             "Japanese Grand Prix"
         ],
+        "country": "JP",
+        "region": "Asia",
         "latitude": "34.841700000000000",
         "longitude": "136.538900000000000",
-        "country": "JP",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -483,9 +491,10 @@
             "8 Hours of Bahrain",
             "Sakhir Grand Prix"
         ],
+        "country": "BH",
+        "region": "Middle East",
         "latitude": "26.032500000000000",
         "longitude": "50.510556000000000",
-        "country": "BH",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -538,9 +547,10 @@
             "Saudi Arabian Grand Prix",
             "Jeddah ePrix"
         ],
+        "country": "SA",
+        "region": "Middle East",
         "latitude": "21.631944000000000",
         "longitude": "39.104444000000000",
-        "country": "SA",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -569,9 +579,10 @@
             "Miami Grand Prix",
             "Miami ePrix"
         ],
+        "country": "US",
+        "region": "North America",
         "latitude": "25.958056000000000",
         "longitude": "-80.238889000000000",
-        "country": "US",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -591,9 +602,10 @@
         "similarNames": [
             "Canadian Grand Prix"
         ],
+        "country": "CA",
+        "region": "North America",
         "latitude": "45.500556000000000",
         "longitude": "-73.522500000000000",
-        "country": "CA",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -632,9 +644,10 @@
             "Monte Carlo",
             "Azure Circuit"
         ],
+        "country": "MC",
+        "region": "Europe",
         "latitude": "43.734722000000000",
         "longitude": "7.420556000000000",
-        "country": "MC",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -657,9 +670,10 @@
             "Austrian Grand Prix",
             "Styrian Grand Prix"
         ],
+        "country": "AT",
+        "region": "Europe",
         "latitude": "47.219722000000000",
         "longitude": "14.764722000000000",
-        "country": "AT",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -711,9 +725,10 @@
         "similarNames": [
             "British Grand Prix"
         ],
+        "country": "GB",
+        "region": "Europe",
         "latitude": "52.071000000000000",
         "longitude": "-1.016000000000000",
-        "country": "GB",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -789,9 +804,10 @@
         "similarNames": [
             "Hungarian Grand Prix"
         ],
+        "country": "HU",
+        "region": "Europe",
         "latitude": "47.582222000000000",
         "longitude": "19.251111000000000",
-        "country": "HU",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -828,9 +844,10 @@
             "Dutch Grand Prix",
             "Circuit Park Zandvoort"
         ],
+        "country": "NL",
+        "region": "Europe",
         "latitude": "52.388889000000000",
         "longitude": "4.540833000000000",
-        "country": "NL",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -906,9 +923,10 @@
         "similarNames": [
             "Azerbaijan Grand Prix"
         ],
+        "country": "AZ",
+        "region": "Europe",
         "latitude": "40.372500000000000",
         "longitude": "49.853333000000000",
-        "country": "AZ",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -928,9 +946,10 @@
         "similarNames": [
             "Singapore Grand Prix"
         ],
+        "country": "SG",
+        "region": "Asia",
         "latitude": "1.291531000000000",
         "longitude": "103.863850000000000",
-        "country": "SG",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -976,9 +995,10 @@
             "Lone Star Le Mans",
             "6 Hours of the Circuit of the Americas"
         ],
+        "country": "US",
+        "region": "North America",
         "latitude": "30.132778000000000",
         "longitude": "-97.641111000000000",
-        "country": "US",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -1014,9 +1034,10 @@
         "similarNames": [
             "Mexican Grand Prix"
         ],
+        "country": "MX",
+        "region": "North America",
         "latitude": "19.406111000000000",
         "longitude": "-99.092500000000000",
-        "country": "MX",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -1076,9 +1097,10 @@
         "similarNames": [
             "Las Vegas Grand Prix"
         ],
+        "country": "US",
+        "region": "North America",
         "latitude": "36.109950000000000",
         "longitude": "-115.162170000000000",
-        "country": "US",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -1099,9 +1121,10 @@
             "Qatar Grand Prix",
             "Qatar 1812 km"
         ],
+        "country": "QA",
+        "region": "Middle East",
         "latitude": "25.490000000000000",
         "longitude": "51.454167000000000",
-        "country": "QA",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -1122,9 +1145,10 @@
             "Abu Dhabi Grand Prix",
             "6H Abu Dhabi"
         ],
+        "country": "AE",
+        "region": "Middle East",
         "latitude": "24.467222000000000",
         "longitude": "54.603056000000000",
-        "country": "AE",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -1191,6 +1215,249 @@
                 "end_year": 2021,
                 "length": "2.360",
                 "image_id": "24.8"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Autodromo Internazionale Enzo e Dino Ferrari",
+        "similarNames": [
+            "Imola Circuit",
+            "Imola Grand Prix",
+            "Dino Ferrari Grand Prix",
+            "San Marino Grand Prix",
+            "Emilia Romagna Grand Prix",
+            "6 Hours of Imola"
+        ],
+        "country": "IT",
+        "region": "Europe",
+        "latitude": "44.341111000000000",
+        "longitude": "11.713333000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2008,
+                "end_year": null,
+                "length": "4.909",
+                "image_id": "25.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Motorcycle Circuit",
+                "start_year": 2009,
+                "end_year": null,
+                "length": "4.936",
+                "image_id": "25.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1953,
+                "end_year": 1972,
+                "length": "5.018",
+                "image_id": "25.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Full Circuit",
+                "start_year": 1980,
+                "end_year": 1994,
+                "length": "5.040",
+                "image_id": "25.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Full Circuit",
+                "start_year": 1995,
+                "end_year": 2006,
+                "length": "4.933",
+                "image_id": "25.5"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Fuji Speedway",
+        "similarNames": [
+            "Japanese Grand Prix",
+            "6 Hours of Fuji"
+        ],
+        "country": "JP",
+        "region": "Asia",
+        "latitude": "35.371667000000000",
+        "longitude": "138.926667000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2005,
+                "end_year": null,
+                "length": "4.549",
+                "image_id": "26.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit Short",
+                "start_year": 2005,
+                "end_year": null,
+                "length": "4.526",
+                "image_id": "26.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1965,
+                "end_year": 1974,
+                "length": "5.999",
+                "image_id": "26.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Full Circuit",
+                "start_year": 1966,
+                "end_year": 1983,
+                "length": "4.360",
+                "image_id": "26.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Full Circuit",
+                "start_year": 1987,
+                "end_year": 2004,
+                "length": "4.469",
+                "image_id": "26.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "Motorcycle Circuit",
+                "start_year": 1987,
+                "end_year": 2004,
+                "length": "4.501",
+                "image_id": "26.6"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Daytona International Speedway",
+        "similarNames": [
+            "Daytona 500",
+            "24 Hours of Daytona"
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "29.185556000000000",
+        "longitude": "-81.069444000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Tri-Oval Circuit",
+                "start_year": 1959,
+                "end_year": null,
+                "length": "4.023",
+                "image_id": "27.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Road Circuit",
+                "start_year": 1985,
+                "end_year": null,
+                "length": "5.729",
+                "image_id": "27.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Road Circuit + Chicane",
+                "start_year": 2020,
+                "end_year": null,
+                "length": "5.745",
+                "image_id": "27.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Motorcycle Circuit",
+                "start_year": 2009,
+                "end_year": null,
+                "length": "5.649",
+                "image_id": "27.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Motorcycle Circuit",
+                "start_year": 2005,
+                "end_year": 2007,
+                "length": "4.747",
+                "image_id": "27.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "Road Circuit",
+                "start_year": 1962,
+                "end_year": 1983,
+                "length": "6.180",
+                "image_id": "27.6"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Sebring International Raceway",
+        "similarNames": [
+            "12 Hours of Sebring"
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "27.455000000000000",
+        "longitude": "-81.350000000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": "5.954",
+                "image_id": "28.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1952,
+                "end_year": 1966,
+                "length": "8.368",
+                "image_id": "28.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1967,
+                "end_year": 1982,
+                "length": "8.368",
+                "image_id": "28.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "School Circuit",
+                "start_year": 1998,
+                "end_year": null,
+                "length": "3.219",
+                "image_id": "28.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Club Circuit",
+                "start_year": 1998,
+                "end_year": null,
+                "length": "2.736",
+                "image_id": "28.5"
             }
         ]
     }

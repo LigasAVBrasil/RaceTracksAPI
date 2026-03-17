@@ -2,7 +2,7 @@
 
 A free, open-source JSON API providing structured data and high-quality SVG maps for racing circuits around the world. This project includes both real-world and fictional tracks.
 
-> 🚧 **Work in Progress:** This API is actively under development! We are continuously working on implementing new maps and expanding our database. Our current roadmap prioritizes real-world tracks in the following order: **1. Global Grand Prix**, **2. World Endurance**, **3. North American Endurance**, **4. Brazilian Touring Cars**, **5. North American Open-Wheel**, **6. German Touring Cars**, **7. Japanese Open-Wheel**, **8. Australian Touring Cars**, **9. British Touring Cars**, and **10. Argentine Touring Cars**. More real-world and fictional circuits will be added over time.
+> 🚧 **Work in Progress:** This API is actively under development! We are continuously working on implementing new maps and expanding our database. Our current roadmap prioritizes real-world tracks in the following order: **1. North American Endurance**, **2. Brazilian Touring Cars**, **3. North American Open-Wheel**, **4. German Touring Cars**, **5. Japanese Open-Wheel**, **6. Australian Touring Cars**, **7. British Touring Cars**, and **8. Argentine Touring Cars**. More real-world and fictional circuits will be added over time.
 
 ## 📌 Features
 
@@ -32,7 +32,7 @@ If the layout for _Autódromo José Carlos Pace (Interlagos)_ has `"image_id": "
 
 ### 🕰️ Handling Historical Layouts
 
-Some circuits have undergone physical modifications over the years without changing their layout designation. For example, the dataset might contain multiple layouts named `"Full Circuit"` for the same track (such as _Albert Park Circuit_ or _Circuit Gilles Villeneuve_).
+Some circuits have undergone physical modifications over the years without changing their layout designation. For example, the dataset might contain multiple layouts named `"Full Circuit"` for the same track.
 
 To properly differentiate between classic and modern configurations, you must evaluate the `start_year` and `end_year` properties within the layout objects. An `end_year` of `null` indicates that the layout is the current, active version.
 
@@ -48,11 +48,12 @@ We use a strict data contract. This means fields like `isFictional` and `fiction
 		"id": 1,
 		"name": "Autódromo José Carlos Pace",
 		"similarNames": ["Autódromo de Interlagos", "São Paulo Grand Prix"],
-		"isFictional": false,
-		"fictionalSource": null,
+		"country": "BR",
+		"region": "South America",
 		"latitude": "-23.702098578231480",
 		"longitude": "-46.697717823023980",
-		"country": "BR",
+		"isFictional": false,
+		"fictionalSource": null,
 		"layouts": [
 			{
 				"layout_id": 1,
@@ -65,14 +66,15 @@ We use a strict data contract. This means fields like `isFictional` and `fiction
 		]
 	},
 	{
-		"id": 12,
+		"id": 2,
 		"name": "Dragon Trail",
 		"similarNames": ["Dragon Trail - Seaside"],
-		"isFictional": true,
-		"fictionalSource": "Gran Turismo",
+		"country": "HR",
+		"region": "Asia",
 		"latitude": "45.1000000",
 		"longitude": "15.2000000",
-		"country": "HR",
+		"isFictional": true,
+		"fictionalSource": "Gran Turismo",
 		"layouts": [
 			{
 				"layout_id": 1,
@@ -107,11 +109,12 @@ export interface Track {
 	id: number;
 	name: string;
 	similarNames?: string[];
-	isFictional: boolean;
-	fictionalSource: string | null;
+	country: string;
+	region: string | null;
 	latitude: string | null; // Null if no coordinates are provided
 	longitude: string | null; // Null if no coordinates are provided
-	country: string;
+	isFictional: boolean;
+	fictionalSource: string | null;
 	layouts: TrackLayout[];
 }
 ```

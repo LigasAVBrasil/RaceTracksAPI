@@ -2,7 +2,7 @@
 
 A free, open-source JSON API providing structured data and high-quality SVG maps for racing circuits around the world. This project includes both real-world and fictional tracks.
 
-> 🚧 **Work in Progress:** This API is actively under development! We are continuously working on implementing new maps and expanding our database. Our current roadmap prioritizes real-world tracks in the following order: **1. North American Endurance**, **2. Brazilian Touring Cars**, **3. North American Open-Wheel**, **4. German Touring Cars**, **5. Japanese Open-Wheel**, **6. Australian Touring Cars**, **7. British Touring Cars**, and **8. Argentine Touring Cars**. More real-world and fictional circuits will be added over time.
+> 🚧 **Work in Progress:** This API is actively under development! We are continuously working on implementing new maps and expanding our database. Our current roadmap prioritizes real-world tracks in the following order: **1. Brazilian Touring Cars**, **2. North American Open-Wheel**, **3. German Touring Cars**, **4. Japanese Open-Wheel**, **5. Australian Touring Cars**, **6. British Touring Cars**, and **7. Argentine Touring Cars**. More real-world and fictional circuits will be added over time.
 
 ## 📌 Features
 

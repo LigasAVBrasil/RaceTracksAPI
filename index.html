@@ -260,6 +260,9 @@
 							const endYear = layout.end_year ? layout.end_year : "Present";
 							yearString = ` (${layout.start_year} - ${endYear})`;
 						}
+						const lengthMiles = (parseFloat(layout.length) * 0.621371).toFixed(
+							3,
+						);
 
 						card.innerHTML = `
 							<div class="card-image">
@@ -271,7 +274,7 @@
 								<h3><strong>Layout:</strong> ${layout.name}${yearString}</h3>
 								
 								<p style="margin: 0 0 1rem 0; font-size: 0.95rem; color: var(--text-muted);">
-									<strong>Length:</strong> ${layout.length} km
+									<strong>Length:</strong> ${layout.length}km / ${lengthMiles} miles
 								</p>
 
 								<div class="card-footer">

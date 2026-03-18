@@ -1460,5 +1460,400 @@
                 "image_id": "28.5"
             }
         ]
+    },
+    {
+        "id": 29,
+        "name": "Long Beach Street Circuit",
+        "similarNames": [
+            "Grand Prix of Long Beach"
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "33.766389000000000",
+        "longitude": "-118.192778000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2000,
+                "end_year": null,
+                "length": "3.167",
+                "image_id": "29.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1975,
+                "end_year": 1981,
+                "length": "3.251",
+                "image_id": "29.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1983,
+                "end_year": 1983,
+                "length": "3.275",
+                "image_id": "29.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Full Circuit",
+                "start_year": 1992,
+                "end_year": 1998,
+                "length": "2.533",
+                "image_id": "29.4"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Laguna Seca",
+        "similarNames": [
+            "Grand Prix of Monterey"
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "36.584167000000000",
+        "longitude": "-121.753611000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1996,
+                "end_year": null,
+                "length": "3.602",
+                "image_id": "30.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1957,
+                "end_year": 1987,
+                "length": "3.058",
+                "image_id": "30.2"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Detroit Street Circuit",
+        "similarNames": [
+            "Detroit Grand Prix"
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "42.329750000000000",
+        "longitude": "83.040111000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2023,
+                "end_year": null,
+                "length": "2.736",
+                "image_id": "31.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1982,
+                "end_year": 1982,
+                "length": "4.168",
+                "image_id": "31.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1983,
+                "end_year": 1988,
+                "length": "4.023",
+                "image_id": "31.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Full Circuit",
+                "start_year": 1989,
+                "end_year": 1991,
+                "length": "4.055",
+                "image_id": "31.4"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Watkins Glen International",
+        "similarNames": [
+            "United States Grand Prix",
+            "6 Hours of The Glen"
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "42.337000000000000",
+        "longitude": "-76.927000000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit + Chicane",
+                "start_year": 1992,
+                "end_year": null,
+                "length": "5.552",
+                "image_id": "32.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Short Circuit + Chicane",
+                "start_year": 1992,
+                "end_year": null,
+                "length": "3.943",
+                "image_id": "32.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1971,
+                "end_year": null,
+                "length": "5.435",
+                "image_id": "32.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Short Circuit",
+                "start_year": 1971,
+                "end_year": null,
+                "length": "3.907",
+                "image_id": "32.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Full Circuit",
+                "start_year": 1956,
+                "end_year": 1970,
+                "length": "3.782",
+                "image_id": "32.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "Full Circuit + Chicane",
+                "start_year": 1956,
+                "end_year": 1970,
+                "length": "3.701",
+                "image_id": "32.6"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Mosport Park",
+        "similarNames": [
+            "Canadian Tire Motorsport Park",
+            "Mosport International Raceway"
+        ],
+        "country": "CA",
+        "region": "North America",
+        "latitude": "44.050000000000000",
+        "longitude": "-78.677778000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1961,
+                "end_year": null,
+                "length": "4.102",
+                "image_id": "33.1"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Road America",
+        "similarNames": [
+            "SportsCar Grand Prix"
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "43.797500000000000",
+        "longitude": "-87.993889000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1955,
+                "end_year": null,
+                "length": "6.514",
+                "image_id": "34.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Motorcycle Circuit",
+                "start_year": 1955,
+                "end_year": null,
+                "length": "6.437",
+                "image_id": "34.2"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Virginia International Raceway",
+        "similarNames": [
+            "GT Challenge At VIR"
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "36.561667000000000",
+        "longitude": "-79.204722000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1957,
+                "end_year": null,
+                "length": "5.262",
+                "image_id": "35.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Grand East Circuit",
+                "start_year": 2003,
+                "end_year": null,
+                "length": "6.759",
+                "image_id": "35.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Grand West Circuit",
+                "start_year": 2003,
+                "end_year": null,
+                "length": "6.598",
+                "image_id": "35.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "North Circuit",
+                "start_year": 2000,
+                "end_year": null,
+                "length": "3.621",
+                "image_id": "35.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "South Circuit",
+                "start_year": 2000,
+                "end_year": null,
+                "length": "2.655",
+                "image_id": "35.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "Patriot Circuit",
+                "start_year": 2003,
+                "end_year": null,
+                "length": "1.770",
+                "image_id": "35.6"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Indianapolis Motor Speedway",
+        "similarNames": [
+            "Indy 500",
+            "Indianapolis 500",
+            "United States Grand Prix"
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "39.798333000000000",
+        "longitude": "-86.232778000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Road Circuit",
+                "start_year": 2014,
+                "end_year": null,
+                "length": "3.925",
+                "image_id": "36.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Motorcycle Circuit",
+                "start_year": 2014,
+                "end_year": null,
+                "length": "4.170",
+                "image_id": "36.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Oval Circuit",
+                "start_year": 1909,
+                "end_year": null,
+                "length": "4.023",
+                "image_id": "36.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Road Circuit",
+                "start_year": 2000,
+                "end_year": 2007,
+                "length": "4.192",
+                "image_id": "36.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Road Circuit",
+                "start_year": 2008,
+                "end_year": 2013,
+                "length": "4.078",
+                "image_id": "36.5"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Road Atlanta",
+        "similarNames": [
+            "Petit Le Mans"
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "34.146667000000000",
+        "longitude": "-83.817778000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1998,
+                "end_year": null,
+                "length": "4.088",
+                "image_id": "37.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Short Circuit",
+                "start_year": 1998,
+                "end_year": null,
+                "length": "2.818",
+                "image_id": "37.2"
+            }
+        ]
     }
 ]

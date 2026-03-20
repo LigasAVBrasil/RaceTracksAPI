@@ -40,14 +40,33 @@ To properly differentiate between classic and modern configurations, you must ev
 
 ## 📄 Data Structure Example
 
-We use a strict data contract. This means fields like `isFictional` and `fictionalSource` will **always** be present, even for real-world tracks (where they will be `false` and `null`, respectively). Fictional tracks use the geographic center coordinates of their lore-based country.
+We use a strict data contract. This means fields like `isFictional`, `fictionalSource`, and `categories` will **always** be present, even if empty or null. Fictional tracks use the geographic center coordinates of their lore-based country.
 
 ```json
 [
 	{
 		"id": 1,
 		"name": "Autódromo José Carlos Pace",
-		"similarNames": ["Autódromo de Interlagos", "São Paulo Grand Prix"],
+		"similarNames": [
+			"Autódromo de Interlagos",
+			"São Paulo Grand Prix",
+			"Interlagos Circuit"
+		],
+		"categories": [
+			{
+				"id": 4,
+				"name": "Touring Car",
+				"subcategories": [
+					{ "id": 17, "name": "TCR" },
+					{ "id": 18, "name": "Stock Car Pro Series" }
+				]
+			},
+			{
+				"id": 1,
+				"name": "Open Wheel",
+				"subcategories": [{ "id": 6, "name": "Formula 1" }]
+			}
+		],
 		"country": "BR",
 		"region": "South America",
 		"latitude": "-23.702098578231480",
@@ -58,19 +77,20 @@ We use a strict data contract. This means fields like `isFictional` and `fiction
 			{
 				"layout_id": 1,
 				"name": "Full Circuit",
-				"length": 4.309,
 				"start_year": 1990,
 				"end_year": null,
+				"length": "4.309",
 				"image_id": "1.1"
 			}
 		]
 	},
 	{
-		"id": 2,
+		"id": 99,
 		"name": "Dragon Trail",
 		"similarNames": ["Dragon Trail - Seaside"],
+		"categories": [],
 		"country": "HR",
-		"region": "Asia",
+		"region": "Europe",
 		"latitude": "45.1000000",
 		"longitude": "15.2000000",
 		"isFictional": true,
@@ -79,10 +99,10 @@ We use a strict data contract. This means fields like `isFictional` and `fiction
 			{
 				"layout_id": 1,
 				"name": "Seaside",
-				"length": 5.209,
 				"start_year": 2017,
 				"end_year": null,
-				"image_id": "12.1"
+				"length": "5.209",
+				"image_id": "99.1"
 			}
 		]
 	}
@@ -96,6 +116,17 @@ We use a strict data contract. This means fields like `isFictional` and `fiction
 If you are consuming this API in a TypeScript environment, you can use the following interfaces to strictly type your data responses:
 
 ```typescript
+export interface Subcategory {
+	id: number;
+	name: string;
+}
+
+export interface TrackCategory {
+	id: number;
+	name: string;
+	subcategories: Subcategory[];
+}
+
 export interface TrackLayout {
 	layout_id: number;
 	name: string;
@@ -109,6 +140,7 @@ export interface Track {
 	id: number;
 	name: string;
 	similarNames?: string[];
+	categories: TrackCategory[];
 	country: string;
 	region: string | null;
 	latitude: string | null; // Null if no coordinates are provided

@@ -7,7 +7,7 @@ Use this information when helping users consume the API, write code for it, or w
 ## Project Overview
 RaceTracksAPI is a static, serverless JSON API hosted on GitHub.
 It provides structured data and SVG layouts for both real-world motorsports circuits and fictional tracks from racing games.
-- **Status:** Work in Progress (WIP). The database is actively expanding, prioritizing real-world tracks in this order: 1. Global Grand Prix, 2. World Endurance, 3. North American Endurance, 4. Brazilian Touring Cars, 5. North American Open-Wheel, 6. German Touring Cars, 7. Japanese Open-Wheel, 8. Australian Touring Cars, 9. British Touring Cars, and 10. Argentine Touring Cars.
+- **Status:** Work in Progress (WIP). The database is actively expanding, prioritizing real-world tracks in this order: 1. Brazilian Touring Cars, 2. North American Open-Wheel, 3. German Touring Cars, 4. Japanese Open-Wheel, 5. Australian Touring Cars, 6. British Touring Cars, and 7. Argentine Touring Cars.
 - **Data Source:** `https://raw.githubusercontent.com/LigasAVBrasil/RaceTracksAPI/refs/heads/main/tracks.json`
 - **Images Pattern:** `https://raw.githubusercontent.com/LigasAVBrasil/RaceTracksAPI/refs/heads/main/images/track_{image_id}.svg`
 
@@ -18,6 +18,12 @@ All keys are guaranteed to exist in every object to ensure type safety.
 - `id` (Number): Unique identifier.
 - `name` (String): Primary track name.
 - `similarNames` (Array of Strings): Alternative names or event names.
+- `categories` (Array of Objects): Contains the racing categories associated with the track.
+  - `id` (Number): Category unique identifier.
+  - `name` (String): Category name (e.g., "Open Wheel").
+  - `subcategories` (Array of Objects): Contains specific championships or classes.
+    - `id` (Number): Subcategory unique identifier.
+    - `name` (String): Subcategory name (e.g., "Formula 1").
 - `isFictional` (Boolean): `true` if the track is from a video game/lore, `false` if real.
 - `fictionalSource` (String | null): The game franchise name if fictional, otherwise `null`.
 - `latitude` (String | null): Coordinates. For fictional tracks, this represents the center of the lore country.

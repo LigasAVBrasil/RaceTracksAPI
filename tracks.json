@@ -7,6 +7,60 @@
             "São Paulo Grand Prix",
             "Interlagos Circuit"
         ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    {
+                        "id": 17,
+                        "name": "TCR"
+                    },
+                    {
+                        "id": 18,
+                        "name": "Stock Car Pro Series"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 20,
+                        "name": "Formula 4"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 10,
+                        "name": "LMGT3"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 14,
+                        "name": "Hypercar"
+                    },
+                    {
+                        "id": 16,
+                        "name": "LMP2"
+                    }
+                ]
+            }
+        ],
         "country": "BR",
         "region": "South America",
         "latitude": "-23.702098578231480",
@@ -37,6 +91,32 @@
         "name": "Circuit de la Sarthe",
         "similarNames": [
             "24 Hours of Le Mans"
+        ],
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 10,
+                        "name": "LMGT3"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 14,
+                        "name": "Hypercar"
+                    },
+                    {
+                        "id": 16,
+                        "name": "LMP2"
+                    }
+                ]
+            }
         ],
         "country": "FR",
         "region": "Europe",
@@ -100,6 +180,31 @@
         "name": "Autodromo Nazionale Monza",
         "similarNames": [
             "Italian Grand Prix"
+        ],
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Formula 2"
+                    },
+                    {
+                        "id": 21,
+                        "name": "Formula 3"
+                    }
+                ]
+            }
         ],
         "country": "IT",
         "region": "Europe",
@@ -237,6 +342,58 @@
             "Belgian Grand Prix",
             "6 Hours of Spa-Francorchamps"
         ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Formula 2"
+                    },
+                    {
+                        "id": 20,
+                        "name": "Formula 4"
+                    },
+                    {
+                        "id": 21,
+                        "name": "Formula 3"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 10,
+                        "name": "LMGT3"
+                    },
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 14,
+                        "name": "Hypercar"
+                    },
+                    {
+                        "id": 16,
+                        "name": "LMP2"
+                    }
+                ]
+            }
+        ],
         "country": "BE",
         "region": "Europe",
         "latitude": "50.436631058782815",
@@ -300,6 +457,30 @@
         "similarNames": [
             "Spanish Grand Prix"
         ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Formula 2"
+                    },
+                    {
+                        "id": 20,
+                        "name": "Formula 4"
+                    },
+                    {
+                        "id": 21,
+                        "name": "Formula 3"
+                    }
+                ]
+            }
+        ],
         "country": "ES",
         "region": "Europe",
         "latitude": "41.569610291856240",
@@ -355,6 +536,26 @@
         "similarNames": [
             "Australian Grand Prix"
         ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Formula 2"
+                    },
+                    {
+                        "id": 21,
+                        "name": "Formula 3"
+                    }
+                ]
+            }
+        ],
         "country": "AU",
         "region": "Oceania",
         "latitude": "-37.847137393860790",
@@ -386,6 +587,27 @@
         "similarNames": [
             "Chinese Grand Prix",
             "Shanghai E-Prix"
+        ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 9,
+                        "name": "Formula E"
+                    }
+                ]
+            }
         ],
         "country": "CN",
         "region": "Asia",
@@ -433,6 +655,22 @@
         "name": "Suzuka International Racing Course",
         "similarNames": [
             "Japanese Grand Prix"
+        ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 23,
+                        "name": "Super Formula"
+                    }
+                ]
+            }
         ],
         "country": "JP",
         "region": "Asia",
@@ -491,6 +729,38 @@
             "8 Hours of Bahrain",
             "Sakhir Grand Prix"
         ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 10,
+                        "name": "LMGT3"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 14,
+                        "name": "Hypercar"
+                    }
+                ]
+            }
+        ],
         "country": "BH",
         "region": "Middle East",
         "latitude": "26.032500000000000",
@@ -547,6 +817,26 @@
             "Saudi Arabian Grand Prix",
             "Jeddah ePrix"
         ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Formula 2"
+                    },
+                    {
+                        "id": 9,
+                        "name": "Formula E"
+                    }
+                ]
+            }
+        ],
         "country": "SA",
         "region": "Middle East",
         "latitude": "21.631944000000000",
@@ -579,6 +869,23 @@
             "Miami Grand Prix",
             "Miami ePrix"
         ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    }
+                ]
+            }
+        ],
         "country": "US",
         "region": "North America",
         "latitude": "25.958056000000000",
@@ -601,6 +908,23 @@
         "name": "Circuit Gilles Villeneuve",
         "similarNames": [
             "Canadian Grand Prix"
+        ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    }
+                ]
+            }
         ],
         "country": "CA",
         "region": "North America",
@@ -644,6 +968,26 @@
             "Monte Carlo",
             "Azure Circuit"
         ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Formula 2"
+                    },
+                    {
+                        "id": 9,
+                        "name": "Formula E"
+                    }
+                ]
+            }
+        ],
         "country": "MC",
         "region": "Europe",
         "latitude": "43.734722000000000",
@@ -669,6 +1013,31 @@
             "A1-Ring",
             "Austrian Grand Prix",
             "Styrian Grand Prix"
+        ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Formula 2"
+                    },
+                    {
+                        "id": 21,
+                        "name": "Formula 3"
+                    }
+                ]
+            }
         ],
         "country": "AT",
         "region": "Europe",
@@ -724,6 +1093,31 @@
         "name": "Silverstone Circuit",
         "similarNames": [
             "British Grand Prix"
+        ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Formula 2"
+                    },
+                    {
+                        "id": 20,
+                        "name": "Formula 4"
+                    }
+                ]
+            }
         ],
         "country": "GB",
         "region": "Europe",
@@ -804,6 +1198,23 @@
         "similarNames": [
             "Hungarian Grand Prix"
         ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    }
+                ]
+            }
+        ],
         "country": "HU",
         "region": "Europe",
         "latitude": "47.582222000000000",
@@ -843,6 +1254,23 @@
         "similarNames": [
             "Dutch Grand Prix",
             "Circuit Park Zandvoort"
+        ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    }
+                ]
+            }
         ],
         "country": "NL",
         "region": "Europe",
@@ -923,6 +1351,22 @@
         "similarNames": [
             "Azerbaijan Grand Prix"
         ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Formula 2"
+                    }
+                ]
+            }
+        ],
         "country": "AZ",
         "region": "Europe",
         "latitude": "40.372500000000000",
@@ -945,6 +1389,18 @@
         "name": "Marina Bay Street Circuit",
         "similarNames": [
             "Singapore Grand Prix"
+        ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    }
+                ]
+            }
         ],
         "country": "SG",
         "region": "Asia",
@@ -995,6 +1451,52 @@
             "Lone Star Le Mans",
             "6 Hours of the Circuit of the Americas"
         ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 10,
+                        "name": "LMGT3"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 14,
+                        "name": "Hypercar"
+                    },
+                    {
+                        "id": 16,
+                        "name": "LMP2"
+                    }
+                ]
+            }
+        ],
         "country": "US",
         "region": "North America",
         "latitude": "30.132778000000000",
@@ -1033,6 +1535,28 @@
         "name": "Autódromo Hermanos Rodríguez",
         "similarNames": [
             "Mexican Grand Prix"
+        ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    }
+                ]
+            }
         ],
         "country": "MX",
         "region": "North America",
@@ -1097,6 +1621,18 @@
         "similarNames": [
             "Las Vegas Grand Prix"
         ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    }
+                ]
+            }
+        ],
         "country": "US",
         "region": "North America",
         "latitude": "36.109950000000000",
@@ -1121,6 +1657,18 @@
             "Qatar Grand Prix",
             "Qatar 1812 km"
         ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 20,
+                        "name": "Formula 4"
+                    }
+                ]
+            }
+        ],
         "country": "QA",
         "region": "Middle East",
         "latitude": "25.490000000000000",
@@ -1144,6 +1692,42 @@
         "similarNames": [
             "Abu Dhabi Grand Prix",
             "6H Abu Dhabi"
+        ],
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Formula 2"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 16,
+                        "name": "LMP2"
+                    }
+                ]
+            }
         ],
         "country": "AE",
         "region": "Middle East",
@@ -1229,6 +1813,51 @@
             "Emilia Romagna Grand Prix",
             "6 Hours of Imola"
         ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 6,
+                        "name": "Formula 1"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Formula 2"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 10,
+                        "name": "LMGT3"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 14,
+                        "name": "Hypercar"
+                    },
+                    {
+                        "id": 16,
+                        "name": "LMP2"
+                    }
+                ]
+            }
+        ],
         "country": "IT",
         "region": "Europe",
         "latitude": "44.341111000000000",
@@ -1284,6 +1913,47 @@
         "similarNames": [
             "Japanese Grand Prix",
             "6 Hours of Fuji"
+        ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 10,
+                        "name": "LMGT3"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 14,
+                        "name": "Hypercar"
+                    },
+                    {
+                        "id": 16,
+                        "name": "LMP2"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 23,
+                        "name": "Super Formula"
+                    }
+                ]
+            }
         ],
         "country": "JP",
         "region": "Asia",
@@ -1349,6 +2019,42 @@
             "Daytona 500",
             "24 Hours of Daytona"
         ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 11,
+                        "name": "GTD"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 15,
+                        "name": "GTP"
+                    },
+                    {
+                        "id": 16,
+                        "name": "LMP2"
+                    }
+                ]
+            }
+        ],
         "country": "US",
         "region": "North America",
         "latitude": "29.185556000000000",
@@ -1412,6 +2118,33 @@
         "similarNames": [
             "12 Hours of Sebring"
         ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 11,
+                        "name": "GTD"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 15,
+                        "name": "GTP"
+                    }
+                ]
+            }
+        ],
         "country": "US",
         "region": "North America",
         "latitude": "27.455000000000000",
@@ -1467,6 +2200,37 @@
         "similarNames": [
             "Grand Prix of Long Beach"
         ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 11,
+                        "name": "GTD"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 15,
+                        "name": "GTP"
+                    },
+                    {
+                        "id": 16,
+                        "name": "LMP2"
+                    }
+                ]
+            }
+        ],
         "country": "US",
         "region": "North America",
         "latitude": "33.766389000000000",
@@ -1514,6 +2278,37 @@
         "similarNames": [
             "Grand Prix of Monterey"
         ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 11,
+                        "name": "GTD"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 15,
+                        "name": "GTP"
+                    },
+                    {
+                        "id": 16,
+                        "name": "LMP2"
+                    }
+                ]
+            }
+        ],
         "country": "US",
         "region": "North America",
         "latitude": "36.584167000000000",
@@ -1544,6 +2339,18 @@
         "name": "Detroit Street Circuit",
         "similarNames": [
             "Detroit Grand Prix"
+        ],
+        "categories": [
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 15,
+                        "name": "GTP"
+                    }
+                ]
+            }
         ],
         "country": "US",
         "region": "North America",
@@ -1592,6 +2399,18 @@
         "similarNames": [
             "United States Grand Prix",
             "6 Hours of The Glen"
+        ],
+        "categories": [
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 15,
+                        "name": "GTP"
+                    }
+                ]
+            }
         ],
         "country": "US",
         "region": "North America",
@@ -1657,6 +2476,18 @@
             "Canadian Tire Motorsport Park",
             "Mosport International Raceway"
         ],
+        "categories": [
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 15,
+                        "name": "GTP"
+                    }
+                ]
+            }
+        ],
         "country": "CA",
         "region": "North America",
         "latitude": "44.050000000000000",
@@ -1679,6 +2510,18 @@
         "name": "Road America",
         "similarNames": [
             "SportsCar Grand Prix"
+        ],
+        "categories": [
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 15,
+                        "name": "GTP"
+                    }
+                ]
+            }
         ],
         "country": "US",
         "region": "North America",
@@ -1710,6 +2553,18 @@
         "name": "Virginia International Raceway",
         "similarNames": [
             "GT Challenge At VIR"
+        ],
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 11,
+                        "name": "GTD"
+                    }
+                ]
+            }
         ],
         "country": "US",
         "region": "North America",
@@ -1776,6 +2631,38 @@
             "Indianapolis 500",
             "United States Grand Prix"
         ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 8,
+                        "name": "IndyCar"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 11,
+                        "name": "GTD"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 15,
+                        "name": "GTP"
+                    }
+                ]
+            }
+        ],
         "country": "US",
         "region": "North America",
         "latitude": "39.798333000000000",
@@ -1831,6 +2718,32 @@
         "similarNames": [
             "Petit Le Mans"
         ],
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT3",
+                "subcategories": [
+                    {
+                        "id": 11,
+                        "name": "GTD"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    {
+                        "id": 15,
+                        "name": "GTP"
+                    },
+                    {
+                        "id": 16,
+                        "name": "LMP2"
+                    }
+                ]
+            }
+        ],
         "country": "US",
         "region": "North America",
         "latitude": "34.146667000000000",
@@ -1853,6 +2766,69 @@
                 "end_year": null,
                 "length": "2.818",
                 "image_id": "37.2"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Circuito dos Cristais",
+        "similarNames": [
+            "Curvelo"
+        ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    {
+                        "id": 18,
+                        "name": "Stock Car Pro Series"
+                    }
+                ]
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-18.806944000000000",
+        "longitude": "-44.408333000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2016,
+                "end_year": null,
+                "length": "4.400",
+                "image_id": "38.1"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Autódromo Internacional de Tarumã",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-30.048611000000000",
+        "longitude": "-51.019167000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1970,
+                "end_year": null,
+                "length": "3.016",
+                "image_id": "39.1"
             }
         ]
     }

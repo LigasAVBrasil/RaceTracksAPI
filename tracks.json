@@ -15,10 +15,6 @@
                     {
                         "id": 16,
                         "name": "Hypercar"
-                    },
-                    {
-                        "id": 17,
-                        "name": "LMGT3"
                     }
                 ]
             },
@@ -53,6 +49,16 @@
                     {
                         "id": 8,
                         "name": "Formula 1 2020s"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 17,
+                        "name": "LMGT3"
                     }
                 ]
             }
@@ -3279,6 +3285,167 @@
                 "end_year": null,
                 "length": "3.443",
                 "image_id": "43.1"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Autódromo Internacional de Brasília",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    {
+                        "id": 23,
+                        "name": "Stock Car Pro Series"
+                    },
+                    {
+                        "id": 24,
+                        "name": "NASCAR Brasil Series"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-15.776139000000000",
+        "longitude": "-47.900083000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2015,
+                "end_year": null,
+                "length": "5.461",
+                "image_id": "44.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Oval Circuit",
+                "start_year": 2015,
+                "end_year": null,
+                "length": "2.904",
+                "image_id": "44.2"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Autódromo Internacional Potenza",
+        "similarNames": [
+            "Lima Duarte"
+        ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-21.789722000000000",
+        "longitude": "-43.663056000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2020,
+                "end_year": null,
+                "length": "2.812",
+                "image_id": "45.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 2020,
+                "end_year": null,
+                "length": "2.860",
+                "image_id": "45.2"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Autódromo Internacional Ayrton Senna",
+        "similarNames": [
+            "Londrina"
+        ],
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-23.282222000000000",
+        "longitude": "-51.167222000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1992,
+                "end_year": null,
+                "length": "3.145",
+                "image_id": "46.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit Short",
+                "start_year": 2004,
+                "end_year": null,
+                "length": "3.020",
+                "image_id": "46.2"
             }
         ]
     }

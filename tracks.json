@@ -3398,10 +3398,8 @@
     },
     {
         "id": 46,
-        "name": "Autódromo Internacional Ayrton Senna",
-        "similarNames": [
-            "Londrina"
-        ],
+        "name": "Autódromo Internacional Ayrton Senna (Londrina)",
+        "similarNames": null,
         "categories": [
             {
                 "id": 2,
@@ -3446,6 +3444,108 @@
                 "end_year": null,
                 "length": "3.020",
                 "image_id": "46.2"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Autódromo Internacional Ayrton Senna (Caruaru)",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-8.385833000000000",
+        "longitude": "-35.977222000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1992,
+                "end_year": null,
+                "length": "3.061",
+                "image_id": "47.1"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Autódromo Internacional Ayrton Senna (Goiânia)",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    {
+                        "id": 23,
+                        "name": "Stock Car Pro Series"
+                    }
+                ]
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-16.718056000000000",
+        "longitude": "-49.192222000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Mixed Circuit",
+                "start_year": 1974,
+                "end_year": null,
+                "length": "3.835",
+                "image_id": "48.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Exterior Circuit",
+                "start_year": 1974,
+                "end_year": null,
+                "length": "2.590",
+                "image_id": "48.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Short Circuit",
+                "start_year": 1974,
+                "end_year": null,
+                "length": "1.910",
+                "image_id": "48.3"
             }
         ]
     }

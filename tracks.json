@@ -49,6 +49,10 @@
                     {
                         "id": 8,
                         "name": "Formula 1 2020s"
+                    },
+                    {
+                        "id": 26,
+                        "name": "F4 Brazilian Championship"
                     }
                 ]
             },
@@ -75,7 +79,7 @@
                 "name": "Full Circuit",
                 "start_year": 1990,
                 "end_year": null,
-                "length": "4.309",
+                "length": 4.309,
                 "image_id": "1.1"
             },
             {
@@ -83,7 +87,7 @@
                 "name": "Full Circuit",
                 "start_year": 1940,
                 "end_year": 1989,
-                "length": "7.874",
+                "length": 7.874,
                 "image_id": "1.2"
             }
         ]
@@ -107,7 +111,7 @@
                 "name": "Full Circuit",
                 "start_year": 2002,
                 "end_year": null,
-                "length": "13.629",
+                "length": 13.629,
                 "image_id": "2.1"
             },
             {
@@ -115,7 +119,7 @@
                 "name": "Full Circuit",
                 "start_year": 1932,
                 "end_year": 1967,
-                "length": "13.461",
+                "length": 13.461,
                 "image_id": "2.2"
             },
             {
@@ -123,7 +127,7 @@
                 "name": "Full Circuit",
                 "start_year": 1968,
                 "end_year": 1971,
-                "length": "13.469",
+                "length": 13.469,
                 "image_id": "2.3"
             },
             {
@@ -131,7 +135,7 @@
                 "name": "Full Circuit",
                 "start_year": 1979,
                 "end_year": 1985,
-                "length": "13.626",
+                "length": 13.626,
                 "image_id": "2.4"
             },
             {
@@ -139,7 +143,7 @@
                 "name": "Full Circuit",
                 "start_year": 1987,
                 "end_year": 1989,
-                "length": "13.535",
+                "length": 13.535,
                 "image_id": "2.5"
             },
             {
@@ -147,7 +151,7 @@
                 "name": "Full Circuit",
                 "start_year": 1990,
                 "end_year": 2001,
-                "length": "13.605",
+                "length": 13.605,
                 "image_id": "2.6"
             }
         ]
@@ -215,7 +219,7 @@
                 "name": "Full Circuit",
                 "start_year": 2000,
                 "end_year": null,
-                "length": "5.793",
+                "length": 5.793,
                 "image_id": "3.1"
             },
             {
@@ -223,7 +227,7 @@
                 "name": "Junior Circuit",
                 "start_year": 1959,
                 "end_year": null,
-                "length": "2.405",
+                "length": 2.405,
                 "image_id": "3.2"
             },
             {
@@ -231,7 +235,7 @@
                 "name": "Oval Circuit",
                 "start_year": 1922,
                 "end_year": 1938,
-                "length": "4.490",
+                "length": 4.49,
                 "image_id": "3.3"
             },
             {
@@ -239,7 +243,7 @@
                 "name": "Florio Circuit",
                 "start_year": 1930,
                 "end_year": 1938,
-                "length": "6.662",
+                "length": 6.662,
                 "image_id": "3.4"
             },
             {
@@ -247,7 +251,7 @@
                 "name": "Full Circuit",
                 "start_year": 1922,
                 "end_year": 1933,
-                "length": "10.000",
+                "length": 10.0,
                 "image_id": "3.5"
             },
             {
@@ -255,7 +259,7 @@
                 "name": "Florio Circuit",
                 "start_year": 1934,
                 "end_year": 1934,
-                "length": "4.329",
+                "length": 4.329,
                 "image_id": "3.6"
             },
             {
@@ -263,7 +267,7 @@
                 "name": "Vedano Road Circuit",
                 "start_year": 1948,
                 "end_year": 1954,
-                "length": "6.292",
+                "length": 6.292,
                 "image_id": "3.7"
             },
             {
@@ -271,7 +275,7 @@
                 "name": "Test Circuit",
                 "start_year": 1948,
                 "end_year": 1954,
-                "length": "4.690",
+                "length": 4.69,
                 "image_id": "3.8"
             },
             {
@@ -279,7 +283,7 @@
                 "name": "Full Circuit",
                 "start_year": 1955,
                 "end_year": 1965,
-                "length": "10.000",
+                "length": 10.0,
                 "image_id": "3.9"
             },
             {
@@ -287,7 +291,7 @@
                 "name": "Oval Circuit",
                 "start_year": 1955,
                 "end_year": 1969,
-                "length": "4.248",
+                "length": 4.248,
                 "image_id": "3.10"
             },
             {
@@ -295,7 +299,7 @@
                 "name": "Road Circuit",
                 "start_year": 1957,
                 "end_year": 1971,
-                "length": "5.750",
+                "length": 5.75,
                 "image_id": "3.11"
             },
             {
@@ -303,7 +307,7 @@
                 "name": "Full Circuit",
                 "start_year": 1966,
                 "end_year": 1969,
-                "length": "10.100",
+                "length": 10.1,
                 "image_id": "3.12"
             },
             {
@@ -311,7 +315,7 @@
                 "name": "Full Circuit",
                 "start_year": 1972,
                 "end_year": 1973,
-                "length": "5.775",
+                "length": 5.775,
                 "image_id": "3.13"
             },
             {
@@ -319,7 +323,7 @@
                 "name": "Full Circuit",
                 "start_year": 1976,
                 "end_year": 1993,
-                "length": "5.800",
+                "length": 5.8,
                 "image_id": "3.14"
             },
             {
@@ -327,7 +331,7 @@
                 "name": "Full Circuit",
                 "start_year": 1994,
                 "end_year": 1999,
-                "length": "5.770",
+                "length": 5.77,
                 "image_id": "3.15"
             }
         ]
@@ -395,7 +399,7 @@
                 "name": "Full Circuit",
                 "start_year": 2007,
                 "end_year": null,
-                "length": "7.004",
+                "length": 7.004,
                 "image_id": "4.1"
             },
             {
@@ -403,7 +407,7 @@
                 "name": "Full Circuit",
                 "start_year": 1921,
                 "end_year": 1938,
-                "length": "14.950",
+                "length": 14.95,
                 "image_id": "4.2"
             },
             {
@@ -411,7 +415,7 @@
                 "name": "Full Circuit",
                 "start_year": 1939,
                 "end_year": 1978,
-                "length": "14.100",
+                "length": 14.1,
                 "image_id": "4.3"
             },
             {
@@ -419,7 +423,7 @@
                 "name": "Full Circuit",
                 "start_year": 1981,
                 "end_year": 2003,
-                "length": "6.940",
+                "length": 6.94,
                 "image_id": "4.4"
             },
             {
@@ -427,7 +431,7 @@
                 "name": "Full Circuit",
                 "start_year": 1994,
                 "end_year": 1994,
-                "length": "7.001",
+                "length": 7.001,
                 "image_id": "4.5"
             },
             {
@@ -435,7 +439,7 @@
                 "name": "Full Circuit",
                 "start_year": 2004,
                 "end_year": 2006,
-                "length": "6.976",
+                "length": 6.976,
                 "image_id": "4.6"
             }
         ]
@@ -498,7 +502,7 @@
                 "name": "Full Circuit",
                 "start_year": 2021,
                 "end_year": null,
-                "length": "4.657",
+                "length": 4.657,
                 "image_id": "5.1"
             },
             {
@@ -506,7 +510,7 @@
                 "name": "Full Circuit + Chicane",
                 "start_year": 2021,
                 "end_year": null,
-                "length": "4.675",
+                "length": 4.675,
                 "image_id": "5.2"
             },
             {
@@ -514,7 +518,7 @@
                 "name": "Full Circuit",
                 "start_year": 1991,
                 "end_year": 1994,
-                "length": "4.745",
+                "length": 4.745,
                 "image_id": "5.3"
             },
             {
@@ -522,7 +526,7 @@
                 "name": "National Circuit",
                 "start_year": 1991,
                 "end_year": 2003,
-                "length": "3.069",
+                "length": 3.069,
                 "image_id": "5.4"
             },
             {
@@ -530,7 +534,7 @@
                 "name": "National Circuit",
                 "start_year": 2007,
                 "end_year": 2020,
-                "length": "2.977",
+                "length": 2.977,
                 "image_id": "5.5"
             }
         ]
@@ -583,7 +587,7 @@
                 "name": "Full Circuit",
                 "start_year": 2021,
                 "end_year": null,
-                "length": "5.280",
+                "length": 5.28,
                 "image_id": "6.1"
             },
             {
@@ -591,7 +595,7 @@
                 "name": "Full Circuit",
                 "start_year": 1996,
                 "end_year": 2020,
-                "length": "5.303",
+                "length": 5.303,
                 "image_id": "6.2"
             }
         ]
@@ -646,7 +650,7 @@
                 "name": "Full Circuit",
                 "start_year": 2004,
                 "end_year": null,
-                "length": "5.451",
+                "length": 5.451,
                 "image_id": "7.1"
             },
             {
@@ -654,7 +658,7 @@
                 "name": "West Long Circuit",
                 "start_year": 2012,
                 "end_year": null,
-                "length": "3.051",
+                "length": 3.051,
                 "image_id": "7.2"
             },
             {
@@ -662,7 +666,7 @@
                 "name": "Intermediate Circuit",
                 "start_year": 2004,
                 "end_year": null,
-                "length": "4.603",
+                "length": 4.603,
                 "image_id": "7.3"
             },
             {
@@ -670,7 +674,7 @@
                 "name": "West Short Circuit",
                 "start_year": 2012,
                 "end_year": null,
-                "length": "2.201",
+                "length": 2.201,
                 "image_id": "7.4"
             }
         ]
@@ -724,7 +728,7 @@
                 "name": "Full Circuit",
                 "start_year": 2003,
                 "end_year": null,
-                "length": "5.807",
+                "length": 5.807,
                 "image_id": "8.1"
             },
             {
@@ -732,7 +736,7 @@
                 "name": "East Circuit",
                 "start_year": 1987,
                 "end_year": null,
-                "length": "2.243",
+                "length": 2.243,
                 "image_id": "8.2"
             },
             {
@@ -740,7 +744,7 @@
                 "name": "West Circuit",
                 "start_year": 1987,
                 "end_year": null,
-                "length": "3.466",
+                "length": 3.466,
                 "image_id": "8.3"
             },
             {
@@ -748,7 +752,7 @@
                 "name": "Full Circuit",
                 "start_year": 1962,
                 "end_year": 1982,
-                "length": "6.004",
+                "length": 6.004,
                 "image_id": "8.4"
             },
             {
@@ -756,7 +760,7 @@
                 "name": "Full Circuit",
                 "start_year": 1987,
                 "end_year": 2002,
-                "length": "5.859",
+                "length": 5.859,
                 "image_id": "8.5"
             }
         ]
@@ -821,7 +825,7 @@
                 "name": "Full Circuit",
                 "start_year": 2005,
                 "end_year": null,
-                "length": "5.412",
+                "length": 5.412,
                 "image_id": "9.1"
             },
             {
@@ -829,7 +833,7 @@
                 "name": "Outer Circuit",
                 "start_year": 2005,
                 "end_year": null,
-                "length": "3.543",
+                "length": 3.543,
                 "image_id": "9.2"
             },
             {
@@ -837,7 +841,7 @@
                 "name": "Endurance Circuit",
                 "start_year": 2005,
                 "end_year": null,
-                "length": "6.299",
+                "length": 6.299,
                 "image_id": "9.3"
             },
             {
@@ -845,7 +849,7 @@
                 "name": "Inner Oasis Circuit",
                 "start_year": 2004,
                 "end_year": null,
-                "length": "2.550",
+                "length": 2.55,
                 "image_id": "9.4"
             },
             {
@@ -853,7 +857,7 @@
                 "name": "Paddock Circuit",
                 "start_year": 2004,
                 "end_year": null,
-                "length": "3.705",
+                "length": 3.705,
                 "image_id": "9.5"
             }
         ]
@@ -902,15 +906,15 @@
                 "name": "Full Circuit",
                 "start_year": 2021,
                 "end_year": null,
-                "length": "6.175",
+                "length": 6.175,
                 "image_id": "10.1"
             },
             {
                 "layout_id": 2,
-                "name": "Electric Circuit",
+                "name": "ePrix Circuit",
                 "start_year": 2025,
                 "end_year": null,
-                "length": "3.001",
+                "length": 3.001,
                 "image_id": "10.2"
             }
         ]
@@ -951,7 +955,7 @@
                 "name": "Full Circuit",
                 "start_year": 2022,
                 "end_year": null,
-                "length": "5.410",
+                "length": 5.41,
                 "image_id": "11.1"
             }
         ]
@@ -996,7 +1000,7 @@
                 "name": "Full Circuit",
                 "start_year": 1996,
                 "end_year": null,
-                "length": "4.361",
+                "length": 4.361,
                 "image_id": "12.1"
             },
             {
@@ -1004,7 +1008,7 @@
                 "name": "Full Circuit",
                 "start_year": 1988,
                 "end_year": 1993,
-                "length": "4.390",
+                "length": 4.39,
                 "image_id": "12.2"
             },
             {
@@ -1012,7 +1016,7 @@
                 "name": "Full Circuit",
                 "start_year": 1994,
                 "end_year": 1995,
-                "length": "4.390",
+                "length": 4.39,
                 "image_id": "12.3"
             }
         ]
@@ -1063,7 +1067,7 @@
                 "name": "Full Circuit",
                 "start_year": 2015,
                 "end_year": null,
-                "length": "3.337",
+                "length": 3.337,
                 "image_id": "13.1"
             }
         ]
@@ -1119,7 +1123,7 @@
                 "name": "Full Circuit",
                 "start_year": 2011,
                 "end_year": null,
-                "length": "4.318",
+                "length": 4.318,
                 "image_id": "14.1"
             },
             {
@@ -1127,7 +1131,7 @@
                 "name": "National Circuit",
                 "start_year": 2011,
                 "end_year": null,
-                "length": "2.336",
+                "length": 2.336,
                 "image_id": "14.2"
             },
             {
@@ -1135,7 +1139,7 @@
                 "name": "Full Circuit",
                 "start_year": 1969,
                 "end_year": 1976,
-                "length": "5.909",
+                "length": 5.909,
                 "image_id": "14.3"
             },
             {
@@ -1143,7 +1147,7 @@
                 "name": "Full Circuit",
                 "start_year": 1977,
                 "end_year": 1995,
-                "length": "5.852",
+                "length": 5.852,
                 "image_id": "14.4"
             },
             {
@@ -1151,7 +1155,7 @@
                 "name": "Full Circuit",
                 "start_year": 1996,
                 "end_year": 2003,
-                "length": "4.326",
+                "length": 4.326,
                 "image_id": "14.5"
             }
         ]
@@ -1209,7 +1213,7 @@
                 "name": "Full Circuit",
                 "start_year": 2010,
                 "end_year": null,
-                "length": "5.890",
+                "length": 5.89,
                 "image_id": "15.1"
             },
             {
@@ -1217,7 +1221,7 @@
                 "name": "International Circuit",
                 "start_year": 2010,
                 "end_year": null,
-                "length": "2.979",
+                "length": 2.979,
                 "image_id": "15.2"
             },
             {
@@ -1225,7 +1229,7 @@
                 "name": "National Circuit",
                 "start_year": 2010,
                 "end_year": null,
-                "length": "2.639",
+                "length": 2.639,
                 "image_id": "15.3"
             },
             {
@@ -1233,7 +1237,7 @@
                 "name": "Full Circuit",
                 "start_year": 1952,
                 "end_year": 1974,
-                "length": "4.710",
+                "length": 4.71,
                 "image_id": "15.4"
             },
             {
@@ -1241,7 +1245,7 @@
                 "name": "Full Circuit",
                 "start_year": 1975,
                 "end_year": 1986,
-                "length": "4.718",
+                "length": 4.718,
                 "image_id": "15.5"
             },
             {
@@ -1249,7 +1253,7 @@
                 "name": "Full Circuit",
                 "start_year": 1987,
                 "end_year": 1990,
-                "length": "4.778",
+                "length": 4.778,
                 "image_id": "15.6"
             },
             {
@@ -1257,7 +1261,7 @@
                 "name": "Full Circuit",
                 "start_year": 1991,
                 "end_year": 1993,
-                "length": "5.226",
+                "length": 5.226,
                 "image_id": "15.7"
             },
             {
@@ -1265,7 +1269,7 @@
                 "name": "Full Circuit",
                 "start_year": 1997,
                 "end_year": 2009,
-                "length": "5.141",
+                "length": 5.141,
                 "image_id": "15.8"
             }
         ]
@@ -1318,7 +1322,7 @@
                 "name": "Full Circuit",
                 "start_year": 2003,
                 "end_year": null,
-                "length": "4.381",
+                "length": 4.381,
                 "image_id": "16.1"
             },
             {
@@ -1326,7 +1330,7 @@
                 "name": "Full Circuit",
                 "start_year": 1989,
                 "end_year": 2002,
-                "length": "3.938",
+                "length": 3.938,
                 "image_id": "16.2"
             },
             {
@@ -1334,7 +1338,7 @@
                 "name": "Full Circuit",
                 "start_year": 1986,
                 "end_year": 1988,
-                "length": "4.014",
+                "length": 4.014,
                 "image_id": "16.3"
             }
         ]
@@ -1380,7 +1384,7 @@
                 "name": "Full Circuit",
                 "start_year": 2020,
                 "end_year": null,
-                "length": "4.259",
+                "length": 4.259,
                 "image_id": "17.1"
             },
             {
@@ -1388,7 +1392,7 @@
                 "name": "Oostelijk Circuit",
                 "start_year": 1999,
                 "end_year": null,
-                "length": "1.405",
+                "length": 1.405,
                 "image_id": "17.2"
             },
             {
@@ -1396,7 +1400,7 @@
                 "name": "Club Circuit",
                 "start_year": 1999,
                 "end_year": 2019,
-                "length": "2.526",
+                "length": 2.526,
                 "image_id": "17.3"
             },
             {
@@ -1404,7 +1408,7 @@
                 "name": "Nationaal Circuit",
                 "start_year": 1999,
                 "end_year": 2019,
-                "length": "2.911",
+                "length": 2.911,
                 "image_id": "17.4"
             },
             {
@@ -1412,7 +1416,7 @@
                 "name": "Full Circuit",
                 "start_year": 1999,
                 "end_year": 2019,
-                "length": "4.307",
+                "length": 4.307,
                 "image_id": "17.5"
             },
             {
@@ -1420,7 +1424,7 @@
                 "name": "Full Circuit + Chicane",
                 "start_year": 1999,
                 "end_year": 2019,
-                "length": "4.320",
+                "length": 4.32,
                 "image_id": "17.6"
             },
             {
@@ -1428,7 +1432,7 @@
                 "name": "Full Circuit",
                 "start_year": 1948,
                 "end_year": 1971,
-                "length": "4.195",
+                "length": 4.195,
                 "image_id": "17.7"
             },
             {
@@ -1436,7 +1440,7 @@
                 "name": "Full Circuit",
                 "start_year": 1972,
                 "end_year": 1979,
-                "length": "4.226",
+                "length": 4.226,
                 "image_id": "17.8"
             }
         ]
@@ -1475,7 +1479,7 @@
                 "name": "Full Circuit",
                 "start_year": 2016,
                 "end_year": null,
-                "length": "6.003",
+                "length": 6.003,
                 "image_id": "18.1"
             }
         ]
@@ -1510,7 +1514,7 @@
                 "name": "Full Circuit",
                 "start_year": 2023,
                 "end_year": null,
-                "length": "4.928",
+                "length": 4.928,
                 "image_id": "19.1"
             },
             {
@@ -1518,7 +1522,7 @@
                 "name": "Full Circuit",
                 "start_year": 2009,
                 "end_year": 2012,
-                "length": "5.073",
+                "length": 5.073,
                 "image_id": "19.2"
             },
             {
@@ -1526,7 +1530,7 @@
                 "name": "Full Circuit",
                 "start_year": 2013,
                 "end_year": 2014,
-                "length": "5.065",
+                "length": 5.065,
                 "image_id": "19.3"
             },
             {
@@ -1534,7 +1538,7 @@
                 "name": "Full Circuit",
                 "start_year": 2015,
                 "end_year": 2022,
-                "length": "5.065",
+                "length": 5.065,
                 "image_id": "19.4"
             }
         ]
@@ -1606,7 +1610,7 @@
                 "name": "Full Circuit",
                 "start_year": 2012,
                 "end_year": null,
-                "length": "5.515",
+                "length": 5.515,
                 "image_id": "20.1"
             },
             {
@@ -1614,15 +1618,15 @@
                 "name": "National Circuit",
                 "start_year": 2012,
                 "end_year": null,
-                "length": "3.702",
+                "length": 3.702,
                 "image_id": "20.2"
             },
             {
                 "layout_id": 3,
-                "name": "National Extended Circuit",
+                "name": "NASCAR Circuit",
                 "start_year": 2025,
                 "end_year": null,
-                "length": "3.862",
+                "length": 3.862,
                 "image_id": "20.3"
             }
         ]
@@ -1667,7 +1671,7 @@
                 "name": "Full Circuit",
                 "start_year": 2015,
                 "end_year": null,
-                "length": "4.304",
+                "length": 4.304,
                 "image_id": "21.1"
             },
             {
@@ -1675,7 +1679,7 @@
                 "name": "Full Circuit",
                 "start_year": 1959,
                 "end_year": 1985,
-                "length": "5.000",
+                "length": 5.0,
                 "image_id": "21.2"
             },
             {
@@ -1683,23 +1687,23 @@
                 "name": "Full Circuit",
                 "start_year": 1986,
                 "end_year": 2014,
-                "length": "4.421",
+                "length": 4.421,
                 "image_id": "21.3"
             },
             {
                 "layout_id": 4,
-                "name": "Electric Circuit",
+                "name": "ePrix Circuit",
                 "start_year": 2016,
                 "end_year": 2016,
-                "length": "2.092",
+                "length": 2.092,
                 "image_id": "21.4"
             },
             {
                 "layout_id": 5,
-                "name": "Electric Circuit",
+                "name": "ePrix Circuit",
                 "start_year": 2023,
                 "end_year": 2025,
-                "length": "2.630",
+                "length": 2.63,
                 "image_id": "21.5"
             },
             {
@@ -1707,7 +1711,7 @@
                 "name": "Oval Circuit",
                 "start_year": 1962,
                 "end_year": null,
-                "length": "1.607",
+                "length": 1.607,
                 "image_id": "21.6"
             }
         ]
@@ -1742,7 +1746,7 @@
                 "name": "Full Circuit",
                 "start_year": 2023,
                 "end_year": null,
-                "length": "6.116",
+                "length": 6.116,
                 "image_id": "22.1"
             }
         ]
@@ -1807,7 +1811,7 @@
                 "name": "Full Circuit",
                 "start_year": 2004,
                 "end_year": null,
-                "length": "5.400",
+                "length": 5.4,
                 "image_id": "23.1"
             }
         ]
@@ -1867,7 +1871,7 @@
                 "name": "Full Circuit",
                 "start_year": 2021,
                 "end_year": null,
-                "length": "5.281",
+                "length": 5.281,
                 "image_id": "24.1"
             },
             {
@@ -1875,7 +1879,7 @@
                 "name": "Corkscrew Circuit",
                 "start_year": 2021,
                 "end_year": null,
-                "length": "3.904",
+                "length": 3.904,
                 "image_id": "24.2"
             },
             {
@@ -1883,7 +1887,7 @@
                 "name": "North Circuit",
                 "start_year": 2021,
                 "end_year": null,
-                "length": "3.300",
+                "length": 3.3,
                 "image_id": "24.3"
             },
             {
@@ -1891,7 +1895,7 @@
                 "name": "South Circuit",
                 "start_year": 2021,
                 "end_year": null,
-                "length": "2.360",
+                "length": 2.36,
                 "image_id": "24.4"
             },
             {
@@ -1899,7 +1903,7 @@
                 "name": "Full Circuit",
                 "start_year": 2009,
                 "end_year": 2021,
-                "length": "5.554",
+                "length": 5.554,
                 "image_id": "24.5"
             },
             {
@@ -1907,7 +1911,7 @@
                 "name": "Corkscrew Circuit",
                 "start_year": 2009,
                 "end_year": 2021,
-                "length": "4.730",
+                "length": 4.73,
                 "image_id": "24.6"
             },
             {
@@ -1915,7 +1919,7 @@
                 "name": "North Circuit",
                 "start_year": 2009,
                 "end_year": 2021,
-                "length": "3.130",
+                "length": 3.13,
                 "image_id": "24.7"
             },
             {
@@ -1923,7 +1927,7 @@
                 "name": "South Circuit",
                 "start_year": 2009,
                 "end_year": 2021,
-                "length": "2.360",
+                "length": 2.36,
                 "image_id": "24.8"
             }
         ]
@@ -1996,7 +2000,7 @@
                 "name": "Full Circuit",
                 "start_year": 2008,
                 "end_year": null,
-                "length": "4.909",
+                "length": 4.909,
                 "image_id": "25.1"
             },
             {
@@ -2004,7 +2008,7 @@
                 "name": "Motorcycle Circuit",
                 "start_year": 2009,
                 "end_year": null,
-                "length": "4.936",
+                "length": 4.936,
                 "image_id": "25.2"
             },
             {
@@ -2012,7 +2016,7 @@
                 "name": "Full Circuit",
                 "start_year": 1953,
                 "end_year": 1972,
-                "length": "5.018",
+                "length": 5.018,
                 "image_id": "25.3"
             },
             {
@@ -2020,7 +2024,7 @@
                 "name": "Full Circuit",
                 "start_year": 1980,
                 "end_year": 1994,
-                "length": "5.040",
+                "length": 5.04,
                 "image_id": "25.4"
             },
             {
@@ -2028,7 +2032,7 @@
                 "name": "Full Circuit",
                 "start_year": 1995,
                 "end_year": 2006,
-                "length": "4.933",
+                "length": 4.933,
                 "image_id": "25.5"
             }
         ]
@@ -2092,7 +2096,7 @@
                 "name": "Full Circuit",
                 "start_year": 2005,
                 "end_year": null,
-                "length": "4.549",
+                "length": 4.549,
                 "image_id": "26.1"
             },
             {
@@ -2100,7 +2104,7 @@
                 "name": "Full Circuit Short",
                 "start_year": 2005,
                 "end_year": null,
-                "length": "4.526",
+                "length": 4.526,
                 "image_id": "26.2"
             },
             {
@@ -2108,7 +2112,7 @@
                 "name": "Full Circuit",
                 "start_year": 1965,
                 "end_year": 1974,
-                "length": "5.999",
+                "length": 5.999,
                 "image_id": "26.3"
             },
             {
@@ -2116,7 +2120,7 @@
                 "name": "Full Circuit",
                 "start_year": 1966,
                 "end_year": 1983,
-                "length": "4.360",
+                "length": 4.36,
                 "image_id": "26.4"
             },
             {
@@ -2124,7 +2128,7 @@
                 "name": "Full Circuit",
                 "start_year": 1987,
                 "end_year": 2004,
-                "length": "4.469",
+                "length": 4.469,
                 "image_id": "26.5"
             },
             {
@@ -2132,7 +2136,7 @@
                 "name": "Motorcycle Circuit",
                 "start_year": 1987,
                 "end_year": 2004,
-                "length": "4.501",
+                "length": 4.501,
                 "image_id": "26.6"
             }
         ]
@@ -2192,7 +2196,7 @@
                 "name": "Tri-Oval Circuit",
                 "start_year": 1959,
                 "end_year": null,
-                "length": "4.023",
+                "length": 4.023,
                 "image_id": "27.1"
             },
             {
@@ -2200,15 +2204,15 @@
                 "name": "Road Circuit",
                 "start_year": 1985,
                 "end_year": null,
-                "length": "5.729",
+                "length": 5.729,
                 "image_id": "27.2"
             },
             {
                 "layout_id": 3,
-                "name": "Road Circuit + Chicane",
+                "name": "NASCAR Circuit",
                 "start_year": 2020,
                 "end_year": null,
-                "length": "5.745",
+                "length": 5.745,
                 "image_id": "27.3"
             },
             {
@@ -2216,7 +2220,7 @@
                 "name": "Motorcycle Circuit",
                 "start_year": 2009,
                 "end_year": null,
-                "length": "5.649",
+                "length": 5.649,
                 "image_id": "27.4"
             },
             {
@@ -2224,7 +2228,7 @@
                 "name": "Motorcycle Circuit",
                 "start_year": 2005,
                 "end_year": 2007,
-                "length": "4.747",
+                "length": 4.747,
                 "image_id": "27.5"
             },
             {
@@ -2232,7 +2236,7 @@
                 "name": "Road Circuit",
                 "start_year": 1962,
                 "end_year": 1983,
-                "length": "6.180",
+                "length": 6.18,
                 "image_id": "27.6"
             }
         ]
@@ -2281,7 +2285,7 @@
                 "name": "Full Circuit",
                 "start_year": 1997,
                 "end_year": null,
-                "length": "5.954",
+                "length": 5.954,
                 "image_id": "28.1"
             },
             {
@@ -2289,7 +2293,7 @@
                 "name": "Full Circuit",
                 "start_year": 1952,
                 "end_year": 1966,
-                "length": "8.368",
+                "length": 8.368,
                 "image_id": "28.2"
             },
             {
@@ -2297,7 +2301,7 @@
                 "name": "Full Circuit",
                 "start_year": 1967,
                 "end_year": 1982,
-                "length": "8.368",
+                "length": 8.368,
                 "image_id": "28.3"
             },
             {
@@ -2305,7 +2309,7 @@
                 "name": "School Circuit",
                 "start_year": 1998,
                 "end_year": null,
-                "length": "3.219",
+                "length": 3.219,
                 "image_id": "28.4"
             },
             {
@@ -2313,7 +2317,7 @@
                 "name": "Club Circuit",
                 "start_year": 1998,
                 "end_year": null,
-                "length": "2.736",
+                "length": 2.736,
                 "image_id": "28.5"
             }
         ]
@@ -2372,7 +2376,7 @@
                 "name": "Full Circuit",
                 "start_year": 2000,
                 "end_year": null,
-                "length": "3.167",
+                "length": 3.167,
                 "image_id": "29.1"
             },
             {
@@ -2380,7 +2384,7 @@
                 "name": "Full Circuit",
                 "start_year": 1975,
                 "end_year": 1981,
-                "length": "3.251",
+                "length": 3.251,
                 "image_id": "29.2"
             },
             {
@@ -2388,7 +2392,7 @@
                 "name": "Full Circuit",
                 "start_year": 1983,
                 "end_year": 1983,
-                "length": "3.275",
+                "length": 3.275,
                 "image_id": "29.3"
             },
             {
@@ -2396,7 +2400,7 @@
                 "name": "Full Circuit",
                 "start_year": 1992,
                 "end_year": 1998,
-                "length": "2.533",
+                "length": 2.533,
                 "image_id": "29.4"
             }
         ]
@@ -2460,7 +2464,7 @@
                 "name": "Full Circuit",
                 "start_year": 1996,
                 "end_year": null,
-                "length": "3.602",
+                "length": 3.602,
                 "image_id": "30.1"
             },
             {
@@ -2468,7 +2472,7 @@
                 "name": "Full Circuit",
                 "start_year": 1957,
                 "end_year": 1987,
-                "length": "3.058",
+                "length": 3.058,
                 "image_id": "30.2"
             }
         ]
@@ -2527,7 +2531,7 @@
                 "name": "Full Circuit",
                 "start_year": 2023,
                 "end_year": null,
-                "length": "2.736",
+                "length": 2.736,
                 "image_id": "31.1"
             },
             {
@@ -2535,7 +2539,7 @@
                 "name": "Full Circuit",
                 "start_year": 1982,
                 "end_year": 1982,
-                "length": "4.168",
+                "length": 4.168,
                 "image_id": "31.2"
             },
             {
@@ -2543,7 +2547,7 @@
                 "name": "Full Circuit",
                 "start_year": 1983,
                 "end_year": 1988,
-                "length": "4.023",
+                "length": 4.023,
                 "image_id": "31.3"
             },
             {
@@ -2551,7 +2555,7 @@
                 "name": "Full Circuit",
                 "start_year": 1989,
                 "end_year": 1991,
-                "length": "4.055",
+                "length": 4.055,
                 "image_id": "31.4"
             }
         ]
@@ -2603,18 +2607,18 @@
         "layouts": [
             {
                 "layout_id": 1,
-                "name": "Full Circuit + Chicane",
+                "name": "Full Circuit + Inner Loop",
                 "start_year": 1992,
                 "end_year": null,
-                "length": "5.552",
+                "length": 5.552,
                 "image_id": "32.1"
             },
             {
                 "layout_id": 2,
-                "name": "Short Circuit + Chicane",
+                "name": "Short Circuit + Inner Loop",
                 "start_year": 1992,
                 "end_year": null,
-                "length": "3.943",
+                "length": 3.943,
                 "image_id": "32.2"
             },
             {
@@ -2622,7 +2626,7 @@
                 "name": "Full Circuit",
                 "start_year": 1971,
                 "end_year": null,
-                "length": "5.435",
+                "length": 5.435,
                 "image_id": "32.3"
             },
             {
@@ -2630,7 +2634,7 @@
                 "name": "Short Circuit",
                 "start_year": 1971,
                 "end_year": null,
-                "length": "3.907",
+                "length": 3.907,
                 "image_id": "32.4"
             },
             {
@@ -2638,7 +2642,7 @@
                 "name": "Full Circuit",
                 "start_year": 1956,
                 "end_year": 1970,
-                "length": "3.782",
+                "length": 3.782,
                 "image_id": "32.5"
             },
             {
@@ -2646,7 +2650,7 @@
                 "name": "Full Circuit + Chicane",
                 "start_year": 1956,
                 "end_year": 1970,
-                "length": "3.701",
+                "length": 3.701,
                 "image_id": "32.6"
             }
         ]
@@ -2701,7 +2705,7 @@
                 "name": "Full Circuit",
                 "start_year": 1961,
                 "end_year": null,
-                "length": "4.102",
+                "length": 4.102,
                 "image_id": "33.1"
             }
         ]
@@ -2760,7 +2764,7 @@
                 "name": "Full Circuit",
                 "start_year": 1955,
                 "end_year": null,
-                "length": "6.514",
+                "length": 6.514,
                 "image_id": "34.1"
             },
             {
@@ -2768,7 +2772,7 @@
                 "name": "Motorcycle Circuit",
                 "start_year": 1955,
                 "end_year": null,
-                "length": "6.437",
+                "length": 6.437,
                 "image_id": "34.2"
             }
         ]
@@ -2808,7 +2812,7 @@
                 "name": "Full Circuit",
                 "start_year": 1957,
                 "end_year": null,
-                "length": "5.262",
+                "length": 5.262,
                 "image_id": "35.1"
             },
             {
@@ -2816,7 +2820,7 @@
                 "name": "Grand East Circuit",
                 "start_year": 2003,
                 "end_year": null,
-                "length": "6.759",
+                "length": 6.759,
                 "image_id": "35.2"
             },
             {
@@ -2824,7 +2828,7 @@
                 "name": "Grand West Circuit",
                 "start_year": 2003,
                 "end_year": null,
-                "length": "6.598",
+                "length": 6.598,
                 "image_id": "35.3"
             },
             {
@@ -2832,7 +2836,7 @@
                 "name": "North Circuit",
                 "start_year": 2000,
                 "end_year": null,
-                "length": "3.621",
+                "length": 3.621,
                 "image_id": "35.4"
             },
             {
@@ -2840,7 +2844,7 @@
                 "name": "South Circuit",
                 "start_year": 2000,
                 "end_year": null,
-                "length": "2.655",
+                "length": 2.655,
                 "image_id": "35.5"
             },
             {
@@ -2848,7 +2852,7 @@
                 "name": "Patriot Circuit",
                 "start_year": 2003,
                 "end_year": null,
-                "length": "1.770",
+                "length": 1.77,
                 "image_id": "35.6"
             }
         ]
@@ -2918,7 +2922,7 @@
                 "name": "Road Circuit",
                 "start_year": 2014,
                 "end_year": null,
-                "length": "3.925",
+                "length": 3.925,
                 "image_id": "36.1"
             },
             {
@@ -2926,7 +2930,7 @@
                 "name": "Motorcycle Circuit",
                 "start_year": 2014,
                 "end_year": null,
-                "length": "4.170",
+                "length": 4.17,
                 "image_id": "36.2"
             },
             {
@@ -2934,7 +2938,7 @@
                 "name": "Oval Circuit",
                 "start_year": 1909,
                 "end_year": null,
-                "length": "4.023",
+                "length": 4.023,
                 "image_id": "36.3"
             },
             {
@@ -2942,7 +2946,7 @@
                 "name": "Road Circuit",
                 "start_year": 2000,
                 "end_year": 2007,
-                "length": "4.192",
+                "length": 4.192,
                 "image_id": "36.4"
             },
             {
@@ -2950,7 +2954,7 @@
                 "name": "Road Circuit",
                 "start_year": 2008,
                 "end_year": 2013,
-                "length": "4.078",
+                "length": 4.078,
                 "image_id": "36.5"
             }
         ]
@@ -3004,7 +3008,7 @@
                 "name": "Full Circuit",
                 "start_year": 1998,
                 "end_year": null,
-                "length": "4.088",
+                "length": 4.088,
                 "image_id": "37.1"
             },
             {
@@ -3012,7 +3016,7 @@
                 "name": "Short Circuit",
                 "start_year": 1998,
                 "end_year": null,
-                "length": "2.818",
+                "length": 2.818,
                 "image_id": "37.2"
             }
         ]
@@ -3061,7 +3065,7 @@
                 "name": "Full Circuit",
                 "start_year": 2016,
                 "end_year": null,
-                "length": "4.400",
+                "length": 4.4,
                 "image_id": "38.1"
             }
         ]
@@ -3104,7 +3108,7 @@
                 "name": "Full Circuit",
                 "start_year": 1970,
                 "end_year": null,
-                "length": "3.016",
+                "length": 3.016,
                 "image_id": "39.1"
             }
         ]
@@ -3146,7 +3150,7 @@
                 "name": "Full Circuit",
                 "start_year": 2012,
                 "end_year": null,
-                "length": "3.302",
+                "length": 3.302,
                 "image_id": "40.1"
             }
         ]
@@ -3179,7 +3183,7 @@
                 "name": "Full Circuit",
                 "start_year": 2010,
                 "end_year": null,
-                "length": null,
+                "length": 2.278,
                 "image_id": "41.1"
             }
         ]
@@ -3194,7 +3198,12 @@
             {
                 "id": 1,
                 "name": "Open Wheel",
-                "subcategories": []
+                "subcategories": [
+                    {
+                        "id": 26,
+                        "name": "F4 Brazilian Championship"
+                    }
+                ]
             },
             {
                 "id": 3,
@@ -3228,7 +3237,7 @@
                 "name": "Full Circuit",
                 "start_year": 2011,
                 "end_year": null,
-                "length": "3.493",
+                "length": 3.493,
                 "image_id": "42.1"
             },
             {
@@ -3236,7 +3245,7 @@
                 "name": "Alternative Full Circuit 1",
                 "start_year": 2015,
                 "end_year": null,
-                "length": "3.263",
+                "length": 3.263,
                 "image_id": "42.2"
             },
             {
@@ -3244,7 +3253,7 @@
                 "name": "Alternative Full Circuit 2",
                 "start_year": 2015,
                 "end_year": null,
-                "length": "3.186",
+                "length": 3.186,
                 "image_id": "42.3"
             }
         ]
@@ -3283,7 +3292,7 @@
                 "name": "Full Circuit",
                 "start_year": 2001,
                 "end_year": null,
-                "length": "3.443",
+                "length": 3.443,
                 "image_id": "43.1"
             }
         ]
@@ -3296,7 +3305,12 @@
             {
                 "id": 1,
                 "name": "Open Wheel",
-                "subcategories": []
+                "subcategories": [
+                    {
+                        "id": 26,
+                        "name": "F4 Brazilian Championship"
+                    }
+                ]
             },
             {
                 "id": 4,
@@ -3335,7 +3349,7 @@
                 "name": "Full Circuit",
                 "start_year": 2015,
                 "end_year": null,
-                "length": "5.461",
+                "length": 5.461,
                 "image_id": "44.1"
             },
             {
@@ -3343,7 +3357,7 @@
                 "name": "Oval Circuit",
                 "start_year": 2015,
                 "end_year": null,
-                "length": "2.904",
+                "length": 2.904,
                 "image_id": "44.2"
             }
         ]
@@ -3383,7 +3397,7 @@
                 "name": "Full Circuit",
                 "start_year": 2020,
                 "end_year": null,
-                "length": "2.812",
+                "length": 2.812,
                 "image_id": "45.1"
             },
             {
@@ -3391,7 +3405,7 @@
                 "name": "Full Circuit",
                 "start_year": 2020,
                 "end_year": null,
-                "length": "2.860",
+                "length": 2.86,
                 "image_id": "45.2"
             }
         ]
@@ -3434,15 +3448,15 @@
                 "name": "Full Circuit",
                 "start_year": 1992,
                 "end_year": null,
-                "length": "3.145",
+                "length": 3.145,
                 "image_id": "46.1"
             },
             {
                 "layout_id": 2,
-                "name": "Full Circuit Short",
+                "name": "Stock Car Circuit",
                 "start_year": 2004,
                 "end_year": null,
-                "length": "3.020",
+                "length": 3.02,
                 "image_id": "46.2"
             }
         ]
@@ -3485,7 +3499,7 @@
                 "name": "Full Circuit",
                 "start_year": 1992,
                 "end_year": null,
-                "length": "3.061",
+                "length": 3.061,
                 "image_id": "47.1"
             }
         ]
@@ -3514,6 +3528,16 @@
                         "name": "Stock Car Pro Series"
                     }
                 ]
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 26,
+                        "name": "F4 Brazilian Championship"
+                    }
+                ]
             }
         ],
         "country": "BR",
@@ -3528,7 +3552,7 @@
                 "name": "Mixed Circuit",
                 "start_year": 1974,
                 "end_year": null,
-                "length": "3.835",
+                "length": 3.835,
                 "image_id": "48.1"
             },
             {
@@ -3536,7 +3560,7 @@
                 "name": "Exterior Circuit",
                 "start_year": 1974,
                 "end_year": null,
-                "length": "2.590",
+                "length": 2.59,
                 "image_id": "48.2"
             },
             {
@@ -3544,8 +3568,556 @@
                 "name": "Short Circuit",
                 "start_year": 1974,
                 "end_year": null,
-                "length": "1.910",
+                "length": 1.91,
                 "image_id": "48.3"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Autódromo Internacional Virgílio Távora",
+        "similarNames": [
+            "Fortaleza",
+            "Eusébio"
+        ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-3.895000000000000",
+        "longitude": "-38.463889000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 3.0,
+                "image_id": "49.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Truck Circuit",
+                "start_year": 2006,
+                "end_year": null,
+                "length": 1.78,
+                "image_id": "49.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Short Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 1.368,
+                "image_id": "49.3"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Autódromo Internacional de Santa Cruz do Sul",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    {
+                        "id": 23,
+                        "name": "Stock Car Pro Series"
+                    },
+                    {
+                        "id": 24,
+                        "name": "NASCAR Brasil Series"
+                    }
+                ]
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-29.800000000000000",
+        "longitude": "-52.436667000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2005,
+                "end_year": null,
+                "length": 3.531,
+                "image_id": "50.1"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Autódromo Internacional Nelson Piquet",
+        "similarNames": [
+            "Brazilian Grand Prix",
+            "Rio 200"
+        ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    {
+                        "id": 23,
+                        "name": "Stock Car Pro Series"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-22.975556000000000",
+        "longitude": "-43.395000000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1996,
+                "end_year": 2012,
+                "length": 3.336,
+                "image_id": "51.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Stock Car Circuit",
+                "start_year": 1996,
+                "end_year": 2012,
+                "length": 3.268,
+                "image_id": "51.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Oval Circuit",
+                "start_year": 1996,
+                "end_year": 2005,
+                "length": 3.0,
+                "image_id": "51.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Full Circuit",
+                "start_year": 1977,
+                "end_year": 1994,
+                "length": 5.031,
+                "image_id": "51.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Alternative Circuit",
+                "start_year": 1996,
+                "end_year": 2005,
+                "length": 4.871,
+                "image_id": "51.5"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Autódromo Internacional de Curitiba",
+        "similarNames": [
+            "Pinhais"
+        ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    {
+                        "id": 23,
+                        "name": "Stock Car Pro Series"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-25.444722000000000",
+        "longitude": "-49.196944000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1988,
+                "end_year": 2022,
+                "length": 3.707,
+                "image_id": "52.1"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Autódromo Internacional de Guaporé",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    {
+                        "id": 23,
+                        "name": "Stock Car Pro Series"
+                    }
+                ]
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-28.844722000000000",
+        "longitude": "-51.853889000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Vitacir Paludo Circuit",
+                "start_year": 1976,
+                "end_year": null,
+                "length": 3.08,
+                "image_id": "53.1"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Autódromo Oscar y Juan Gálvez",
+        "similarNames": [
+            "Argentine Grand Prix",
+            "Buenos Aires Grand Prix"
+        ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 26,
+                        "name": "F4 Brazilian Championship"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    {
+                        "id": 23,
+                        "name": "Stock Car Pro Series"
+                    }
+                ]
+            }
+        ],
+        "country": "AR",
+        "region": "South America",
+        "latitude": "-34.694272000000000",
+        "longitude": "-58.459347000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Circuit No. 6-S",
+                "start_year": 1995,
+                "end_year": null,
+                "length": 4.259,
+                "image_id": "54.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Circuit No. 7",
+                "start_year": 1972,
+                "end_year": null,
+                "length": 2.607,
+                "image_id": "54.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Circuit No. 8",
+                "start_year": 1972,
+                "end_year": null,
+                "length": 3.38,
+                "image_id": "54.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Circuit No. 9",
+                "start_year": 1972,
+                "end_year": null,
+                "length": 3.353,
+                "image_id": "54.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Circuit No. 12",
+                "start_year": 1972,
+                "end_year": null,
+                "length": 5.651,
+                "image_id": "54.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "Circuit No. 15",
+                "start_year": 1972,
+                "end_year": null,
+                "length": 5.967,
+                "image_id": "54.6"
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Autódromo Víctor Borrat Fabini",
+        "similarNames": [
+            "El Pinar"
+        ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    {
+                        "id": 23,
+                        "name": "Stock Car Pro Series"
+                    }
+                ]
+            }
+        ],
+        "country": "UY",
+        "region": "South America",
+        "latitude": "-34.780556000000000",
+        "longitude": "-55.922222000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Circuit No. 12",
+                "start_year": 2023,
+                "end_year": null,
+                "length": 3.047,
+                "image_id": "55.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Circuit No. 1",
+                "start_year": 1956,
+                "end_year": null,
+                "length": 1.902,
+                "image_id": "55.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Circuit No. 3 Extended + Beco",
+                "start_year": 2017,
+                "end_year": null,
+                "length": 3.171,
+                "image_id": "55.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Circuit No. 2 Extended",
+                "start_year": 2017,
+                "end_year": null,
+                "length": 2.982,
+                "image_id": "55.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Circuit No. 4",
+                "start_year": 1975,
+                "end_year": null,
+                "length": 1.85,
+                "image_id": "55.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "Circuit No. 5 Extended + Beco",
+                "start_year": 2017,
+                "end_year": null,
+                "length": 2.446,
+                "image_id": "55.6"
+            },
+            {
+                "layout_id": 7,
+                "name": "Circuit No. 7 Extended + Beco",
+                "start_year": 2017,
+                "end_year": null,
+                "length": 2.766,
+                "image_id": "55.7"
+            },
+            {
+                "layout_id": 8,
+                "name": "Circuit No. 13",
+                "start_year": 2023,
+                "end_year": null,
+                "length": 3.895,
+                "image_id": "55.8"
+            },
+            {
+                "layout_id": 9,
+                "name": "Circuit No. 14",
+                "start_year": 2023,
+                "end_year": null,
+                "length": 3.429,
+                "image_id": "55.9"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Circuito Toninho da Matta",
+        "similarNames": [
+            "Belo Horizonte Street Circuit"
+        ],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    {
+                        "id": 23,
+                        "name": "Stock Car Pro Series"
+                    }
+                ]
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-19.866389000000000",
+        "longitude": "-43.972778000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2024,
+                "end_year": 2024,
+                "length": 3.059,
+                "image_id": "56.1"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Ribeirão Preto Street Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    {
+                        "id": 23,
+                        "name": "Stock Car Pro Series"
+                    }
+                ]
+            }
+        ],
+        "country": "BR",
+        "region": "South America",
+        "latitude": "-21.094000000000000",
+        "longitude": "-47.798000000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2010,
+                "end_year": 2010,
+                "length": 2.255,
+                "image_id": "57.1"
             }
         ]
     }

@@ -2,7 +2,7 @@
 
 A free, open-source JSON API providing structured data and high-quality SVG maps for racing circuits around the world. This project includes both real-world and fictional tracks.
 
-> 🚧 **Work in Progress:** This API is actively under development! We are continuously working on implementing new maps and expanding our database. Our current roadmap prioritizes real-world tracks in the following order: **1. Brazilian Touring Cars**, **2. North American Open-Wheel**, **3. German Touring Cars**, **4. Japanese Open-Wheel**, **5. Australian Touring Cars**, **6. British Touring Cars**, and **7. Argentine Touring Cars**. More real-world and fictional circuits will be added over time.
+> 🚧 **Work in Progress:** This API is actively under development! We are continuously working on implementing new maps and expanding our database. Our current roadmap prioritizes real-world tracks in the following order: **1. IndyCar Series**, **2. DTM**, **3. Super Formula**, **4. Australian Supercars**, **5. BTCC**, and **6. Turismo Carretera**. More real-world and fictional circuits will be added over time.
 
 ## 📌 Features
 
@@ -10,7 +10,7 @@ A free, open-source JSON API providing structured data and high-quality SVG maps
 - **Fictional Tracks Included:** Metadata for fictional tracks from popular racing games, clearly separated from real-world data.
 - **Custom SVG Maps:** Hand-drawn, high-quality SVG layouts for each track variation.
 - **Predictable Structure:** A standardized data model ensuring all keys are present across all entries, making it highly friendly for typed languages.
-- **Lightweight:** Completely static, serverless JSON hosted directly on GitHub.
+- **Lightweight:** Completely static, serverless JSON hosted directly on GitHub Pages.
 
 ---
 
@@ -18,17 +18,19 @@ A free, open-source JSON API providing structured data and high-quality SVG maps
 
 ### Fetching the JSON Data
 
-You can fetch the main `tracks.json` file directly from this repository using the raw GitHub URL (make sure to use the correct branch/path to your JSON file).
+You can fetch the main `tracks.json` file directly from our GitHub Pages environment. This is the recommended URL for production use:
+
+> `https://ligasavbrasil.github.io/RaceTracksAPI/tracks.json`
 
 ### 🖼️ Fetching Track Images (SVG)
 
 The API provides an `image_id` inside each layout object. To get the corresponding SVG map, replace `${image_id}` in the following URL structure:
 
-> `https://raw.githubusercontent.com/LigasAVBrasil/RaceTracksAPI/refs/heads/main/images/track_${image_id}.svg`
+> `https://ligasavbrasil.github.io/RaceTracksAPI/images/track_${image_id}.svg`
 
 **Example:**
 If the layout for _Autódromo José Carlos Pace (Interlagos)_ has `"image_id": "1.1"`, the image URL will be:
-`https://raw.githubusercontent.com/LigasAVBrasil/RaceTracksAPI/refs/heads/main/images/track_1.1.svg`
+`https://ligasavbrasil.github.io/RaceTracksAPI/images/track_1.1.svg`
 
 ### 🕰️ Handling Historical Layouts
 
@@ -54,17 +56,32 @@ We use a strict data contract. This means fields like `isFictional`, `fictionalS
 		],
 		"categories": [
 			{
+				"id": 3,
+				"name": "Prototype",
+				"subcategories": [{ "id": 16, "name": "Hypercar" }]
+			},
+			{
 				"id": 4,
 				"name": "Touring Car",
 				"subcategories": [
-					{ "id": 17, "name": "TCR" },
-					{ "id": 18, "name": "Stock Car Pro Series" }
+					{ "id": 23, "name": "Stock Car Pro Series" },
+					{ "id": 24, "name": "NASCAR Brasil Series" }
 				]
 			},
+			{ "id": 6, "name": "Motorcycle Racing", "subcategories": [] },
+			{ "id": 7, "name": "Truck Racing", "subcategories": [] },
 			{
 				"id": 1,
 				"name": "Open Wheel",
-				"subcategories": [{ "id": 6, "name": "Formula 1" }]
+				"subcategories": [
+					{ "id": 8, "name": "Formula 1 2020s" },
+					{ "id": 26, "name": "F4 Brazilian Championship" }
+				]
+			},
+			{
+				"id": 2,
+				"name": "GT",
+				"subcategories": [{ "id": 17, "name": "LMGT3" }]
 			}
 		],
 		"country": "BR",
@@ -79,8 +96,16 @@ We use a strict data contract. This means fields like `isFictional`, `fictionalS
 				"name": "Full Circuit",
 				"start_year": 1990,
 				"end_year": null,
-				"length": "4.309",
+				"length": 4.309,
 				"image_id": "1.1"
+			},
+			{
+				"layout_id": 2,
+				"name": "Full Circuit",
+				"start_year": 1940,
+				"end_year": 1989,
+				"length": 7.874,
+				"image_id": "1.2"
 			}
 		]
 	},
@@ -101,7 +126,7 @@ We use a strict data contract. This means fields like `isFictional`, `fictionalS
 				"name": "Seaside",
 				"start_year": 2017,
 				"end_year": null,
-				"length": "5.209",
+				"length": 5.209,
 				"image_id": "99.1"
 			}
 		]
@@ -139,7 +164,7 @@ export interface TrackLayout {
 export interface Track {
 	id: number;
 	name: string;
-	similarNames?: string[];
+	similarNames: string[] | null; // Null if no alternative names exist
 	categories: TrackCategory[];
 	country: string;
 	region: string | null;

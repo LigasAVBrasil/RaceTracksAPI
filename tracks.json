@@ -2,42 +2,23 @@
     {
         "id": 1,
         "name": "Autódromo José Carlos Pace",
-        "similarNames": [
-            "Autódromo de Interlagos",
-            "São Paulo Grand Prix",
-            "Interlagos Circuit"
-        ],
+        "similarNames": ["Autódromo de Interlagos", "São Paulo Grand Prix", "Interlagos Circuit"],
         "categories": [
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 16,
-                        "name": "Hypercar"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    },
-                    {
-                        "id": 27,
-                        "name": "LMP1"
-                    }
+                    { "id": 16, "name": "Hypercar", "years": [2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2012, 2013, 2014] },
+                    { "id": 27, "name": "LMP1", "years": [2012, 2013, 2014] }
                 ]
             },
             {
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    },
-                    {
-                        "id": 24,
-                        "name": "NASCAR Brasil Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             },
             {
@@ -54,28 +35,23 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 26,
-                        "name": "F4 Brazilian Championship"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 26, "name": "F4 Brazilian Championship", "years": [2022, 2023, 2024, 2025, 2026] }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 17,
-                        "name": "LMGT3"
-                    },
-                    {
-                        "id": 28,
-                        "name": "LMGTE"
-                    }
+                    { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
+                    { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2012, 2013, 2014, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -107,28 +83,30 @@
     {
         "id": 2,
         "name": "Circuit de la Sarthe",
-        "similarNames": [
-            "24 Hours of Le Mans"
-        ],
+        "similarNames": ["24 Hours of Le Mans"],
         "categories": [
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 27,
-                        "name": "LMP1"
-                    }
+                    { "id": 16, "name": "Hypercar", "years": [2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
+                    { "id": 27, "name": "LMP1", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 28,
-                        "name": "LMGTE"
-                    }
+                    { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
+                    { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -192,22 +170,14 @@
     {
         "id": 3,
         "name": "Autodromo Nazionale Monza",
-        "similarNames": [
-            "Italian Grand Prix"
-        ],
+        "similarNames": ["Italian Grand Prix"],
         "categories": [
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 16,
-                        "name": "Hypercar"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    }
+                    { "id": 16, "name": "Hypercar", "years": [2021, 2022, 2023] },
+                    { "id": 19, "name": "LMP2", "years": [2021, 2022, 2023] }
                 ]
             },
             {
@@ -219,32 +189,24 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    },
-                    {
-                        "id": 10,
-                        "name": "Formula 3 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    { "id": 10, "name": "Formula 3", "years": null }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 13,
-                        "name": "GT3"
-                    },
-                    {
-                        "id": 17,
-                        "name": "LMGT3"
-                    }
+                    { "id": 13, "name": "GT3", "years": null },
+                    { "id": 28, "name": "LMGTE", "years": [2021, 2022, 2023] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2021, 2022, 2023] }
                 ]
             }
         ],
@@ -380,59 +342,39 @@
     {
         "id": 4,
         "name": "Circuit de Spa-Francorchamps",
-        "similarNames": [
-            "Belgian Grand Prix",
-            "6 Hours of Spa-Francorchamps"
-        ],
+        "similarNames": ["Belgian Grand Prix", "6 Hours of Spa-Francorchamps"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    },
-                    {
-                        "id": 10,
-                        "name": "Formula 3 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    { "id": 10, "name": "Formula 3", "years": null }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 16,
-                        "name": "Hypercar"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    },
-                    {
-                        "id": 27,
-                        "name": "LMP1"
-                    }
+                    { "id": 16, "name": "Hypercar", "years": [2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
+                    { "id": 27, "name": "LMP1", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 17,
-                        "name": "LMGT3"
-                    },
-                    {
-                        "id": 28,
-                        "name": "LMGTE"
-                    }
+                    { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
+                    { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -496,9 +438,7 @@
     {
         "id": 5,
         "name": "Circuit de Barcelona-Catalunya",
-        "similarNames": [
-            "Spanish Grand Prix"
-        ],
+        "similarNames": ["Spanish Grand Prix"],
         "categories": [
             {
                 "id": 2,
@@ -509,10 +449,7 @@
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    }
+                    { "id": 19, "name": "LMP2", "years": null }
                 ]
             },
             {
@@ -524,18 +461,9 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    },
-                    {
-                        "id": 10,
-                        "name": "Formula 3 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    { "id": 10, "name": "Formula 3", "years": null }
                 ]
             }
         ],
@@ -591,36 +519,22 @@
     {
         "id": 6,
         "name": "Albert Park Circuit",
-        "similarNames": [
-            "Australian Grand Prix"
-        ],
+        "similarNames": ["Australian Grand Prix"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    },
-                    {
-                        "id": 10,
-                        "name": "Formula 3 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    { "id": 10, "name": "Formula 3", "years": null }
                 ]
             },
             {
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 11,
-                        "name": "V8 Supercars"
-                    }
+                    { "id": 11, "name": "V8 Supercars", "years": null }
                 ]
             }
         ],
@@ -652,23 +566,14 @@
     {
         "id": 7,
         "name": "Shanghai International Circuit",
-        "similarNames": [
-            "Chinese Grand Prix",
-            "Shanghai E-Prix"
-        ],
+        "similarNames": ["Chinese Grand Prix", "Shanghai E-Prix"],
         "categories": [
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 13,
-                        "name": "GT3"
-                    },
-                    {
-                        "id": 28,
-                        "name": "LMGTE"
-                    }
+                    { "id": 13, "name": "GT3", "years": null },
+                    { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
                 ]
             },
             {
@@ -680,28 +585,23 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 12,
-                        "name": "Formula E"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 12, "name": "Formula E", "years": null }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    },
-                    {
-                        "id": 27,
-                        "name": "LMP1"
-                    }
+                    { "id": 19, "name": "LMP2", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
+                    { "id": 27, "name": "LMP1", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
                 ]
             }
         ],
@@ -749,18 +649,13 @@
     {
         "id": 8,
         "name": "Suzuka International Racing Course",
-        "similarNames": [
-            "Japanese Grand Prix"
-        ],
+        "similarNames": ["Japanese Grand Prix"],
         "categories": [
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 15,
-                        "name": "Super GT"
-                    }
+                    { "id": 15, "name": "Super GT", "years": [1993, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             },
             {
@@ -772,14 +667,8 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 14,
-                        "name": "Super Formula"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 14, "name": "Super Formula", "years": [1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -835,60 +724,39 @@
     {
         "id": 9,
         "name": "Bahrain International Circuit",
-        "similarNames": [
-            "Bahrain Grand Prix",
-            "8 Hours of Bahrain",
-            "Sakhir Grand Prix"
-        ],
+        "similarNames": ["Bahrain Grand Prix", "8 Hours of Bahrain", "Sakhir Grand Prix"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    },
-                    {
-                        "id": 10,
-                        "name": "Formula 3 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    { "id": 10, "name": "Formula 3", "years": null }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 16,
-                        "name": "Hypercar"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    },
-                    {
-                        "id": 27,
-                        "name": "LMP1"
-                    }
+                    { "id": 16, "name": "Hypercar", "years": [2021, 2022, 2023, 2024, 2025] },
+                    { "id": 19, "name": "LMP2", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022, 2023] },
+                    { "id": 27, "name": "LMP1", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2019, 2020] }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 17,
-                        "name": "LMGT3"
-                    },
-                    {
-                        "id": 28,
-                        "name": "LMGTE"
-                    }
+                    { "id": 17, "name": "LMGT3", "years": [2024, 2025] },
+                    { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022, 2023] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, 2025] }
                 ]
             }
         ],
@@ -944,10 +812,7 @@
     {
         "id": 10,
         "name": "Jeddah Corniche Circuit",
-        "similarNames": [
-            "Saudi Arabian Grand Prix",
-            "Jeddah ePrix"
-        ],
+        "similarNames": ["Saudi Arabian Grand Prix", "Jeddah ePrix"],
         "categories": [
             {
                 "id": 2,
@@ -958,18 +823,9 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    },
-                    {
-                        "id": 12,
-                        "name": "Formula E"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    { "id": 12, "name": "Formula E", "years": null }
                 ]
             }
         ],
@@ -1001,10 +857,7 @@
     {
         "id": 11,
         "name": "Miami International Autodrome",
-        "similarNames": [
-            "Miami Grand Prix",
-            "Miami ePrix"
-        ],
+        "similarNames": ["Miami Grand Prix", "Miami ePrix"],
         "categories": [
             {
                 "id": 4,
@@ -1015,10 +868,7 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null }
                 ]
             }
         ],
@@ -1042,9 +892,7 @@
     {
         "id": 12,
         "name": "Circuit Gilles Villeneuve",
-        "similarNames": [
-            "Canadian Grand Prix"
-        ],
+        "similarNames": ["Canadian Grand Prix"],
         "categories": [
             {
                 "id": 2,
@@ -1060,10 +908,7 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null }
                 ]
             }
         ],
@@ -1103,12 +948,7 @@
     {
         "id": 13,
         "name": "Circuit de Monaco",
-        "similarNames": [
-            "Monaco Grand Prix",
-            "Monaco ePrix",
-            "Monte Carlo",
-            "Azure Circuit"
-        ],
+        "similarNames": ["Monaco Grand Prix", "Monaco ePrix", "Monte Carlo", "Azure Circuit"],
         "categories": [
             {
                 "id": 4,
@@ -1119,18 +959,9 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    },
-                    {
-                        "id": 10,
-                        "name": "Formula 3 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    { "id": 10, "name": "Formula 3", "years": null }
                 ]
             }
         ],
@@ -1154,39 +985,22 @@
     {
         "id": 14,
         "name": "Red Bull Ring",
-        "similarNames": [
-            "Osterreichring",
-            "A1-Ring",
-            "Austrian Grand Prix",
-            "Styrian Grand Prix"
-        ],
+        "similarNames": ["Osterreichring", "A1-Ring", "Austrian Grand Prix", "Styrian Grand Prix"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    },
-                    {
-                        "id": 10,
-                        "name": "Formula 3 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    { "id": 10, "name": "Formula 3", "years": null }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 21,
-                        "name": "DTM"
-                    }
+                    { "id": 21, "name": "DTM", "years": null }
                 ]
             }
         ],
@@ -1242,32 +1056,21 @@
     {
         "id": 15,
         "name": "Silverstone Circuit",
-        "similarNames": [
-            "British Grand Prix"
-        ],
+        "similarNames": ["British Grand Prix"],
         "categories": [
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 28,
-                        "name": "LMGTE"
-                    }
+                    { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    },
-                    {
-                        "id": 27,
-                        "name": "LMP1"
-                    }
+                    { "id": 19, "name": "LMP2", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
+                    { "id": 27, "name": "LMP1", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
                 ]
             },
             {
@@ -1279,18 +1082,16 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    },
-                    {
-                        "id": 10,
-                        "name": "Formula 3 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    { "id": 10, "name": "Formula 3", "years": null }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
                 ]
             }
         ],
@@ -1370,9 +1171,7 @@
     {
         "id": 16,
         "name": "Hungaroring",
-        "similarNames": [
-            "Hungarian Grand Prix"
-        ],
+        "similarNames": ["Hungarian Grand Prix"],
         "categories": [
             {
                 "id": 2,
@@ -1388,18 +1187,9 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    },
-                    {
-                        "id": 10,
-                        "name": "Formula 3 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    { "id": 10, "name": "Formula 3", "years": null }
                 ]
             }
         ],
@@ -1439,10 +1229,7 @@
     {
         "id": 17,
         "name": "Circuit Zandvoort",
-        "similarNames": [
-            "Dutch Grand Prix",
-            "Circuit Park Zandvoort"
-        ],
+        "similarNames": ["Dutch Grand Prix", "Circuit Park Zandvoort"],
         "categories": [
             {
                 "id": 2,
@@ -1458,10 +1245,7 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null }
                 ]
             }
         ],
@@ -1541,22 +1325,14 @@
     {
         "id": 18,
         "name": "Baku City Circuit",
-        "similarNames": [
-            "Azerbaijan Grand Prix"
-        ],
+        "similarNames": ["Azerbaijan Grand Prix"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null }
                 ]
             }
         ],
@@ -1580,18 +1356,13 @@
     {
         "id": 19,
         "name": "Marina Bay Street Circuit",
-        "similarNames": [
-            "Singapore Grand Prix"
-        ],
+        "similarNames": ["Singapore Grand Prix"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null }
                 ]
             }
         ],
@@ -1639,11 +1410,7 @@
     {
         "id": 20,
         "name": "Circuit of the Americas",
-        "similarNames": [
-            "United States Grand Prix",
-            "Lone Star Le Mans",
-            "6 Hours of the Circuit of the Americas"
-        ],
+        "similarNames": ["United States Grand Prix", "Lone Star Le Mans", "6 Hours of the Circuit of the Americas"],
         "categories": [
             {
                 "id": 4,
@@ -1664,42 +1431,31 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 16,
-                        "name": "Hypercar"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    },
-                    {
-                        "id": 27,
-                        "name": "LMP1"
-                    }
+                    { "id": 16, "name": "Hypercar", "years": [2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2013, 2014, 2015, 2016, 2017, 2020] },
+                    { "id": 27, "name": "LMP1", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 17,
-                        "name": "LMGT3"
-                    },
-                    {
-                        "id": 28,
-                        "name": "LMGTE"
-                    }
+                    { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
+                    { "id": 28, "name": "LMGTE", "years": [2013, 2014, 2015, 2016, 2017, 2020] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2013, 2014, 2015, 2016, 2017, 2020, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -1739,18 +1495,13 @@
     {
         "id": 21,
         "name": "Autódromo Hermanos Rodríguez",
-        "similarNames": [
-            "Mexican Grand Prix"
-        ],
+        "similarNames": ["Mexican Grand Prix"],
         "categories": [
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 28,
-                        "name": "LMGTE"
-                    }
+                    { "id": 28, "name": "LMGTE", "years": [2016, 2017] }
                 ]
             },
             {
@@ -1762,24 +1513,22 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    },
-                    {
-                        "id": 27,
-                        "name": "LMP1"
-                    }
+                    { "id": 19, "name": "LMP2", "years": [2016, 2017] },
+                    { "id": 27, "name": "LMP1", "years": [2016, 2017] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2016, 2017] }
                 ]
             }
         ],
@@ -1843,18 +1592,13 @@
     {
         "id": 22,
         "name": "Las Vegas Strip Circuit",
-        "similarNames": [
-            "Las Vegas Grand Prix"
-        ],
+        "similarNames": ["Las Vegas Grand Prix"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null }
                 ]
             }
         ],
@@ -1878,10 +1622,7 @@
     {
         "id": 23,
         "name": "Lusail International Circuit",
-        "similarNames": [
-            "Qatar Grand Prix",
-            "Qatar 1812 km"
-        ],
+        "similarNames": ["Qatar Grand Prix", "Qatar 1812 km"],
         "categories": [
             {
                 "id": 6,
@@ -1892,34 +1633,29 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 16,
-                        "name": "Hypercar"
-                    }
+                    { "id": 16, "name": "Hypercar", "years": [2024, 2025] }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 17,
-                        "name": "LMGT3"
-                    }
+                    { "id": 17, "name": "LMGT3", "years": [2024, 2025] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2024, 2025] }
                 ]
             }
         ],
@@ -1943,43 +1679,28 @@
     {
         "id": 24,
         "name": "Yas Marina Circuit",
-        "similarNames": [
-            "Abu Dhabi Grand Prix",
-            "6H Abu Dhabi"
-        ],
+        "similarNames": ["Abu Dhabi Grand Prix", "6H Abu Dhabi"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 13,
-                        "name": "GT3"
-                    }
+                    { "id": 13, "name": "GT3", "years": null }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    }
+                    { "id": 19, "name": "LMP2", "years": null }
                 ]
             }
         ],
@@ -2059,14 +1780,7 @@
     {
         "id": 25,
         "name": "Autodromo Internazionale Enzo e Dino Ferrari",
-        "similarNames": [
-            "Imola Circuit",
-            "Imola Grand Prix",
-            "Dino Ferrari Grand Prix",
-            "San Marino Grand Prix",
-            "Emilia Romagna Grand Prix",
-            "6 Hours of Imola"
-        ],
+        "similarNames": ["Imola Circuit", "Imola Grand Prix", "Dino Ferrari Grand Prix", "San Marino Grand Prix", "Emilia Romagna Grand Prix", "6 Hours of Imola"],
         "categories": [
             {
                 "id": 4,
@@ -2077,38 +1791,30 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 8,
-                        "name": "Formula 1 2020s"
-                    },
-                    {
-                        "id": 9,
-                        "name": "Formula 2 2020s"
-                    },
-                    {
-                        "id": 10,
-                        "name": "Formula 3 2020s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    { "id": 10, "name": "Formula 3", "years": null }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 16,
-                        "name": "Hypercar"
-                    }
+                    { "id": 16, "name": "Hypercar", "years": [2024, 2025, 2026] }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 17,
-                        "name": "LMGT3"
-                    }
+                    { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2024, 2025, 2026] }
                 ]
             }
         ],
@@ -2164,59 +1870,39 @@
     {
         "id": 26,
         "name": "Fuji Speedway",
-        "similarNames": [
-            "Japanese Grand Prix",
-            "6 Hours of Fuji"
-        ],
+        "similarNames": ["Japanese Grand Prix", "6 Hours of Fuji"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 14,
-                        "name": "Super Formula"
-                    },
-                    {
-                        "id": 25,
-                        "name": "Formula 1 2000s"
-                    }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 14, "name": "Super Formula", "years": [1973, 1975, 1976, 1977, 1978, 1979, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 15,
-                        "name": "Super GT"
-                    },
-                    {
-                        "id": 17,
-                        "name": "LMGT3"
-                    },
-                    {
-                        "id": 28,
-                        "name": "LMGTE"
-                    }
+                    { "id": 15, "name": "Super GT", "years": [1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
+                    { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2022, 2023] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 16,
-                        "name": "Hypercar"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    },
-                    {
-                        "id": 27,
-                        "name": "LMP1"
-                    }
+                    { "id": 16, "name": "Hypercar", "years": [2022, 2023, 2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2022, 2023] },
+                    { "id": 27, "name": "LMP1", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2022, 2023, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -2280,10 +1966,7 @@
     {
         "id": 27,
         "name": "Daytona International Speedway",
-        "similarNames": [
-            "Daytona 500",
-            "24 Hours of Daytona"
-        ],
+        "similarNames": ["Daytona 500", "24 Hours of Daytona"],
         "categories": [
             {
                 "id": 4,
@@ -2299,24 +1982,15 @@
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 18,
-                        "name": "GTP"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    }
+                    { "id": 18, "name": "GTP", "years": null },
+                    { "id": 19, "name": "LMP2", "years": null }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 20,
-                        "name": "GTD"
-                    }
+                    { "id": 20, "name": "GTD", "years": null }
                 ]
             }
         ],
@@ -2380,48 +2054,38 @@
     {
         "id": 28,
         "name": "Sebring International Raceway",
-        "similarNames": [
-            "12 Hours of Sebring"
-        ],
+        "similarNames": ["12 Hours of Sebring"],
         "categories": [
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 16,
-                        "name": "Hypercar"
-                    },
-                    {
-                        "id": 18,
-                        "name": "GTP"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    },
-                    {
-                        "id": 27,
-                        "name": "LMP1"
-                    }
+                    { "id": 16, "name": "Hypercar", "years": [2022, 2023] },
+                    { "id": 18, "name": "GTP", "years": null },
+                    { "id": 19, "name": "LMP2", "years": [2012, 2019, 2022, 2023] },
+                    { "id": 27, "name": "LMP1", "years": [2012, 2019] }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 17,
-                        "name": "LMGT3"
-                    },
-                    {
-                        "id": 20,
-                        "name": "GTD"
-                    },
-                    {
-                        "id": 28,
-                        "name": "LMGTE"
-                    }
+                    { "id": 20, "name": "GTD", "years": null },
+                    { "id": 28, "name": "LMGTE", "years": [2012, 2019, 2022, 2023] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2019] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2012, 2019, 2022, 2023] }
                 ]
             }
         ],
@@ -2477,42 +2141,28 @@
     {
         "id": 29,
         "name": "Long Beach Street Circuit",
-        "similarNames": [
-            "Grand Prix of Long Beach"
-        ],
+        "similarNames": ["Grand Prix of Long Beach"],
         "categories": [
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 18,
-                        "name": "GTP"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    }
+                    { "id": 18, "name": "GTP", "years": null },
+                    { "id": 19, "name": "LMP2", "years": [] }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 20,
-                        "name": "GTD"
-                    }
+                    { "id": 20, "name": "GTD", "years": null }
                 ]
             },
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 22,
-                        "name": "IndyCar"
-                    }
+                    { "id": 22, "name": "IndyCar", "years": null }
                 ]
             }
         ],
@@ -2560,9 +2210,7 @@
     {
         "id": 30,
         "name": "Laguna Seca",
-        "similarNames": [
-            "Grand Prix of Monterey"
-        ],
+        "similarNames": ["Grand Prix of Monterey"],
         "categories": [
             {
                 "id": 4,
@@ -2573,34 +2221,22 @@
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 18,
-                        "name": "GTP"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    }
+                    { "id": 18, "name": "GTP", "years": null },
+                    { "id": 19, "name": "LMP2", "years": null }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 20,
-                        "name": "GTD"
-                    }
+                    { "id": 20, "name": "GTD", "years": null }
                 ]
             },
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 22,
-                        "name": "IndyCar"
-                    }
+                    { "id": 22, "name": "IndyCar", "years": null }
                 ]
             }
         ],
@@ -2632,42 +2268,28 @@
     {
         "id": 31,
         "name": "Detroit Street Circuit",
-        "similarNames": [
-            "Detroit Grand Prix"
-        ],
+        "similarNames": ["Detroit Grand Prix"],
         "categories": [
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 18,
-                        "name": "GTP"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    }
+                    { "id": 18, "name": "GTP", "years": null },
+                    { "id": 19, "name": "LMP2", "years": null }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 20,
-                        "name": "GTD"
-                    }
+                    { "id": 20, "name": "GTD", "years": null }
                 ]
             },
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 22,
-                        "name": "IndyCar"
-                    }
+                    { "id": 22, "name": "IndyCar", "years": null }
                 ]
             }
         ],
@@ -2715,10 +2337,7 @@
     {
         "id": 32,
         "name": "Watkins Glen International",
-        "similarNames": [
-            "United States Grand Prix",
-            "6 Hours of The Glen"
-        ],
+        "similarNames": ["United States Grand Prix", "6 Hours of The Glen"],
         "categories": [
             {
                 "id": 4,
@@ -2729,24 +2348,15 @@
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 18,
-                        "name": "GTP"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    }
+                    { "id": 18, "name": "GTP", "years": null },
+                    { "id": 19, "name": "LMP2", "years": null }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 20,
-                        "name": "GTD"
-                    }
+                    { "id": 20, "name": "GTD", "years": null }
                 ]
             }
         ],
@@ -2810,10 +2420,7 @@
     {
         "id": 33,
         "name": "Mosport Park",
-        "similarNames": [
-            "Canadian Tire Motorsport Park",
-            "Mosport International Raceway"
-        ],
+        "similarNames": ["Canadian Tire Motorsport Park", "Mosport International Raceway"],
         "categories": [
             {
                 "id": 4,
@@ -2824,24 +2431,15 @@
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 18,
-                        "name": "GTP"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    }
+                    { "id": 18, "name": "GTP", "years": null },
+                    { "id": 19, "name": "LMP2", "years": null }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 20,
-                        "name": "GTD"
-                    }
+                    { "id": 20, "name": "GTD", "years": null }
                 ]
             }
         ],
@@ -2865,42 +2463,28 @@
     {
         "id": 34,
         "name": "Road America",
-        "similarNames": [
-            "SportsCar Grand Prix"
-        ],
+        "similarNames": ["SportsCar Grand Prix"],
         "categories": [
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 18,
-                        "name": "GTP"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    }
+                    { "id": 18, "name": "GTP", "years": null },
+                    { "id": 19, "name": "LMP2", "years": null }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 20,
-                        "name": "GTD"
-                    }
+                    { "id": 20, "name": "GTD", "years": null }
                 ]
             },
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 22,
-                        "name": "IndyCar"
-                    }
+                    { "id": 22, "name": "IndyCar", "years": null }
                 ]
             }
         ],
@@ -2932,9 +2516,7 @@
     {
         "id": 35,
         "name": "Virginia International Raceway",
-        "similarNames": [
-            "GT Challenge At VIR"
-        ],
+        "similarNames": ["GT Challenge At VIR"],
         "categories": [
             {
                 "id": 4,
@@ -2945,10 +2527,7 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 20,
-                        "name": "GTD"
-                    }
+                    { "id": 20, "name": "GTD", "years": null }
                 ]
             }
         ],
@@ -3012,11 +2591,7 @@
     {
         "id": 36,
         "name": "Indianapolis Motor Speedway",
-        "similarNames": [
-            "Indy 500",
-            "Indianapolis 500",
-            "United States Grand Prix"
-        ],
+        "similarNames": ["Indy 500", "Indianapolis 500", "United States Grand Prix"],
         "categories": [
             {
                 "id": 4,
@@ -3024,41 +2599,26 @@
                 "subcategories": []
             },
             {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 22, "name": "IndyCar", "years": null }
+                ]
+            },
+            {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 18,
-                        "name": "GTP"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    }
+                    { "id": 18, "name": "GTP", "years": null },
+                    { "id": 19, "name": "LMP2", "years": null }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 20,
-                        "name": "GTD"
-                    }
-                ]
-            },
-            {
-                "id": 1,
-                "name": "Open Wheel",
-                "subcategories": [
-                    {
-                        "id": 22,
-                        "name": "IndyCar"
-                    },
-                    {
-                        "id": 25,
-                        "name": "Formula 1 2000s"
-                    }
+                    { "id": 20, "name": "GTD", "years": null }
                 ]
             }
         ],
@@ -3114,9 +2674,7 @@
     {
         "id": 37,
         "name": "Road Atlanta",
-        "similarNames": [
-            "Petit Le Mans"
-        ],
+        "similarNames": ["Petit Le Mans"],
         "categories": [
             {
                 "id": 4,
@@ -3127,24 +2685,15 @@
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    {
-                        "id": 18,
-                        "name": "GTP"
-                    },
-                    {
-                        "id": 19,
-                        "name": "LMP2"
-                    }
+                    { "id": 18, "name": "GTP", "years": null },
+                    { "id": 19, "name": "LMP2", "years": null }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    {
-                        "id": 20,
-                        "name": "GTD"
-                    }
+                    { "id": 20, "name": "GTD", "years": null }
                 ]
             }
         ],
@@ -3176,9 +2725,7 @@
     {
         "id": 38,
         "name": "Circuito dos Cristais",
-        "similarNames": [
-            "Curvelo"
-        ],
+        "similarNames": ["Curvelo"],
         "categories": [
             {
                 "id": 2,
@@ -3194,14 +2741,8 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    },
-                    {
-                        "id": 24,
-                        "name": "NASCAR Brasil Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [2016, 2017, 2025, 2026] },
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2024, 2025, 2026] }
                 ]
             }
         ],
@@ -3241,14 +2782,8 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    },
-                    {
-                        "id": 24,
-                        "name": "NASCAR Brasil Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [1979, 1980, 1981, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1998, 1999, 2000, 2001, 2004, 2005, 2006, 2007, 2008, 2009, 2012, 2013, 2014, 2015, 2016, 2017, 2023] },
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2013, 2015, 2021, 2022, 2023, 2024, 2025] }
                 ]
             }
         ],
@@ -3283,14 +2818,8 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    },
-                    {
-                        "id": 24,
-                        "name": "NASCAR Brasil Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [1979, 1980, 1981, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1993, 1995, 1996, 1997, 2000, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2023, 2024, 2025, 2026] },
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2023, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -3320,10 +2849,7 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2022, 2023, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -3347,18 +2873,13 @@
     {
         "id": 42,
         "name": "Autódromo Velo Città",
-        "similarNames": [
-            "Mogi Guaçu"
-        ],
+        "similarNames": ["Mogi Guaçu"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 26,
-                        "name": "F4 Brazilian Championship"
-                    }
+                    { "id": 26, "name": "F4 Brazilian Championship", "years": [2022, 2023, 2024, 2025] }
                 ]
             },
             {
@@ -3370,14 +2891,8 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    },
-                    {
-                        "id": 24,
-                        "name": "NASCAR Brasil Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2025, 2026] }
                 ]
             }
         ],
@@ -3417,22 +2932,14 @@
     {
         "id": 43,
         "name": "Autódromo Internacional Orlando Moura",
-        "similarNames": [
-            "Campo Grande"
-        ],
+        "similarNames": ["Campo Grande"],
         "categories": [
             {
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    },
-                    {
-                        "id": 24,
-                        "name": "NASCAR Brasil Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [2002, 2003, 2004, 2006, 2007, 2008, 2009, 2010, 2011, 2015, 2018, 2019, 2025] },
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2024, 2025] }
                 ]
             }
         ],
@@ -3462,24 +2969,15 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 26,
-                        "name": "F4 Brazilian Championship"
-                    }
+                    { "id": 26, "name": "F4 Brazilian Championship", "years": [2026] }
                 ]
             },
             {
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    },
-                    {
-                        "id": 24,
-                        "name": "NASCAR Brasil Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [1979, 1980, 1981, 1983, 1984, 1985, 1986, 1988, 1989, 1990, 1991, 1992, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2025, 2026] },
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2026] }
                 ]
             },
             {
@@ -3521,14 +3019,14 @@
     {
         "id": 45,
         "name": "Autódromo Internacional Potenza",
-        "similarNames": [
-            "Lima Duarte"
-        ],
+        "similarNames": ["Lima Duarte"],
         "categories": [
             {
                 "id": 4,
                 "name": "Touring Car",
-                "subcategories": []
+                "subcategories": [
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2021, 2024] }
+                ]
             },
             {
                 "id": 6,
@@ -3585,10 +3083,8 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [1993, 1994, 1995, 1997, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2010, 2011, 2012, 2016, 2017, 2018, 2019, 2020] },
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] }
                 ]
             },
             {
@@ -3684,20 +3180,15 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [1979, 1980, 1981, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2004, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2026] },
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2020, 2021, 2022, 2023, 2024, 2026] }
                 ]
             },
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 26,
-                        "name": "F4 Brazilian Championship"
-                    }
+                    { "id": 26, "name": "F4 Brazilian Championship", "years": [2022, 2023, 2024, 2026] }
                 ]
             }
         ],
@@ -3737,19 +3228,13 @@
     {
         "id": 49,
         "name": "Autódromo Internacional Virgílio Távora",
-        "similarNames": [
-            "Fortaleza",
-            "Eusébio"
-        ],
+        "similarNames": ["Fortaleza", "Eusébio"],
         "categories": [
             {
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [1979, 1984, 1989, 1992] }
                 ]
             }
         ],
@@ -3805,14 +3290,8 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    },
-                    {
-                        "id": 24,
-                        "name": "NASCAR Brasil Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022] },
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2014, 2022, 2026] }
                 ]
             }
         ],
@@ -3836,10 +3315,7 @@
     {
         "id": 51,
         "name": "Autódromo Internacional Nelson Piquet",
-        "similarNames": [
-            "Brazilian Grand Prix",
-            "Rio 200"
-        ],
+        "similarNames": ["Brazilian Grand Prix", "Rio 200"],
         "categories": [
             {
                 "id": 1,
@@ -3855,10 +3331,7 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012] }
                 ]
             },
             {
@@ -3919,9 +3392,7 @@
     {
         "id": 52,
         "name": "Autódromo Internacional de Curitiba",
-        "similarNames": [
-            "Pinhais"
-        ],
+        "similarNames": ["Pinhais"],
         "categories": [
             {
                 "id": 1,
@@ -3937,10 +3408,8 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2020, 2021] },
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2020, 2021] }
                 ]
             },
             {
@@ -3990,10 +3459,7 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [1979, 1980, 1981, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 2000, 2002] }
                 ]
             }
         ],
@@ -4017,19 +3483,13 @@
     {
         "id": 54,
         "name": "Autódromo Oscar y Juan Gálvez",
-        "similarNames": [
-            "Argentine Grand Prix",
-            "Buenos Aires Grand Prix"
-        ],
+        "similarNames": ["Argentine Grand Prix", "Buenos Aires Grand Prix"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    {
-                        "id": 26,
-                        "name": "F4 Brazilian Championship"
-                    }
+                    { "id": 26, "name": "F4 Brazilian Championship", "years": [2024] }
                 ]
             },
             {
@@ -4051,10 +3511,7 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [2005, 2006, 2007, 2017, 2023, 2024] }
                 ]
             }
         ],
@@ -4118,9 +3575,7 @@
     {
         "id": 55,
         "name": "Autódromo Víctor Borrat Fabini",
-        "similarNames": [
-            "El Pinar"
-        ],
+        "similarNames": ["El Pinar"],
         "categories": [
             {
                 "id": 1,
@@ -4131,10 +3586,7 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [2024] }
                 ]
             }
         ],
@@ -4222,18 +3674,13 @@
     {
         "id": 56,
         "name": "Circuito Toninho da Matta",
-        "similarNames": [
-            "Belo Horizonte Street Circuit"
-        ],
+        "similarNames": ["Belo Horizonte Street Circuit"],
         "categories": [
             {
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [2024] }
                 ]
             }
         ],
@@ -4263,10 +3710,7 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [2010, 2011, 2012, 2013, 2015] }
                 ]
             }
         ],
@@ -4290,10 +3734,7 @@
     {
         "id": 58,
         "name": "Circuito do Estoril",
-        "similarNames": [
-            "Autódromo Fernanda Pires da Silva",
-            "Portuguese Grand Prix"
-        ],
+        "similarNames": ["Autódromo Fernanda Pires da Silva", "Portuguese Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -4309,10 +3750,7 @@
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": [
-                    {
-                        "id": 23,
-                        "name": "Stock Car Pro Series"
-                    }
+                    { "id": 23, "name": "Stock Car Pro Series", "years": [1982] }
                 ]
             }
         ],
@@ -4354,6 +3792,495 @@
                 "end_year": 1999,
                 "length": 4.36,
                 "image_id": "58.4"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Nürburgring",
+        "similarNames": ["German Grand Prix", "Eifel Grand Prix", "Nordscheleife"],
+        "categories": [
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "years": [2015, 2016, 2017] },
+                    { "id": 27, "name": "LMP1", "years": [2015, 2016, 2017] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 13, "name": "GT3", "years": [] },
+                    { "id": 21, "name": "DTM", "years": [] },
+                    { "id": 28, "name": "LMGTE", "years": [2015, 2016, 2017] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2015, 2016, 2017] }
+                ]
+            }
+        ],
+        "country": "DE",
+        "region": "Europe",
+        "latitude": "50.335556000000000",
+        "longitude": "6.947500000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Grand Prix Circuit + F1 Chicane",
+                "start_year": 2002,
+                "end_year": null,
+                "length": 5.148,
+                "image_id": "59.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Nordschleife Circuit",
+                "start_year": 1983,
+                "end_year": null,
+                "length": 20.83,
+                "image_id": "59.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Sprint Circuit + F1 Chicane",
+                "start_year": 2002,
+                "end_year": null,
+                "length": 3.629,
+                "image_id": "59.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Grand Prix Circuit",
+                "start_year": 2002,
+                "end_year": null,
+                "length": 5.137,
+                "image_id": "59.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Sprint Circuit",
+                "start_year": 2002,
+                "end_year": null,
+                "length": 3.619,
+                "image_id": "59.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "Nordschleife + Sprint Circuit",
+                "start_year": 2002,
+                "end_year": null,
+                "length": 24.433,
+                "image_id": "59.6"
+            },
+            {
+                "layout_id": 7,
+                "name": "Nordschleife + Grand Prix Circuit No Arena",
+                "start_year": 2002,
+                "end_year": null,
+                "length": 25.378,
+                "image_id": "59.7"
+            },
+            {
+                "layout_id": 8,
+                "name": "Grand Prix Circuit",
+                "start_year": 1984,
+                "end_year": 1994,
+                "length": 4.551,
+                "image_id": "59.8"
+            },
+            {
+                "layout_id": 9,
+                "name": "Grand Prix Circuit",
+                "start_year": 1995,
+                "end_year": 2001,
+                "length": 4.556,
+                "image_id": "59.9"
+            },
+            {
+                "layout_id": 10,
+                "name": "Nordschleife Circuit",
+                "start_year": 1927,
+                "end_year": 1966,
+                "length": 22.81,
+                "image_id": "59.10"
+            },
+            {
+                "layout_id": 11,
+                "name": "Gesamtstrecke Circuit",
+                "start_year": 1927,
+                "end_year": 1966,
+                "length": 28.265,
+                "image_id": "59.11"
+            },
+            {
+                "layout_id": 12,
+                "name": "Südschleife Circuit",
+                "start_year": 1973,
+                "end_year": 1982,
+                "length": 7.747,
+                "image_id": "59.12"
+            },
+            {
+                "layout_id": 13,
+                "name": "Nordschleife Circuit",
+                "start_year": 1967,
+                "end_year": 1982,
+                "length": 22.292,
+                "image_id": "59.13"
+            },
+            {
+                "layout_id": 14,
+                "name": "Gesamtstrecke Circuit",
+                "start_year": 1967,
+                "end_year": 1973,
+                "length": 28.291,
+                "image_id": "59.14"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Algarve International Circuit",
+        "similarNames": ["Portuguese Grand Prix", "6 Hours of Portimão"],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 13, "name": "GT3", "years": [] },
+                    { "id": 28, "name": "LMGTE", "years": [2021, 2023] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    { "id": 16, "name": "Hypercar", "years": [2021, 2023] },
+                    { "id": 19, "name": "LMP2", "years": [2021, 2023] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 30, "name": "FIA WEC", "years": [2021, 2023] }
+                ]
+            }
+        ],
+        "country": "PT",
+        "region": "Europe",
+        "latitude": "37.231944000000000",
+        "longitude": "-8.631944000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2008,
+                "end_year": null,
+                "length": 4.653,
+                "image_id": "60.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit + Chicane",
+                "start_year": 2008,
+                "end_year": null,
+                "length": 4.684,
+                "image_id": "60.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Motorcycle Circuit",
+                "start_year": 2008,
+                "end_year": null,
+                "length": 4.592,
+                "image_id": "60.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Motorcycle Circuit",
+                "start_year": 2008,
+                "end_year": null,
+                "length": 4.674,
+                "image_id": "60.4"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Autódromo Eduardo Prudêncio Cabrera",
+        "similarNames": ["Autódromo de Rivera"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2018, 2019] }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "UY",
+        "region": "South America",
+        "latitude": "-30.862878000000000",
+        "longitude": "-55.606603000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2013,
+                "end_year": null,
+                "length": 3.08,
+                "image_id": "61.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Short Circuit",
+                "start_year": 2013,
+                "end_year": null,
+                "length": 2.1,
+                "image_id": "61.2"
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Homestead–Miami Speedway",
+        "similarNames": ["Miami ePrix", "Grand Prix of Miami"],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 24, "name": "NASCAR Brasil Series", "years": [2019] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [] },
+                    { "id": 22, "name": "IndyCar", "years": [] }
+                ]
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "25.451944000000000",
+        "longitude": "-80.408611000000000",
+        "isFictional": null,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 2.414,
+                "image_id": "62.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Road Circuit",
+                "start_year": 1995,
+                "end_year": null,
+                "length": 3.556,
+                "image_id": "62.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Modified Road Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 3.701,
+                "image_id": "62.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Oval Circuit",
+                "start_year": 1995,
+                "end_year": 1996,
+                "length": 2.414,
+                "image_id": "62.4"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Twin Ring Motegi",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 14, "name": "Super Formula", "years": [1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 22, "name": "IndyCar", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 15, "name": "Super GT", "years": [1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            }
+        ],
+        "country": "JP",
+        "region": "Asia",
+        "latitude": "36.533333000000000",
+        "longitude": "140.228333000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 4.796,
+                "image_id": "63.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "East Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 3.4,
+                "image_id": "63.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "West Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 1.4,
+                "image_id": "63.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Oval Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 2.493,
+                "image_id": "63.4"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Sportsland Sugo",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 14, "name": "Super Formula", "years": [1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 15, "name": "Super GT", "years": [1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            }
+        ],
+        "country": "JP",
+        "region": "Asia",
+        "latitude": "38.138472000000000",
+        "longitude": "140.778208000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1987,
+                "end_year": null,
+                "length": 3.704,
+                "image_id": "64.1"
             }
         ]
     }

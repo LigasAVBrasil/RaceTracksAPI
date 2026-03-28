@@ -38,11 +38,36 @@ Some circuits have undergone physical modifications over the years without chang
 
 To properly differentiate between classic and modern configurations, you must evaluate the `start_year` and `end_year` properties within the layout objects. An `end_year` of `null` indicates that the layout is the current, active version.
 
+### 🏎️ Matching Categories to Historical Layouts
+
+One of the most powerful features of this API is the ability to cross-reference the `years` a specific racing category visited a track with the historical `layouts`. 
+
+If you want to display the exact track map used by **Formula 1 in 1991** at Interlagos, you can write a simple logic to find the layout that was active during that specific year:
+
+```javascript
+// Example: Finding the correct layout image for a specific racing year
+const targetYear = 1991;
+
+const correctLayout = track.layouts.find(layout => {
+    const isAfterStart = layout.start_year <= targetYear;
+    const isBeforeEnd = layout.end_year === null || layout.end_year >= targetYear;
+    
+    return isAfterStart && isBeforeEnd;
+});
+
+if (correctLayout) {
+    console.log(`The correct image ID for ${targetYear} is: ${correctLayout.image_id}`);
+    // Output: The correct image ID for 1991 is: 1.1
+}
+```
+
 ---
 
 ## 📄 Data Structure Example
 
 We use a strict data contract. This means fields like `isFictional`, `fictionalSource`, and `categories` will **always** be present, even if empty or null. Fictional tracks use the geographic center coordinates of their lore-based country.
+
+> 💡 **Note:** The "Dragon Trail" track in the example below is currently for demonstration purposes only. It illustrates how fictional circuits are structured in our schema and will be officially added to the database in a future update.
 
 ```json
 [
@@ -58,14 +83,16 @@ We use a strict data contract. This means fields like `isFictional`, `fictionalS
 			{
 				"id": 3,
 				"name": "Prototype",
-				"subcategories": [{ "id": 16, "name": "Hypercar" }]
+				"subcategories": [
+					{ "id": 16, "name": "Hypercar", "years": [2024, 2025, 2026] }
+				]
 			},
 			{
 				"id": 4,
 				"name": "Touring Car",
 				"subcategories": [
-					{ "id": 23, "name": "Stock Car Pro Series" },
-					{ "id": 24, "name": "NASCAR Brasil Series" }
+					{ "id": 23, "name": "Stock Car Pro Series", "years": [2023, 2024, 2025] },
+					{ "id": 24, "name": "NASCAR Brasil Series", "years": null }
 				]
 			},
 			{ "id": 6, "name": "Motorcycle Racing", "subcategories": [] },
@@ -74,14 +101,14 @@ We use a strict data contract. This means fields like `isFictional`, `fictionalS
 				"id": 1,
 				"name": "Open Wheel",
 				"subcategories": [
-					{ "id": 8, "name": "Formula 1 2020s" },
-					{ "id": 26, "name": "F4 Brazilian Championship" }
+					{ "id": 8, "name": "Formula 1", "years": null },
+					{ "id": 26, "name": "F4 Brazilian Championship", "years": [2022, 2023, 2024] }
 				]
 			},
 			{
 				"id": 2,
 				"name": "GT",
-				"subcategories": [{ "id": 17, "name": "LMGT3" }]
+				"subcategories": [{ "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] }]
 			}
 		],
 		"country": "BR",
@@ -110,9 +137,9 @@ We use a strict data contract. This means fields like `isFictional`, `fictionalS
 		]
 	},
 	{
-		"id": 99,
+		"id": 999,
 		"name": "Dragon Trail",
-		"similarNames": ["Dragon Trail - Seaside"],
+		"similarNames": null,
 		"categories": [],
 		"country": "HR",
 		"region": "Europe",
@@ -127,7 +154,7 @@ We use a strict data contract. This means fields like `isFictional`, `fictionalS
 				"start_year": 2017,
 				"end_year": null,
 				"length": 5.209,
-				"image_id": "99.1"
+				"image_id": "999.1"
 			}
 		]
 	}
@@ -144,6 +171,7 @@ If you are consuming this API in a TypeScript environment, you can use the follo
 export interface Subcategory {
 	id: number;
 	name: string;
+	years: number[] | null // Array of years the category raced here, or null if unknown
 }
 
 export interface TrackCategory {

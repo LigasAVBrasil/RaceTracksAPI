@@ -186,8 +186,26 @@
 					display: flex;
 					align-items: center;
 					gap: 1rem;
+					flex-wrap: wrap;
 				"
 			>
+				<input
+					type="text"
+					id="search-input"
+					placeholder="Search track or alias (e.g., Interlagos)"
+					style="
+						padding: 0.5rem 1rem;
+						border-radius: 6px;
+						background-color: var(--card-bg);
+						color: var(--text-main);
+						border: 1px solid #333;
+						font-family: inherit;
+						font-size: 1rem;
+						flex-grow: 1;
+						min-width: 250px;
+					"
+				/>
+
 				<label
 					for="region-filter"
 					style="font-weight: 600; color: var(--text-muted)"
@@ -216,6 +234,27 @@
 					<option value="South America">South America</option>
 				</select>
 
+				<label
+					for="category-filter"
+					style="font-weight: 600; color: var(--text-muted)"
+					>Filter by Category:</label
+				>
+				<select
+					id="category-filter"
+					style="
+						padding: 0.5rem 1rem;
+						border-radius: 6px;
+						background-color: var(--card-bg);
+						color: var(--text-main);
+						border: 1px solid #333;
+						font-family: inherit;
+						font-size: 1rem;
+						cursor: pointer;
+					"
+				>
+					<option value="All">All Categories</option>
+				</select>
+
 				<span
 					id="track-counter"
 					style="
@@ -227,7 +266,7 @@
 						border-radius: 20px;
 					"
 				>
-					Carregando...
+					Loading...
 				</span>
 			</div>
 			<div class="track-grid" id="track-grid"></div>
@@ -264,6 +303,16 @@
 							3,
 						);
 
+						let mapsLinkHtml = "";
+						if (track.latitude && track.longitude) {
+							const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${track.latitude},${track.longitude}`;
+							mapsLinkHtml = `
+								<a href="${mapsUrl}" target="_blank" style="color: var(--text-muted); text-decoration: none; display: flex; align-items: center; gap: 4px; transition: color 0.2s;" onmouseover="this.style.color='var(--text-main)'" onmouseout="this.style.color='var(--text-muted)'" title="View on Google Maps">
+									📍 Maps
+								</a>
+							`;
+						}
+
 						card.innerHTML = `
 							<div class="card-image">
 								<img src="./images/track_${layout.image_id}.svg" alt="Map of ${track.name} - ${layout.name}" onerror="this.style.display='none'">
@@ -278,14 +327,18 @@
 								</p>
 
 								<div class="card-footer">
-									<span style="display: flex; align-items: center; gap: 5px;">
-										<img src="https://flagsapi.com/${track.country}/flat/64.png" style="width: 24px; height: auto;" alt="${track.country} flag">
-										${track.country}
-									</span>
+									<div style="display: flex; align-items: center; gap: 15px;">
+										<span style="display: flex; align-items: center; gap: 5px;">
+											<img src="https://flagsapi.com/${track.country}/flat/64.png" style="width: 24px; height: auto;" alt="${track.country} flag">
+											${track.country}
+										</span>
+										${mapsLinkHtml}
+									</div>
+									
 									<span>ID: ${layout.image_id}</span>
 								</div>
 							</div>
-            			`;
+						`;
 						grid.appendChild(card);
 					});
 				});
@@ -294,24 +347,72 @@
 				if (counterElement) {
 					counterElement.textContent = `${layoutCount} Layout(s)`;
 				}
+				if (layoutCount === 0) {
+					grid.innerHTML = `<p style="color: var(--text-muted); text-align: center; width: 100%; grid-column: 1 / -1;">No tracks found matching your filters.</p>`;
+				}
+			}
 
-				const comingSoonCard = document.createElement("div");
-				comingSoonCard.className = "card";
-				comingSoonCard.style.borderStyle = "dashed";
-				comingSoonCard.style.borderColor = "#555";
-				comingSoonCard.style.justifyContent = "center";
-				comingSoonCard.style.alignItems = "center";
-				comingSoonCard.style.textAlign = "center";
-				comingSoonCard.style.minHeight = "350px";
+			function populateCategories(tracks) {
+				const categoryFilter = document.getElementById("category-filter");
+				const uniqueCategories = new Set();
 
-				comingSoonCard.innerHTML = `
-					<div class="card-content" style="display: flex; flex-direction: column; justify-content: center;">
-						<h2 style="color: var(--text-muted); margin-bottom: 0.5rem; font-size: 1.5rem;">🚧</h2>
-						<h2 style="color: var(--text-muted); margin-bottom: 0.5rem;">More tracks coming soon...</h2>
-						<p style="color: #777; font-size: 0.9rem;">We are continuously expanding our database.</p>
-					</div>
-				`;
-				grid.appendChild(comingSoonCard);
+				tracks.forEach((track) => {
+					if (track.categories) {
+						track.categories.forEach((category) => {
+							if (category.subcategories) {
+								category.subcategories.forEach((sub) => {
+									uniqueCategories.add(sub.name);
+								});
+							}
+						});
+					}
+				});
+
+				const sortedCategories = Array.from(uniqueCategories).sort();
+				sortedCategories.forEach((cat) => {
+					const option = document.createElement("option");
+					option.value = cat;
+					option.textContent = cat;
+					categoryFilter.appendChild(option);
+				});
+			}
+
+			function applyFilters() {
+				const regionValue = document.getElementById("region-filter").value;
+				const categoryValue = document.getElementById("category-filter").value;
+				const searchValue = document
+					.getElementById("search-input")
+					.value.toLowerCase()
+					.trim();
+
+				const filteredTracks = allTracksData.filter((track) => {
+					const matchesRegion =
+						regionValue === "All" || track.region === regionValue;
+					const trackName = track.name.toLowerCase();
+					let matchesSearch = trackName.includes(searchValue);
+
+					if (!matchesSearch && track.similarNames) {
+						matchesSearch = track.similarNames.some((alias) =>
+							alias.toLowerCase().includes(searchValue),
+						);
+					}
+
+					let matchesCategory = categoryValue === "All";
+					if (!matchesCategory && track.categories) {
+						matchesCategory = track.categories.some((category) => {
+							if (category.subcategories) {
+								return category.subcategories.some(
+									(sub) => sub.name === categoryValue,
+								);
+							}
+							return false;
+						});
+					}
+
+					return matchesRegion && matchesSearch && matchesCategory;
+				});
+
+				renderTracks(filteredTracks);
 			}
 
 			async function loadTracks() {
@@ -319,6 +420,7 @@
 				try {
 					const response = await fetch("./tracks.json");
 					allTracksData = await response.json();
+					populateCategories(allTracksData);
 					renderTracks(allTracksData);
 				} catch (error) {
 					console.error("Error loading tracks:", error);
@@ -330,18 +432,13 @@
 
 			document
 				.getElementById("region-filter")
-				.addEventListener("change", (event) => {
-					const selectedRegion = event.target.value;
-
-					if (selectedRegion === "All") {
-						renderTracks(allTracksData);
-					} else {
-						const filteredTracks = allTracksData.filter(
-							(track) => track.region === selectedRegion,
-						);
-						renderTracks(filteredTracks);
-					}
-				});
+				.addEventListener("change", applyFilters);
+			document
+				.getElementById("category-filter")
+				.addEventListener("change", applyFilters);
+			document
+				.getElementById("search-input")
+				.addEventListener("input", applyFilters);
 
 			document.addEventListener("DOMContentLoaded", loadTracks);
 		</script>

@@ -5025,5 +5025,103 @@
                 "image_id": "78.4"
             }
         ]
+    },
+    {
+        "id": 79,
+        "name": "Hockenheimring",
+        "similarNames": ["German Grand Prix"],
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
+                ]
+            }
+        ],
+        "country": "DE",
+        "region": "Europe",
+        "latitude": "49.327778000000000",
+        "longitude": "8.565833000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2002,
+                "end_year": null,
+                "length": 4.574,
+                "image_id": "79.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "National Circuit",
+                "start_year": 2002,
+                "end_year": null,
+                "length": 3.692,
+                "image_id": "79.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Short Circuit 2",
+                "start_year": 2002,
+                "end_year": null,
+                "length": 2.604,
+                "image_id": "79.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Short Circuit 1",
+                "start_year": 1966,
+                "end_year": 2002,
+                "length": 2.638,
+                "image_id": "79.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Full Circuit",
+                "start_year": 1966,
+                "end_year": 1969,
+                "length": 6.769,
+                "image_id": "79.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "Motorcycle Circuit",
+                "start_year": 1970,
+                "end_year": 2001,
+                "length": 6.79,
+                "image_id": "79.6"
+            },
+            {
+                "layout_id": 7,
+                "name": "Full Circuit",
+                "start_year": 1982,
+                "end_year": 1991,
+                "length": 6.798,
+                "image_id": "79.7"
+            },
+            {
+                "layout_id": 8,
+                "name": "Full Circuit",
+                "start_year": 1992,
+                "end_year": 2001,
+                "length": 6.825,
+                "image_id": "79.8"
+            }
+        ]
     }
 ]

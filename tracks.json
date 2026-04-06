@@ -9,7 +9,13 @@
                 "name": "Open Wheel",
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
-                    { "id": 26, "name": "F4 Brazilian Championship", "years": [2022, 2023, 2024, 2025, 2026] }
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 26, "name": "F4 Brazilian Championship", "years": [2022, 2023, 2024, 2025, 2026] }
+                        ]
+                    }
                 ]
             },
             {
@@ -112,8 +118,8 @@
         ],
         "country": "FR",
         "region": "Europe",
-        "latitude": "47.940286783499830",
-        "longitude": "0.222581725100576",
+        "latitude": "47.933333000000000",
+        "longitude": "0.233333000000000",
         "isFictional": false,
         "fictionalSource": null,
         "layouts": [
@@ -178,14 +184,20 @@
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
                     { "id": 9, "name": "Formula 2", "years": null },
-                    { "id": 10, "name": "Formula 3", "years": null }
+                    { "id": 10, "name": "Formula 3", "years": null },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2023] }
+                        ]
+                    }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 13, "name": "GT3", "years": null },
                     { "id": 28, "name": "LMGTE", "years": [2021, 2022, 2023] }
                 ]
             },
@@ -350,7 +362,8 @@
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
                     { "id": 9, "name": "Formula 2", "years": null },
-                    { "id": 10, "name": "Formula 3", "years": null }
+                    { "id": 10, "name": "Formula 3", "years": null },
+                    { "id": 34, "name": "W Series", "years": [2021] }
                 ]
             },
             {
@@ -358,6 +371,7 @@
                 "name": "GT",
                 "subcategories": [
                     { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
+                    { "id": 21, "name": "DTM", "years": [2005, 2020, 2022] },
                     { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
                 ]
             },
@@ -369,6 +383,16 @@
                     { "id": 19, "name": "LMP2", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
                     { "id": 27, "name": "LMP1", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] }
                 ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
             },
             {
                 "id": 25,
@@ -446,7 +470,15 @@
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
                     { "id": 9, "name": "Formula 2", "years": null },
-                    { "id": 10, "name": "Formula 3", "years": null }
+                    { "id": 10, "name": "Formula 3", "years": null },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2023, 2024] }
+                        ]
+                    },
+                    { "id": 34, "name": "W Series", "years": [2022] }
                 ]
             },
             {
@@ -573,14 +605,21 @@
                 "name": "Open Wheel",
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
-                    { "id": 12, "name": "Formula E", "years": null }
+                    { "id": 12, "name": "Formula E", "years": null },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2025, 2026] }
+                        ]
+                    }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 13, "name": "GT3", "years": null },
+                    { "id": 13, "name": "GT World Challenge", "years": null },
                     { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
                 ]
             },
@@ -820,7 +859,14 @@
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
                     { "id": 9, "name": "Formula 2", "years": null },
-                    { "id": 12, "name": "Formula E", "years": null }
+                    { "id": 12, "name": "Formula E", "years": null },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2024, 2025] }
+                        ]
+                    }
                 ]
             },
             {
@@ -863,7 +909,21 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 8, "name": "Formula 1", "years": null }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    {
+                        "id": 10,
+                        "name": "Formula 3",
+                        "subcategories": [
+                            { "id": 34, "name": "W Series", "years": [2022] }
+                        ]
+                    },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2024, 2025] }
+                        ]
+                    }
                 ]
             },
             {
@@ -898,7 +958,14 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 8, "name": "Formula 1", "years": null }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2025, 2026] }
+                        ]
+                    }
                 ]
             },
             {
@@ -993,7 +1060,15 @@
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
                     { "id": 9, "name": "Formula 2", "years": null },
-                    { "id": 10, "name": "Formula 3", "years": null }
+                    { "id": 10, "name": "Formula 3", "years": null },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2023] }
+                        ]
+                    },
+                    { "id": 34, "name": "W Series", "years": [2021] }
                 ]
             },
             {
@@ -1069,7 +1144,15 @@
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
                     { "id": 9, "name": "Formula 2", "years": null },
-                    { "id": 10, "name": "Formula 3", "years": null }
+                    { "id": 10, "name": "Formula 3", "years": null },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2026] }
+                        ]
+                    },
+                    { "id": 34, "name": "W Series", "years": [2021, 2022] }
                 ]
             },
             {
@@ -1184,7 +1267,8 @@
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
                     { "id": 9, "name": "Formula 2", "years": null },
-                    { "id": 10, "name": "Formula 3", "years": null }
+                    { "id": 10, "name": "Formula 3", "years": null },
+                    { "id": 34, "name": "W Series", "years": [2021, 2022] }
                 ]
             },
             {
@@ -1240,7 +1324,21 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 8, "name": "Formula 1", "years": null }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    {
+                        "id": 10,
+                        "name": "Formula 3",
+                        "subcategories": [
+                            { "id": 34, "name": "W Series", "years": [2021] }
+                        ]
+                    },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2023, 2024, 2025, 2026] }
+                        ]
+                    }
                 ]
             },
             {
@@ -1369,7 +1467,21 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 8, "name": "Formula 1", "years": null }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    {
+                        "id": 10,
+                        "name": "Formula 3",
+                        "subcategories": [
+                            { "id": 34, "name": "W Series", "years": [2022] }
+                        ]
+                    },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2024, 2025] }
+                        ]
+                    }
                 ]
             }
         ],
@@ -1424,7 +1536,21 @@
                 "name": "Open Wheel",
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
-                    { "id": 22, "name": "IndyCar", "years": [2019] }
+                    {
+                        "id": 10,
+                        "name": "Formula 3",
+                        "subcategories": [
+                            { "id": 34, "name": "W Series", "years": [2021] }
+                        ]
+                    },
+                    { "id": 22, "name": "IndyCar", "years": [2019] },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2023, 2026] }
+                        ]
+                    }
                 ]
             },
             {
@@ -1606,7 +1732,14 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 8, "name": "Formula 1", "years": null }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2025, 2026] }
+                        ]
+                    }
                 ]
             }
         ],
@@ -1637,7 +1770,14 @@
                 "name": "Open Wheel",
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
-                    { "id": 9, "name": "Formula 2", "years": null }
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2024] }
+                        ]
+                    }
                 ]
             },
             {
@@ -1694,15 +1834,20 @@
                 "name": "Open Wheel",
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
-                    { "id": 9, "name": "Formula 2", "years": null }
+                    { "id": 9, "name": "Formula 2", "years": null },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2024] }
+                        ]
+                    }
                 ]
             },
             {
                 "id": 2,
                 "name": "GT",
-                "subcategories": [
-                    { "id": 13, "name": "GT3", "years": null }
-                ]
+                "subcategories": []
             },
             {
                 "id": 3,
@@ -2911,7 +3056,13 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 26, "name": "F4 Brazilian Championship", "years": [2022, 2023, 2024, 2025] }
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 26, "name": "F4 Brazilian Championship", "years": [2022, 2023, 2024, 2025] }
+                        ]
+                    }
                 ]
             },
             {
@@ -3001,7 +3152,13 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 26, "name": "F4 Brazilian Championship", "years": [2026] }
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 26, "name": "F4 Brazilian Championship", "years": [2026] }
+                        ]
+                    }
                 ]
             },
             {
@@ -3202,7 +3359,13 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 26, "name": "F4 Brazilian Championship", "years": [2022, 2023, 2024, 2026] }
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 26, "name": "F4 Brazilian Championship", "years": [2022, 2023, 2024, 2026] }
+                        ]
+                    }
                 ]
             },
             {
@@ -3521,7 +3684,13 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 26, "name": "F4 Brazilian Championship", "years": [2024] }
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 26, "name": "F4 Brazilian Championship", "years": [2024] }
+                        ]
+                    }
                 ]
             },
             {
@@ -3777,6 +3946,7 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2004] },
                     { "id": 28, "name": "LMGTE", "years": [2014, 2015, 2016] }
                 ]
             },
@@ -3859,7 +4029,6 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 13, "name": "GT3", "years": [] },
                     { "id": 21, "name": "DTM", "years": [] },
                     { "id": 28, "name": "LMGTE", "years": [2015, 2016, 2017] }
                 ]
@@ -4027,7 +4196,6 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 13, "name": "GT3", "years": [] },
                     { "id": 28, "name": "LMGTE", "years": [2021, 2023] }
                 ]
             },
@@ -5042,7 +5210,14 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 8, "name": "Formula 1", "years": [1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
+                    { "id": 8, "name": "Formula 1", "years": [1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
+                    {
+                        "id": 10,
+                        "name": "Formula 3",
+                        "subcategories": [
+                            { "id": 34, "name": "W Series", "years": [2019] }
+                        ]
+                    }
                 ]
             },
             {
@@ -5195,7 +5370,15 @@
             {
                 "id": 1,
                 "name": "Open Wheel",
-                "subcategories": []
+                "subcategories": [
+                    {
+                        "id": 10,
+                        "name": "Formula 3",
+                        "subcategories": [
+                            { "id": 34, "name": "W Series", "years": [2019] }
+                        ]
+                    }
+                ]
             },
             {
                 "id": 2,
@@ -5376,8 +5559,55 @@
     {
         "id": 84,
         "name": "Circuit Zolder",
-        "similarNames": null,
-        "categories": [],
+        "similarNames": ["Belgian Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1973, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1984] },
+                    {
+                        "id": 10,
+                        "name": "Formula 3",
+                        "subcategories": [
+                            { "id": 34, "name": "W Series", "years": [2019] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2002, 2019, 2020, 2021] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": []
+            }
+        ],
         "country": "BE",
         "region": "Europe",
         "latitude": "50.988889000000000",
@@ -5408,6 +5638,824 @@
                 "end_year": 1974,
                 "length": 4.22,
                 "image_id": "84.3"
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Donington Park",
+        "similarNames": ["European Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1993] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2002, 2003] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 29, "name": "ELMS", "years": [] }
+                ]
+            }
+        ],
+        "country": "GB",
+        "region": "Europe",
+        "latitude": "52.829167000000000",
+        "longitude": "-1.375000000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1986,
+                "end_year": null,
+                "length": 4.02,
+                "image_id": "85.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "National Circuit",
+                "start_year": 2010,
+                "end_year": null,
+                "length": 3.149,
+                "image_id": "85.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1935,
+                "end_year": 1936,
+                "length": 4.107,
+                "image_id": "85.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Club Circuit",
+                "start_year": 1935,
+                "end_year": 1936,
+                "length": 3.084,
+                "image_id": "85.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Full Circuit",
+                "start_year": 1937,
+                "end_year": 1939,
+                "length": 5.029,
+                "image_id": "85.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "National Circuit",
+                "start_year": 1986,
+                "end_year": 2009,
+                "length": 3.149,
+                "image_id": "85.6"
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Adria International Raceway",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2003, 2004, 2010] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "IT",
+        "region": "Europe",
+        "latitude": "45.044167000000000",
+        "longitude": "12.147500000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2002,
+                "end_year": 2020,
+                "length": 2.702,
+                "image_id": "86.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Osso di Cane Circuit",
+                "start_year": 2002,
+                "end_year": 2011,
+                "length": 1.157,
+                "image_id": "86.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Revolver Circuit",
+                "start_year": 2002,
+                "end_year": 2020,
+                "length": 1.405,
+                "image_id": "86.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Full Circuit",
+                "start_year": 2021,
+                "end_year": 2022,
+                "length": 3.749,
+                "image_id": "86.4"
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Brno Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2004, 2005] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "CZ",
+        "region": "Europe",
+        "latitude": "49.204722000000000",
+        "longitude": "16.450556000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1987,
+                "end_year": null,
+                "length": 5.403,
+                "image_id": "87.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1965,
+                "end_year": 1974,
+                "length": 13.941,
+                "image_id": "87.2"
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Istanbul Park",
+        "similarNames": ["Turkish Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2020, 2021] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2005] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 29, "name": "ELMS", "years": [2005, 2006] }
+                ]
+            }
+        ],
+        "country": "TR",
+        "region": "Europe",
+        "latitude": "40.951667000000000",
+        "longitude": "29.405000000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2005,
+                "end_year": null,
+                "length": 5.333,
+                "image_id": "88.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 2005,
+                "end_year": null,
+                "length": 3.925,
+                "image_id": "88.2"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Bugatti Circuit",
+        "similarNames": ["French Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1967] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2006, 2008] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "FR",
+        "region": "Europe",
+        "latitude": "47.958110000000000",
+        "longitude": "0.213830000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2002,
+                "end_year": null,
+                "length": 4.185,
+                "image_id": "89.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1965,
+                "end_year": 1985,
+                "length": 4.24,
+                "image_id": "89.2"
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Brands Hatch",
+        "similarNames": ["British Grand Prix", "European Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986] },
+                    {
+                        "id": 10,
+                        "name": "Formula 3",
+                        "subcategories": [
+                            { "id": 34, "name": "W Series", "years": [2019] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2018, 2019] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "GB",
+        "region": "Europe",
+        "latitude": "51.356667000000000",
+        "longitude": "0.262500000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2003,
+                "end_year": null,
+                "length": 3.916,
+                "image_id": "90.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Indy Circuit",
+                "start_year": 2003,
+                "end_year": null,
+                "length": 1.944,
+                "image_id": "90.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1976,
+                "end_year": 1987,
+                "length": 4.207,
+                "image_id": "90.3"
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "name": "TT Circuit Assen",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 10,
+                        "name": "Formula 3",
+                        "subcategories": [
+                            { "id": 34, "name": "W Series", "years": [2019] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2019, 2020, 2021] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "NL",
+        "region": "Europe",
+        "latitude": "52.961667000000000",
+        "longitude": "6.523333000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2006,
+                "end_year": null,
+                "length": 4.555,
+                "image_id": "91.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Motorcycle Circuit",
+                "start_year": 2010,
+                "end_year": null,
+                "length": 4.542,
+                "image_id": "91.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "North Circuit",
+                "start_year": 2006,
+                "end_year": null,
+                "length": 2.336,
+                "image_id": "91.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Full Circuit",
+                "start_year": 1984,
+                "end_year": 2001,
+                "length": 6.049,
+                "image_id": "91.4"
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Arlington Street Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [2026] }
+                ]
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "32.748060000000000",
+        "longitude": "-97.092630000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2026,
+                "end_year": null,
+                "length": 4.39,
+                "image_id": "92.1"
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Atlanta Motor Speedway",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1965, 1966, 1978, 1979, 1981, 1982, 1983, 1998, 1999, 2000, 2001] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "33.383494000000000",
+        "longitude": "-84.317856000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 2.478,
+                "image_id": "93.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 4.023,
+                "image_id": "93.2"
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Atlanta Motorsports Park",
+        "similarNames": null,
+        "categories": [],
+        "country": "US",
+        "region": "North America",
+        "latitude": "34.434722000000000",
+        "longitude": "-84.176944000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2013,
+                "end_year": null,
+                "length": 2.953,
+                "image_id": "94.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Variation 1 Circuit",
+                "start_year": 2013,
+                "end_year": null,
+                "length": 1.001,
+                "image_id": "94.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Variation 2 Circuit",
+                "start_year": 2013,
+                "end_year": null,
+                "length": 1.262,
+                "image_id": "94.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Variation 3 Circuit",
+                "start_year": 2013,
+                "end_year": null,
+                "length": 2.213,
+                "image_id": "94.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "Variation 4 Circuit",
+                "start_year": 2013,
+                "end_year": null,
+                "length": 2.002,
+                "image_id": "94.5"
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Misano World Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 10, "name": "Formula 3", "years": [] },
+                    { "id": 12, "name": "Formula E", "years": [2024] },
+                    { "id": 34, "name": "W Series", "years": [2019] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2018, 2019] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "IT",
+        "region": "Europe",
+        "latitude": "43.961389000000000",
+        "longitude": "12.683333000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2008,
+                "end_year": null,
+                "length": 4.2,
+                "image_id": "95.1"
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Circuit Paul Ricard",
+        "similarNames": ["French Grand Prix", "Le Castellet"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    {
+                        "id": 10,
+                        "name": "Formula 3",
+                        "subcategories": [
+                            { "id": 34, "name": "W Series", "years": [2022] }
+                        ]
+                    },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2023] }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "country": "FR",
+        "region": "Europe",
+        "latitude": "43.250556000000000",
+        "longitude": "5.791667000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "1C-V2 Circuit",
+                "start_year": 2019,
+                "end_year": null,
+                "length": 5.832,
+                "image_id": "96.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1970,
+                "end_year": 2001,
+                "length": 5.809,
+                "image_id": "96.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Short GP Circuit",
+                "start_year": 1986,
+                "end_year": 2001,
+                "length": 3.812,
+                "image_id": "96.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Short Circuit",
+                "start_year": 1970,
+                "end_year": 2001,
+                "length": 3.025,
+                "image_id": "96.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "School Circuit",
+                "start_year": 1970,
+                "end_year": 2001,
+                "length": 2.2,
+                "image_id": "96.5"
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Circuit Ricardo Tormo",
+        "similarNames": ["Circuit de Valencia"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [] },
+                    {
+                        "id": 33,
+                        "name": "Formula 4",
+                        "subcategories": [
+                            { "id": 35, "name": "F1 Academy", "years": [2023] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2010, 2011, 2012] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "ES",
+        "region": "Europe",
+        "latitude": "39.485833000000000",
+        "longitude": "-0.628056000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1999,
+                "end_year": null,
+                "length": 4.005,
+                "image_id": "97.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "National Circuit",
+                "start_year": 1999,
+                "end_year": null,
+                "length": 3.099,
+                "image_id": "97.2"
             }
         ]
     }

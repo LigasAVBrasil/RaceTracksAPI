@@ -210,6 +210,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2020, 2021, 2023, 2024, 2025, 2026] }
+                        ]
+                    },
                     { "id": 28, "name": "LMGTE", "years": [2021, 2022, 2023] }
                 ]
             },
@@ -394,6 +401,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                        ]
+                    },
                     { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
                     { "id": 21, "name": "DTM", "years": [2005, 2020, 2022] },
                     { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
@@ -520,7 +534,15 @@
             {
                 "id": 2,
                 "name": "GT",
-                "subcategories": []
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                        ]
+                    }
+                ]
             },
             {
                 "id": 3,
@@ -938,7 +960,15 @@
             {
                 "id": 2,
                 "name": "GT",
-                "subcategories": []
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2024] }
+                        ]
+                    }
+                ]
             }
         ],
         "country": "SA",
@@ -987,13 +1017,7 @@
                         "id": 46,
                         "name": "Formula 3",
                         "subcategories": [
-                            {
-                                "id": 10,
-                                "name": "FIA Formula 3",
-                                "subcategories": [
-                                    { "id": 34, "name": "W Series", "years": [2022] }
-                                ]
-                            }
+                            { "id": 34, "name": "W Series", "years": [2022] }
                         ]
                     }
                 ]
@@ -1267,6 +1291,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2016, 2017, 2018, 2019] }
+                        ]
+                    },
                     { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
                 ]
             },
@@ -1394,7 +1425,15 @@
             {
                 "id": 2,
                 "name": "GT",
-                "subcategories": []
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2016, 2017, 2018, 2019] }
+                        ]
+                    }
+                ]
             },
             {
                 "id": 4,
@@ -1473,6 +1512,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2019, 2020, 2021, 2022, 2023, 2025, 2026] }
+                        ]
+                    },
                     { "id": 21, "name": "DTM", "years": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2023, 2024, 2025, 2026] }
                 ]
             },
@@ -1573,6 +1619,19 @@
                         ]
                     }
                 ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2014] }
+                        ]
+                    }
+                ]
             }
         ],
         "country": "AZ",
@@ -1613,13 +1672,7 @@
                         "id": 46,
                         "name": "Formula 3",
                         "subcategories": [
-                            {
-                                "id": 10,
-                                "name": "FIA Formula 3",
-                                "subcategories": [
-                                    { "id": 34, "name": "W Series", "years": [2022] }
-                                ]
-                            }
+                            { "id": 34, "name": "W Series", "years": [2022] }
                         ]
                     }
                 ]
@@ -1688,13 +1741,7 @@
                         "id": 46,
                         "name": "Formula 3",
                         "subcategories": [
-                            {
-                                "id": 10,
-                                "name": "FIA Formula 3",
-                                "subcategories": [
-                                    { "id": 34, "name": "W Series", "years": [2021] }
-                                ]
-                            }
+                            { "id": 34, "name": "W Series", "years": [2021] }
                         ]
                     }
                 ]
@@ -2118,6 +2165,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2020, 2022] }
+                        ]
+                    },
                     { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
                     { "id": 28, "name": "LMGTE", "years": [] }
                 ]
@@ -4199,6 +4253,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2023, 2024, 2025, 2026] }
+                        ]
+                    },
                     { "id": 21, "name": "DTM", "years": [] },
                     { "id": 28, "name": "LMGTE", "years": [2015, 2016, 2017] }
                 ]
@@ -4366,6 +4427,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2026] }
+                        ]
+                    },
                     { "id": 28, "name": "LMGTE", "years": [2021, 2023] }
                 ]
             },
@@ -5385,13 +5453,7 @@
                         "id": 46,
                         "name": "Formula 3",
                         "subcategories": [
-                            {
-                                "id": 10,
-                                "name": "FIA Formula 3",
-                                "subcategories": [
-                                    { "id": 34, "name": "W Series", "years": [2019] }
-                                ]
-                            }
+                            { "id": 34, "name": "W Series", "years": [2019] }
                         ]
                     }
                 ]
@@ -5400,6 +5462,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2022, 2023, 2024] }
+                        ]
+                    },
                     { "id": 21, "name": "DTM", "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             },
@@ -5551,13 +5620,7 @@
                         "id": 46,
                         "name": "Formula 3",
                         "subcategories": [
-                            {
-                                "id": 10,
-                                "name": "FIA Formula 3",
-                                "subcategories": [
-                                    { "id": 34, "name": "W Series", "years": [2019] }
-                                ]
-                            }
+                            { "id": 34, "name": "W Series", "years": [2019] }
                         ]
                     }
                 ]
@@ -5752,13 +5815,7 @@
                         "id": 46,
                         "name": "Formula 3",
                         "subcategories": [
-                            {
-                                "id": 10,
-                                "name": "FIA Formula 3",
-                                "subcategories": [
-                                    { "id": 34, "name": "W Series", "years": [2019] }
-                                ]
-                            }
+                            { "id": 34, "name": "W Series", "years": [2019] }
                         ]
                     }
                 ]
@@ -5767,6 +5824,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2017, 2018] }
+                        ]
+                    },
                     { "id": 21, "name": "DTM", "years": [2002, 2019, 2020, 2021] }
                 ]
             },
@@ -6191,13 +6255,7 @@
                         "id": 46,
                         "name": "Formula 3",
                         "subcategories": [
-                            {
-                                "id": 10,
-                                "name": "FIA Formula 3",
-                                "subcategories": [
-                                    { "id": 34, "name": "W Series", "years": [2019] }
-                                ]
-                            }
+                            { "id": 34, "name": "W Series", "years": [2019] }
                         ]
                     }
                 ]
@@ -6206,6 +6264,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] }
+                        ]
+                    },
                     { "id": 21, "name": "DTM", "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2018, 2019] }
                 ]
             },
@@ -6266,13 +6331,7 @@
                         "id": 46,
                         "name": "Formula 3",
                         "subcategories": [
-                            {
-                                "id": 10,
-                                "name": "FIA Formula 3",
-                                "subcategories": [
-                                    { "id": 34, "name": "W Series", "years": [2019] }
-                                ]
-                            }
+                            { "id": 34, "name": "W Series", "years": [2019] }
                         ]
                     }
                 ]
@@ -6482,13 +6541,7 @@
                         "id": 46,
                         "name": "Formula 3",
                         "subcategories": [
-                            {
-                                "id": 10,
-                                "name": "FIA Formula 3",
-                                "subcategories": [
-                                    { "id": 34, "name": "W Series", "years": [2019] }
-                                ]
-                            }
+                            { "id": 34, "name": "W Series", "years": [2019] }
                         ],
                         "years": []
                     }
@@ -6498,6 +6551,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                        ]
+                    },
                     { "id": 21, "name": "DTM", "years": [2018, 2019] }
                 ]
             },
@@ -6558,6 +6618,19 @@
                         "subcategories": [
                             { "id": 10, "name": "FIA Formula 3", "years": [2019, 2021] },
                             { "id": 34, "name": "W Series", "years": [2022] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                         ]
                     }
                 ]
@@ -6635,6 +6708,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2021, 2022, 2023, 2025] }
+                        ]
+                    },
                     { "id": 21, "name": "DTM", "years": [2010, 2011, 2012] }
                 ]
             },
@@ -6802,6 +6882,251 @@
                 "end_year": null,
                 "length": 2.313,
                 "image_id": "99.2"
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Mugello Circuit",
+        "similarNames": ["Tuscan Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [2020] },
+                    {
+                        "id": 45,
+                        "name": "Formula 2",
+                        "subcategories": [
+                            { "id": 9, "name": "FIA Formula 2", "years": [2020] }
+                        ]
+                    },
+                    {
+                        "id": 46,
+                        "name": "Formula 3",
+                        "subcategories": [
+                            { "id": 10, "name": "FIA Formula 3", "years": [2020] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2007, 2008] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 41, "name": "TCR", "years": [] }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 29, "name": "ELMS", "years": [2024] }
+                ]
+            }
+        ],
+        "country": "IT",
+        "region": "Europe",
+        "latitude": "43.997500000000000",
+        "longitude": "11.371944000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1974,
+                "end_year": null,
+                "length": 5.245,
+                "image_id": "100.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Short Circuit",
+                "start_year": 1974,
+                "end_year": null,
+                "length": 2.551,
+                "image_id": "100.2"
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Circuit de Nevers Magny-Cours",
+        "similarNames": ["French Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2020, 2021, 2022, 2024, 2025, 2026] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "FR",
+        "region": "Europe",
+        "latitude": "46.863333000000000",
+        "longitude": "3.163333000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2003,
+                "end_year": null,
+                "length": 4.411,
+                "image_id": "101.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Club Circuit",
+                "start_year": 1992,
+                "end_year": null,
+                "length": 1.727,
+                "image_id": "101.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1989,
+                "end_year": 1991,
+                "length": 4.271,
+                "image_id": "101.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Club Circuit",
+                "start_year": 1989,
+                "end_year": 1991,
+                "length": 1.748,
+                "image_id": "101.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "National Circuit",
+                "start_year": 1989,
+                "end_year": 1991,
+                "length": 2.621,
+                "image_id": "101.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "Full Circuit",
+                "start_year": 1992,
+                "end_year": 2002,
+                "length": 4.25,
+                "image_id": "101.6"
+            },
+            {
+                "layout_id": 7,
+                "name": "National Circuit",
+                "start_year": 1992,
+                "end_year": 2002,
+                "length": 2.621,
+                "image_id": "101.7"
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Circuit Paul Armagnac",
+        "similarNames": ["Circuit de Nogaro"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "FR",
+        "region": "Europe",
+        "latitude": "43.768056000000000",
+        "longitude": "-0.038056000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2007,
+                "end_year": null,
+                "length": 3.636,
+                "image_id": "102.1"
             }
         ]
     }

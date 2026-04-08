@@ -354,27 +354,61 @@
 
 			function populateCategories(tracks) {
 				const categoryFilter = document.getElementById("category-filter");
-				const uniqueCategories = new Set();
+
+				categoryFilter.innerHTML =
+					'<option value="All">All Categories</option>';
+
+				const categoryTree = {};
+
+				function mergeIntoTree(treeNode, category) {
+					if (!treeNode[category.name]) {
+						treeNode[category.name] = { subcategories: {} };
+					}
+					if (category.subcategories && category.subcategories.length > 0) {
+						category.subcategories.forEach((sub) => {
+							mergeIntoTree(treeNode[category.name].subcategories, sub);
+						});
+					}
+				}
 
 				tracks.forEach((track) => {
 					if (track.categories) {
-						track.categories.forEach((category) => {
-							if (category.subcategories) {
-								category.subcategories.forEach((sub) => {
-									uniqueCategories.add(sub.name);
-								});
-							}
-						});
+						track.categories.forEach((cat) => mergeIntoTree(categoryTree, cat));
 					}
 				});
 
-				const sortedCategories = Array.from(uniqueCategories).sort();
-				sortedCategories.forEach((cat) => {
-					const option = document.createElement("option");
-					option.value = cat;
-					option.textContent = cat;
-					categoryFilter.appendChild(option);
-				});
+				function renderTreeOptions(treeNode, level = 0) {
+					const sortedKeys = Object.keys(treeNode).sort();
+
+					sortedKeys.forEach((categoryName) => {
+						const option = document.createElement("option");
+						option.value = categoryName;
+
+						const indent = "\u00A0\u00A0\u00A0\u00A0".repeat(level);
+						const prefix = level > 0 ? indent + "↳ " : "";
+
+						option.textContent = prefix + categoryName;
+
+						if (level === 0) {
+							option.style.fontWeight = "bold";
+						}
+
+						categoryFilter.appendChild(option);
+
+						renderTreeOptions(treeNode[categoryName].subcategories, level + 1);
+					});
+				}
+				renderTreeOptions(categoryTree);
+			}
+
+			function hasCategory(category, targetName) {
+				if (category.name === targetName) return true;
+				if (category.subcategories && category.subcategories.length > 0) {
+					return category.subcategories.some((sub) =>
+						hasCategory(sub, targetName),
+					);
+				}
+				return false;
 			}
 
 			function applyFilters() {
@@ -388,6 +422,7 @@
 				const filteredTracks = allTracksData.filter((track) => {
 					const matchesRegion =
 						regionValue === "All" || track.region === regionValue;
+
 					const trackName = track.name.toLowerCase();
 					let matchesSearch = trackName.includes(searchValue);
 
@@ -399,14 +434,9 @@
 
 					let matchesCategory = categoryValue === "All";
 					if (!matchesCategory && track.categories) {
-						matchesCategory = track.categories.some((category) => {
-							if (category.subcategories) {
-								return category.subcategories.some(
-									(sub) => sub.name === categoryValue,
-								);
-							}
-							return false;
-						});
+						matchesCategory = track.categories.some((category) =>
+							hasCategory(category, categoryValue),
+						);
 					}
 
 					return matchesRegion && matchesSearch && matchesCategory;

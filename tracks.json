@@ -23,6 +23,7 @@
                 "name": "GT",
                 "subcategories": [
                     { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
+                    { "id": 21, "name": "DTM", "years": [1996] },
                     { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014] }
                 ]
             },
@@ -217,6 +218,7 @@
                             { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2020, 2021, 2023, 2024, 2025, 2026] }
                         ]
                     },
+                    { "id": 21, "name": "DTM", "years": [2021] },
                     { "id": 28, "name": "LMGTE", "years": [2021, 2022, 2023] }
                 ]
             },
@@ -541,7 +543,8 @@
                         "subcategories": [
                             { "id": 39, "name": "GT World Challenge Europe", "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                         ]
-                    }
+                    },
+                    { "id": 21, "name": "DTM", "years": [2006, 2007, 2008, 2009] }
                 ]
             },
             {
@@ -772,7 +775,8 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 15, "name": "Super GT", "years": [1993, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                    { "id": 15, "name": "Super GT", "years": [1993, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 21, "name": "DTM", "years": [] }
                 ]
             },
             {
@@ -1298,6 +1302,7 @@
                             { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2016, 2017, 2018, 2019] }
                         ]
                     },
+                    { "id": 21, "name": "DTM", "years": [] },
                     { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
                 ]
             },
@@ -1405,6 +1410,7 @@
                 "name": "Open Wheel",
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 33, "name": "Formula 4", "years": [] },
                     {
                         "id": 45,
                         "name": "Formula 2",
@@ -1432,12 +1438,18 @@
                         "subcategories": [
                             { "id": 39, "name": "GT World Challenge Europe", "years": [2016, 2017, 2018, 2019] }
                         ]
-                    }
+                    },
+                    { "id": 21, "name": "DTM", "years": [2014, 2016, 2017, 2018] }
                 ]
             },
             {
                 "id": 4,
                 "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
                 "subcategories": []
             }
         ],
@@ -4260,7 +4272,7 @@
                             { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2023, 2024, 2025, 2026] }
                         ]
                     },
-                    { "id": 21, "name": "DTM", "years": [] },
+                    { "id": 21, "name": "DTM", "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
                     { "id": 28, "name": "LMGTE", "years": [2015, 2016, 2017] }
                 ]
             },
@@ -6990,7 +7002,8 @@
                         "subcategories": [
                             { "id": 39, "name": "GT World Challenge Europe", "years": [2020, 2021, 2022, 2024, 2025, 2026] }
                         ]
-                    }
+                    },
+                    { "id": 21, "name": "DTM", "years": [] }
                 ]
             },
             {
@@ -7127,6 +7140,655 @@
                 "end_year": null,
                 "length": 3.636,
                 "image_id": "102.1"
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "name": "Moscow Raceway",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2015] }
+                        ]
+                    },
+                    { "id": 21, "name": "DTM", "years": [2013, 2014, 2015, 2016, 2017] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": []
+            }
+        ],
+        "country": "RU",
+        "region": "Asia",
+        "latitude": "55.996056000000000",
+        "longitude": "36.268361000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Grand Prix Circuit 2",
+                "start_year": 2012,
+                "end_year": null,
+                "length": 4.009,
+                "image_id": "103.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Grand Prix Circuit 9",
+                "start_year": 2012,
+                "end_year": null,
+                "length": 3.931,
+                "image_id": "103.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Sprint Circuit 1",
+                "start_year": 2012,
+                "end_year": null,
+                "length": 2.661,
+                "image_id": "103.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Sprint Circuit 4",
+                "start_year": 2012,
+                "end_year": null,
+                "length": 2.545,
+                "image_id": "103.4"
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "name": "Automotodróm Slovakia Ring",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 39, "name": "GT World Challenge Europe", "years": [2014] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 41, "name": "TCR", "years": [] }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "SK",
+        "region": "Europe",
+        "latitude": "48.053889000000000",
+        "longitude": "17.570833000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Variant 1",
+                "start_year": 2009,
+                "end_year": null,
+                "length": 3.737,
+                "image_id": "104.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Variant 3",
+                "start_year": 2009,
+                "end_year": null,
+                "length": 2.632,
+                "image_id": "104.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Variant 4",
+                "start_year": 2009,
+                "end_year": null,
+                "length": 5.922,
+                "image_id": "104.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Variant 4 + Chicane",
+                "start_year": 2018,
+                "end_year": null,
+                "length": 5.922,
+                "image_id": "104.4"
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "name": "Igora Drive",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": []
+            }
+        ],
+        "country": "RU",
+        "region": "Asia",
+        "latitude": "60.513333000000000",
+        "longitude": "30.197500000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2022,
+                "end_year": null,
+                "length": 5.183,
+                "image_id": "105.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Short Circuit",
+                "start_year": 2019,
+                "end_year": null,
+                "length": 4.086,
+                "image_id": "105.2"
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "name": "Anderstorp Raceway",
+        "similarNames": ["Swedish Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1973, 1974, 1975, 1976, 1977, 1978] },
+                    { "id": 33, "name": "Formula 4", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
+            }
+        ],
+        "country": "SE",
+        "region": "Europe",
+        "latitude": "57.264167000000000",
+        "longitude": "13.601389000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1978,
+                "end_year": null,
+                "length": 4.025,
+                "image_id": "106.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "North Circuit",
+                "start_year": 1978,
+                "end_year": null,
+                "length": 1.8,
+                "image_id": "106.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "South Circuit",
+                "start_year": 1998,
+                "end_year": null,
+                "length": 2.0,
+                "image_id": "106.3"
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "name": "Shanghai Street Circuit",
+        "similarNames": ["Pudong"],
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2006, 2007, 2008, 2009, 2010] }
+                ]
+            }
+        ],
+        "country": "CN",
+        "region": "Asia",
+        "latitude": "31.221111000000000",
+        "longitude": "121.543889000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2010,
+                "end_year": 2010,
+                "length": 2.465,
+                "image_id": "107.1"
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "name": "Dijon-Prenois",
+        "similarNames": ["French Grand Prix", "Swiss Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1974, 1977, 1979, 1981, 1982, 1984] },
+                    { "id": 33, "name": "Formula 4", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [2008] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
+            }
+        ],
+        "country": "FR",
+        "region": "Europe",
+        "latitude": "47.362500000000000",
+        "longitude": "4.899167000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1976,
+                "end_year": null,
+                "length": 3.886,
+                "image_id": "108.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Short Circuit",
+                "start_year": 1972,
+                "end_year": null,
+                "length": 3.289,
+                "image_id": "108.2"
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "name": "Automobil-Verkehrs- und Übungsstraße",
+        "similarNames": ["AVUS"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1926, 1959] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995] }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
+            }
+        ],
+        "country": "DE",
+        "region": "Europe",
+        "latitude": "52.480556000000000",
+        "longitude": "13.251389000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1992,
+                "end_year": 1993,
+                "length": 2.639,
+                "image_id": "109.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1937,
+                "end_year": 1939,
+                "length": 19.279,
+                "image_id": "109.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1989,
+                "end_year": 1991,
+                "length": 4.879,
+                "image_id": "109.3"
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "name": "Alemannenring",
+        "similarNames": ["Singen Circuit"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [1991, 1992, 1993, 1994, 1995] }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
+            }
+        ],
+        "country": "DE",
+        "region": "Europe",
+        "latitude": "47.755556000000000",
+        "longitude": "8.873611000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1991,
+                "end_year": 1995,
+                "length": 2.8,
+                "image_id": "110.1"
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "name": "Mainz-Finthen Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [1984, 1985, 1986, 1987, 1988, 1989, 1990] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            }
+        ],
+        "country": "DE",
+        "region": "Europe",
+        "latitude": "49.968889000000000",
+        "longitude": "8.146389000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit + Hairpin",
+                "start_year": 1971,
+                "end_year": 1989,
+                "length": 2.268,
+                "image_id": "111.1"
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "name": "Diepholz Airfield Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [1985, 1987, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            }
+        ],
+        "country": "DE",
+        "region": "Europe",
+        "latitude": "52.585556000000000",
+        "longitude": "8.341111000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1992,
+                "end_year": 1996,
+                "length": 2.72,
+                "image_id": "112.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1989,
+                "end_year": 1990,
+                "length": 2.69,
+                "image_id": "112.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit",
+                "start_year": 1977,
+                "end_year": 1988,
+                "length": 2.6,
+                "image_id": "112.3"
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "name": "Wunstorf Air Base Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [1984, 1985, 1986, 1987, 1988, 1990, 1991, 1992, 1993] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            }
+        ],
+        "country": "DE",
+        "region": "Europe",
+        "latitude": "52.454722000000000",
+        "longitude": "9.428889000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1982,
+                "end_year": 1998,
+                "length": 5.047,
+                "image_id": "113.1"
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "name": "Salzburgring",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 21, "name": "DTM", "years": [] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 41, "name": "TCR", "years": [] }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "AT",
+        "region": "Europe",
+        "latitude": "47.821111000000000",
+        "longitude": "13.159444000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1998,
+                "end_year": null,
+                "length": 4.241,
+                "image_id": "114.1"
             }
         ]
     }

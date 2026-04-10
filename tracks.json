@@ -6185,7 +6185,7 @@
             },
             {
                 "layout_id": 2,
-                "name": "Full Circuit",
+                "name": "Intermediate Circuit",
                 "start_year": 2005,
                 "end_year": null,
                 "length": 3.925,
@@ -7789,6 +7789,403 @@
                 "end_year": null,
                 "length": 4.241,
                 "image_id": "114.1"
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "name": "Walt Disney World Speedway",
+        "similarNames": ["The Mickyard"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1996, 1997, 1998, 1999, 2000] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "28.396672000000000",
+        "longitude": "-81.577669000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1995,
+                "end_year": 2015,
+                "length": 1.609,
+                "image_id": "115.1"
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "name": "Auto Club Speedway",
+        "similarNames": ["California Speedway"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2012, 2013, 2014, 2015] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "34.088580000000000",
+        "longitude": "-117.500000000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1997,
+                "end_year": 2023,
+                "length": 3.219,
+                "image_id": "116.1"
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "name": "Baltimore Street Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [2011, 2012, 2013] }
+                ]
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "39.283333000000000",
+        "longitude": "-76.616667000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2011,
+                "end_year": 2013,
+                "length": 3.28,
+                "image_id": "117.1"
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "name": "Charlotte Motor Speedway",
+        "similarNames": ["Lowe's Motor Speedway"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1997, 1998, 1999] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "35.352500000000000",
+        "longitude": "-80.682500000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1960,
+                "end_year": null,
+                "length": 2.414,
+                "image_id": "118.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Road Circuit",
+                "start_year": 2019,
+                "end_year": 2023,
+                "length": 3.669,
+                "image_id": "118.2"
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "name": "Chicagoland Speedway",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "41.474722000000000",
+        "longitude": "-88.057222000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 2001,
+                "end_year": null,
+                "length": 2.446,
+                "image_id": "119.1"
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "name": "Detroit Belle Isle",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2007, 2008, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 36, "name": "GT World Challenge America", "years": [] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "42.337056000000000",
+        "longitude": "-82.998891000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1998,
+                "end_year": 2022,
+                "length": 3.798,
+                "image_id": "120.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1992,
+                "end_year": 2012,
+                "length": 3.379,
+                "image_id": "120.2"
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "name": "Dover Motor Speedway",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1998, 1999] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "39.190000000000000",
+        "longitude": "-75.530000000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1969,
+                "end_year": null,
+                "length": 1.609,
+                "image_id": "121.1"
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "name": "Edmonton City Centre Airport",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "CA",
+        "region": "North America",
+        "latitude": "53.575556000000000",
+        "longitude": "-113.522917000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2011,
+                "end_year": 2012,
+                "length": 3.579,
+                "image_id": "122.1"
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "name": "Houston Reliant Park",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1998, 1999, 2000, 2001, 2006, 2007, 2013, 2014] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "29.682222000000000",
+        "longitude": "-95.408611000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2007,
+                "end_year": 2014,
+                "length": 2.709,
+                "image_id": "123.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1998,
+                "end_year": 2001,
+                "length": 2.457,
+                "image_id": "123.2"
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "name": "Toronto Exhibition Place",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2022, 2023, 2024, 2025] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "CA",
+        "region": "North America",
+        "latitude": "43.632957000000000",
+        "longitude": "-79.415761000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1996,
+                "end_year": 2025,
+                "length": 2.824,
+                "image_id": "124.1"
             }
         ]
     }

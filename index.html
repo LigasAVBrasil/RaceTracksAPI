@@ -67,6 +67,93 @@
 				padding: 0 2rem;
 			}
 
+			.filter-card {
+				border-radius: 12px;
+				padding: 1.5rem;
+				margin-bottom: 2rem;
+				display: flex;
+				flex-wrap: wrap;
+				gap: 1.5rem;
+				align-items: flex-end;
+			}
+
+			.filter-group {
+				display: flex;
+				flex-direction: column;
+				gap: 0.5rem;
+			}
+
+			.filter-group label {
+				font-size: 0.8rem;
+				font-weight: 600;
+				color: var(--text-muted);
+				text-transform: uppercase;
+				letter-spacing: 0.5px;
+			}
+
+			.filter-input {
+				padding: 0.6rem 1rem;
+				border-radius: 6px;
+				background-color: var(--bg-color);
+				color: var(--text-main);
+				border: 1px solid #333;
+				font-family: inherit;
+				font-size: 0.95rem;
+				transition: border-color 0.2s;
+				height: 42px;
+				box-sizing: border-box;
+			}
+
+			.filter-input:focus {
+				outline: none;
+				border-color: #555;
+			}
+
+			.search-group {
+				flex-grow: 1;
+				min-width: 250px;
+			}
+
+			.min-max-wrapper {
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+				background-color: var(--bg-color);
+				border: 1px solid #333;
+				border-radius: 6px;
+				padding: 0 0.5rem;
+				height: 42px;
+				box-sizing: border-box;
+			}
+
+			.min-max-wrapper input {
+				background: transparent;
+				border: none;
+				color: var(--text-main);
+				width: 60px;
+				padding: 0.5rem;
+				text-align: center;
+				font-family: inherit;
+				font-size: 0.95rem;
+			}
+
+			.min-max-wrapper input:focus {
+				outline: none;
+			}
+
+			.min-max-wrapper input::-webkit-outer-spin-button,
+			.min-max-wrapper input::-webkit-inner-spin-button {
+				-webkit-appearance: none;
+				margin: 0;
+			}
+
+			.counter-wrapper {
+				margin-left: auto;
+				display: flex;
+				align-items: center;
+				height: 42px;
+			}
+
 			.track-grid {
 				display: grid;
 				grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -179,95 +266,84 @@
 		</header>
 
 		<main>
-			<div
-				class="filter-section"
-				style="
-					margin-bottom: 2rem;
-					display: flex;
-					align-items: center;
-					gap: 1rem;
-					flex-wrap: wrap;
-				"
-			>
-				<input
-					type="text"
-					id="search-input"
-					placeholder="Search track or alias (e.g., Interlagos)"
-					style="
-						padding: 0.5rem 1rem;
-						border-radius: 6px;
-						background-color: var(--card-bg);
-						color: var(--text-main);
-						border: 1px solid #333;
-						font-family: inherit;
-						font-size: 1rem;
-						flex-grow: 1;
-						min-width: 250px;
-					"
-				/>
+			<div class="filter-card">
+				<div class="filter-group search-group">
+					<label for="search-input">Search</label>
+					<input
+						type="text"
+						id="search-input"
+						class="filter-input"
+						placeholder="Track or layout (e.g., Oval)"
+					/>
+				</div>
 
-				<label
-					for="region-filter"
-					style="font-weight: 600; color: var(--text-muted)"
-					>Filter by Region:</label
-				>
-				<select
-					id="region-filter"
-					style="
-						padding: 0.5rem 1rem;
-						border-radius: 6px;
-						background-color: var(--card-bg);
-						color: var(--text-main);
-						border: 1px solid #333;
-						font-family: inherit;
-						font-size: 1rem;
-						cursor: pointer;
-					"
-				>
-					<option value="All">All Regions</option>
-					<option value="Africa">Africa</option>
-					<option value="Asia">Asia</option>
-					<option value="Europe">Europe</option>
-					<option value="Middle East">Middle East</option>
-					<option value="North America">North America</option>
-					<option value="Oceania">Oceania</option>
-					<option value="South America">South America</option>
-				</select>
+				<div class="filter-group">
+					<label>Length (km)</label>
+					<div class="min-max-wrapper">
+						<input
+							type="number"
+							id="min-length"
+							placeholder="Min"
+							min="0"
+							step="0.1"
+						/>
+						<span style="color: var(--text-muted)">-</span>
+						<input
+							type="number"
+							id="max-length"
+							placeholder="Max"
+							min="0"
+							step="0.1"
+						/>
+					</div>
+				</div>
 
-				<label
-					for="category-filter"
-					style="font-weight: 600; color: var(--text-muted)"
-					>Filter by Category:</label
-				>
-				<select
-					id="category-filter"
-					style="
-						padding: 0.5rem 1rem;
-						border-radius: 6px;
-						background-color: var(--card-bg);
-						color: var(--text-main);
-						border: 1px solid #333;
-						font-family: inherit;
-						font-size: 1rem;
-						cursor: pointer;
-					"
-				>
-					<option value="All">All Categories</option>
-				</select>
+				<div class="filter-group">
+					<label for="region-filter">Region</label>
+					<select
+						id="region-filter"
+						class="filter-input"
+						style="cursor: pointer"
+					>
+						<option value="All">All Regions</option>
+						<option value="Africa">Africa</option>
+						<option value="Asia">Asia</option>
+						<option value="Europe">Europe</option>
+						<option value="Middle East">Middle East</option>
+						<option value="North America">North America</option>
+						<option value="Oceania">Oceania</option>
+						<option value="South America">South America</option>
+					</select>
+				</div>
 
-				<span
-					id="track-counter"
-					style="
-						color: var(--accent-red);
-						font-size: 0.9rem;
-						font-weight: 600;
-						background-color: rgba(225, 6, 0, 0.1);
-						padding: 0.3rem 0.8rem;
-						border-radius: 20px;
-					"
-				>
-					Loading...
-				</span>
+				<div class="filter-group">
+					<label for="category-filter">Category</label>
+					<select
+						id="category-filter"
+						class="filter-input"
+						style="cursor: pointer"
+					>
+						<option value="All">All Categories</option>
+					</select>
+				</div>
+
+				<div class="counter-wrapper">
+					<span
+						id="track-counter"
+						style="
+							color: var(--accent-red);
+							font-size: 0.9rem;
+							font-weight: 600;
+							background-color: rgba(225, 6, 0, 0.1);
+							padding: 0.4rem 1rem;
+							border-radius: 20px;
+							white-space: nowrap;
+							border: 1px solid rgba(225, 6, 0, 0.3);
+						"
+					>
+						Loading...
+					</span>
+				</div>
 			</div>
 			<div class="track-grid" id="track-grid"></div>
 		</main>
@@ -419,28 +495,51 @@
 					.value.toLowerCase()
 					.trim();
 
-				const filteredTracks = allTracksData.filter((track) => {
-					const matchesRegion =
-						regionValue === "All" || track.region === regionValue;
+				const minLength =
+					parseFloat(document.getElementById("min-length").value) || 0;
+				const maxLength =
+					parseFloat(document.getElementById("max-length").value) || Infinity;
 
-					const trackName = track.name.toLowerCase();
-					let matchesSearch = trackName.includes(searchValue);
+				const filteredTracks = allTracksData
+					.map((track) => {
+						const matchesRegion =
+							regionValue === "All" || track.region === regionValue;
 
-					if (!matchesSearch && track.similarNames) {
-						matchesSearch = track.similarNames.some((alias) =>
-							alias.toLowerCase().includes(searchValue),
-						);
-					}
+						let matchesCategory = categoryValue === "All";
+						if (!matchesCategory && track.categories) {
+							matchesCategory = track.categories.some((category) =>
+								hasCategory(category, categoryValue),
+							);
+						}
 
-					let matchesCategory = categoryValue === "All";
-					if (!matchesCategory && track.categories) {
-						matchesCategory = track.categories.some((category) =>
-							hasCategory(category, categoryValue),
-						);
-					}
+						if (!matchesRegion || !matchesCategory) {
+							return { ...track, layouts: [] };
+						}
 
-					return matchesRegion && matchesSearch && matchesCategory;
-				});
+						const trackName = track.name.toLowerCase();
+						let trackSearchMatch = trackName.includes(searchValue);
+						if (!trackSearchMatch && track.similarNames) {
+							trackSearchMatch = track.similarNames.some((alias) =>
+								alias.toLowerCase().includes(searchValue),
+							);
+						}
+
+						const filteredLayouts = track.layouts.filter((layout) => {
+							const layoutNameMatch = layout.name
+								.toLowerCase()
+								.includes(searchValue);
+
+							const matchesSearch = trackSearchMatch || layoutNameMatch;
+
+							const length = parseFloat(layout.length);
+							const matchesLength = length >= minLength && length <= maxLength;
+
+							return matchesSearch && matchesLength;
+						});
+
+						return { ...track, layouts: filteredLayouts };
+					})
+					.filter((track) => track.layouts.length > 0);
 
 				renderTracks(filteredTracks);
 			}
@@ -468,6 +567,12 @@
 				.addEventListener("change", applyFilters);
 			document
 				.getElementById("search-input")
+				.addEventListener("input", applyFilters);
+			document
+				.getElementById("min-length")
+				.addEventListener("input", applyFilters);
+			document
+				.getElementById("max-length")
 				.addEventListener("input", applyFilters);
 
 			document.addEventListener("DOMContentLoaded", loadTracks);

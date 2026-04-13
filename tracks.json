@@ -693,7 +693,8 @@
                 "name": "GT",
                 "subcategories": [
                     { "id": 13, "name": "GT World Challenge", "years": null },
-                    { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
+                    { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
+                    { "id": 38, "name": "GT World Challenge Asia", "years": [2017, 2018, 2019, 2024, 2026] }
                 ]
             },
             {
@@ -707,6 +708,14 @@
             {
                 "id": 4,
                 "name": "Touring Car",
+                "subcategories": [
+                    { "id": 41, "name": "TCR", "years": [] },
+                    { "id": 47, "name": "Supercars", "years": [2005] }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
                 "subcategories": []
             },
             {
@@ -715,6 +724,11 @@
                 "subcategories": [
                     { "id": 30, "name": "FIA WEC", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
                 ]
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
             }
         ],
         "country": "CN",
@@ -775,9 +789,21 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 38, "name": "GT World Challenge Asia", "years": [2017, 2018, 2019, 2022, 2023, 2024] }
+                        ]
+                    },
                     { "id": 15, "name": "Super GT", "years": [1993, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
                     { "id": 21, "name": "DTM", "years": [] }
                 ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
             },
             {
                 "id": 6,
@@ -944,7 +970,7 @@
                 "name": "Open Wheel",
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
-                    { "id": 12, "name": "Formula E", "years": null },
+                    { "id": 12, "name": "Formula E", "years": [2025, 2026] },
                     {
                         "id": 33,
                         "name": "Formula 4",
@@ -1010,6 +1036,7 @@
                 "name": "Open Wheel",
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 12, "name": "Formula E", "years": [2022, 2023, 2024, 2025, 2026] },
                     {
                         "id": 33,
                         "name": "Formula 4",
@@ -1734,7 +1761,7 @@
     {
         "id": 20,
         "name": "Circuit of the Americas",
-        "similarNames": ["United States Grand Prix", "Lone Star Le Mans", "6 Hours of the Circuit of the Americas"],
+        "similarNames": ["United States Grand Prix", "Lone Star Le Mans", "6 Hours of the Circuit of the Americas", "IndyCar Classic"],
         "categories": [
             {
                 "id": 1,
@@ -2277,6 +2304,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 38, "name": "GT World Challenge Asia", "years": [2017, 2018, 2019, 2022, 2023, 2024, 2025, 2026] }
+                        ]
+                    },
                     { "id": 15, "name": "Super GT", "years": [1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
                     { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
                     { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2022, 2023] }
@@ -2297,6 +2331,11 @@
                 "subcategories": [
                     { "id": 30, "name": "FIA WEC", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2022, 2023, 2024, 2025, 2026] }
                 ]
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
             }
         ],
         "country": "JP",
@@ -2534,12 +2573,13 @@
     {
         "id": 29,
         "name": "Long Beach Street Circuit",
-        "similarNames": ["Grand Prix of Long Beach"],
+        "similarNames": ["Grand Prix of Long Beach", "Long Beach ePrix"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2015, 2016] },
                     { "id": 22, "name": "IndyCar", "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             },
@@ -2876,7 +2916,7 @@
     {
         "id": 34,
         "name": "Road America",
-        "similarNames": ["SportsCar Grand Prix"],
+        "similarNames": ["SportsCar Grand Prix", "Grand Prix at Road America"],
         "categories": [
             {
                 "id": 1,
@@ -3004,7 +3044,7 @@
     {
         "id": 36,
         "name": "Indianapolis Motor Speedway",
-        "similarNames": ["Indy 500", "Indianapolis 500", "United States Grand Prix"],
+        "similarNames": ["Indy 500", "Indianapolis 500", "United States Grand Prix", "Grand Prix of Indianapolis"],
         "categories": [
             {
                 "id": 1,
@@ -4573,7 +4613,7 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 12, "name": "Formula E", "years": [] },
+                    { "id": 12, "name": "Formula E", "years": [2025] },
                     { "id": 22, "name": "IndyCar", "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010] }
                 ]
             },
@@ -4648,6 +4688,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 38, "name": "GT World Challenge Asia", "years": [2023] }
+                        ]
+                    },
                     { "id": 15, "name": "Super GT", "years": [1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             },
@@ -4719,6 +4766,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 38, "name": "GT World Challenge Asia", "years": [2022] }
+                        ]
+                    },
                     { "id": 15, "name": "Super GT", "years": [1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             },
@@ -4864,6 +4918,13 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 38, "name": "GT World Challenge Asia", "years": [2022, 2023, 2024, 2025, 2026] }
+                        ]
+                    },
                     { "id": 15, "name": "Super GT", "years": [1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             },
@@ -4959,7 +5020,7 @@
     {
         "id": 69,
         "name": "St. Petersburg Street Circuit",
-        "similarNames": null,
+        "similarNames": ["Grand Prix of St. Petersburg"],
         "categories": [
             {
                 "id": 1,
@@ -4999,7 +5060,7 @@
     {
         "id": 70,
         "name": "Barber Motorsports Park",
-        "similarNames": null,
+        "similarNames": ["Grand Prix of Alabama"],
         "categories": [
             {
                 "id": 1,
@@ -5044,7 +5105,7 @@
     {
         "id": 71,
         "name": "Mid-Ohio Sports Car Course",
-        "similarNames": null,
+        "similarNames": ["Indy 200 at Mid-Ohio"],
         "categories": [
             {
                 "id": 1,
@@ -5104,7 +5165,7 @@
     {
         "id": 72,
         "name": "Milwaukee Mile",
-        "similarNames": null,
+        "similarNames": ["Milwaukee Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -5152,7 +5213,7 @@
     {
         "id": 73,
         "name": "Nashville Superspeedway",
-        "similarNames": null,
+        "similarNames": ["Music City Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -5195,7 +5256,7 @@
     {
         "id": 74,
         "name": "Phoenix Raceway",
-        "similarNames": null,
+        "similarNames": ["Phoenix Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -5230,7 +5291,7 @@
     {
         "id": 75,
         "name": "Portland International Raceway",
-        "similarNames": null,
+        "similarNames": ["Grand Prix of Portland"],
         "categories": [
             {
                 "id": 1,
@@ -5278,7 +5339,7 @@
     {
         "id": 76,
         "name": "Gateway Motorsports Park",
-        "similarNames": null,
+        "similarNames": ["St. Louis Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -6415,7 +6476,7 @@
     {
         "id": 92,
         "name": "Arlington Street Circuit",
-        "similarNames": null,
+        "similarNames": ["Grand Prix of Arlington"],
         "categories": [
             {
                 "id": 1,
@@ -6445,7 +6506,7 @@
     {
         "id": 93,
         "name": "Atlanta Motor Speedway",
-        "similarNames": null,
+        "similarNames": ["Atlanta Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -7830,7 +7891,7 @@
     {
         "id": 116,
         "name": "Auto Club Speedway",
-        "similarNames": ["California Speedway"],
+        "similarNames": ["California Speedway", "Fontana Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -7870,7 +7931,7 @@
     {
         "id": 117,
         "name": "Baltimore Street Circuit",
-        "similarNames": null,
+        "similarNames": ["Grand Prix of Baltimore"],
         "categories": [
             {
                 "id": 1,
@@ -7900,7 +7961,7 @@
     {
         "id": 118,
         "name": "Charlotte Motor Speedway",
-        "similarNames": ["Lowe's Motor Speedway"],
+        "similarNames": ["Lowe's Motor Speedway", "Charlotte Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -7948,7 +8009,7 @@
     {
         "id": 119,
         "name": "Chicagoland Speedway",
-        "similarNames": null,
+        "similarNames": ["Chicago Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -7983,7 +8044,7 @@
     {
         "id": 120,
         "name": "Detroit Belle Isle",
-        "similarNames": null,
+        "similarNames": ["Detroit Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -8039,7 +8100,7 @@
     {
         "id": 121,
         "name": "Dover Motor Speedway",
-        "similarNames": null,
+        "similarNames": ["Dover Downs International Speedway", "Dover Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -8074,7 +8135,7 @@
     {
         "id": 122,
         "name": "Edmonton City Centre Airport",
-        "similarNames": null,
+        "similarNames": ["Edmonton Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -8109,7 +8170,7 @@
     {
         "id": 123,
         "name": "Houston Reliant Park",
-        "similarNames": null,
+        "similarNames": ["Grand Prix of Houston"],
         "categories": [
             {
                 "id": 1,
@@ -8157,7 +8218,7 @@
     {
         "id": 124,
         "name": "Toronto Exhibition Place",
-        "similarNames": null,
+        "similarNames": ["Toronto Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -8188,5 +8249,1084 @@
                 "image_id": "124.1"
             }
         ]
+    },
+    {
+        "id": 125,
+        "name": "Texas World Speedway",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "30.537000000000000",
+        "longitude": "-96.221000000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1968,
+                "end_year": 2017,
+                "length": 3.218,
+                "image_id": "125.1"
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "name": "Texas Motor Speedway",
+        "similarNames": ["Texas Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "33.037500000000000",
+        "longitude": "-97.284700000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 2.414,
+                "image_id": "126.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Road Circuit",
+                "start_year": 2000,
+                "end_year": null,
+                "length": 4.554,
+                "image_id": "126.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Infield Circuit",
+                "start_year": 2000,
+                "end_year": null,
+                "length": 2.189,
+                "image_id": "126.3"
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "name": "Surfers Paradise Street Circuit",
+        "similarNames": ["Surfers Paradise Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008] },
+                    { "id": 33, "name": "Formula 4", "years": [] },
+                    { "id": 46, "name": "Formula 3", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 37, "name": "GT World Challenge Australia", "years": [2012, 2019] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 47, "name": "Supercars", "years": [1994, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            }
+        ],
+        "country": "AU",
+        "region": "Oceania",
+        "latitude": "-27.989722000000000",
+        "longitude": "153.427778000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2010,
+                "end_year": null,
+                "length": 2.96,
+                "image_id": "127.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1991,
+                "end_year": 2009,
+                "length": 4.47,
+                "image_id": "127.2"
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "name": "Richmond Raceway",
+        "similarNames": ["Richmond Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "37.591689000000000",
+        "longitude": "-77.420911000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1988,
+                "end_year": null,
+                "length": 1.207,
+                "image_id": "128.1"
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "name": "Pocono Raceway",
+        "similarNames": ["Pocono Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "41.061100000000000",
+        "longitude": "-75.508400000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1971,
+                "end_year": null,
+                "length": 4.023,
+                "image_id": "129.1"
+            }
+        ]
+    },
+    {
+        "id": 130,
+        "name": "Pikes Peak International Raceway",
+        "similarNames": ["Pikes Peak Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "38.591625000000000",
+        "longitude": "-104.676219000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 1.619,
+                "image_id": "130.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Road Circuit",
+                "start_year": 1997,
+                "end_year": null,
+                "length": 2.074,
+                "image_id": "130.2"
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "name": "NOLA Motorsports Park",
+        "similarNames": ["Grand Prix of Louisiana"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [2015] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 36, "name": "GT World Challenge America", "years": [2022, 2023] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "29.883611000000000",
+        "longitude": "-90.197778000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "A Circuit",
+                "start_year": 2015,
+                "end_year": null,
+                "length": 4.3,
+                "image_id": "131.1"
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "name": "New Hampshire Motor Speedway",
+        "similarNames": ["New Hampshire Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1992, 1993, 1994, 1995, 1996, 1997, 1998, 2011] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "43.362261000000000",
+        "longitude": "-71.461250000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1990,
+                "end_year": null,
+                "length": 1.703,
+                "image_id": "132.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Road Circuit",
+                "start_year": 1990,
+                "end_year": null,
+                "length": 2.575,
+                "image_id": "132.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Roval Circuit",
+                "start_year": 1990,
+                "end_year": null,
+                "length": 2.575,
+                "image_id": "132.3"
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "name": "Nazareth Speedway",
+        "similarNames": ["Nazareth Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "40.728000000000000",
+        "longitude": "-75.319000000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1987,
+                "end_year": 2004,
+                "length": 1.522,
+                "image_id": "133.1"
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "name": "Nashville Street Circuit",
+        "similarNames": ["Music City Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [2021, 2022, 2023] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "36.162411000000000",
+        "longitude": "-86.769467000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2021,
+                "end_year": 2023,
+                "length": 3.492,
+                "image_id": "134.1"
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "name": "Michigan International Speedway",
+        "similarNames": ["Michigan Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "42.066389000000000",
+        "longitude": "-84.241389000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1968,
+                "end_year": null,
+                "length": 3.219,
+                "image_id": "135.1"
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "name": "Las Vegas Motor Speedway",
+        "similarNames": ["Las Vegas Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [1996, 1997, 1998, 1999, 2000, 2004, 2005, 2011] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 36, "name": "GT World Challenge America", "years": [2000, 2019] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "36.271340000000000",
+        "longitude": "-115.011120000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1996,
+                "end_year": null,
+                "length": 2.414,
+                "image_id": "136.1"
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "name": "Kentucky Speedway",
+        "similarNames": ["Kentucky Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "38.709639000000000",
+        "longitude": "-84.916239000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 2000,
+                "end_year": null,
+                "length": 2.414,
+                "image_id": "137.1"
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "name": "Kansas Speedway",
+        "similarNames": ["Kansas Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "39.115789000000000",
+        "longitude": "-94.831061000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 2001,
+                "end_year": null,
+                "length": 2.414,
+                "image_id": "138.1"
+            }
+        ]
+    },
+    {
+        "id": 139,
+        "name": "Iowa Speedway",
+        "similarNames": ["Iowa Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 22, "name": "IndyCar", "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024, 2025] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "41.677778000000000",
+        "longitude": "-93.014444000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 2006,
+                "end_year": null,
+                "length": 1.408,
+                "image_id": "139.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Road Circuit",
+                "start_year": 2006,
+                "end_year": null,
+                "length": 2.092,
+                "image_id": "139.2"
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "name": "Sepang International Circuit",
+        "similarNames": ["Malaysian Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 38, "name": "GT World Challenge Asia", "years": [2017, 2018, 2019, 2022, 2023, 2024, 2025, 2026] }
+                        ]
+                    },
+                    { "id": 15, "name": "Super GT", "years": [2002, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2025, 2027] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 41, "name": "TCR", "years": [] }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "MY",
+        "region": "Asia",
+        "latitude": "2.760556000000000",
+        "longitude": "101.737500000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1998,
+                "end_year": null,
+                "length": 5.543,
+                "image_id": "140.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "North Circuit",
+                "start_year": 1998,
+                "end_year": null,
+                "length": 2.703,
+                "image_id": "140.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "South Circuit",
+                "start_year": 1998,
+                "end_year": null,
+                "length": 2.609,
+                "image_id": "140.3"
+            }
+        ]
+    },
+    {
+        "id": 141,
+        "name": "Buriram International Circuit",
+        "similarNames": ["Chang International Circuit"],
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 38, "name": "GT World Challenge Asia", "years": [2017, 2018, 2019, 2023, 2024, 2025] }
+                        ]
+                    },
+                    { "id": 15, "name": "Super GT", "years": [2014, 2015, 2016, 2017, 2018, 2019] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "TH",
+        "region": "Asia",
+        "latitude": "14.962844000000000",
+        "longitude": "103.084997000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2014,
+                "end_year": null,
+                "length": 4.554,
+                "image_id": "141.1"
+            }
+        ]
+    },
+    {
+        "id": 142,
+        "name": "Ningbo International Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "years": [] },
+                    { "id": 46, "name": "Formula 3", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 38, "name": "GT World Challenge Asia", "years": [2018] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 41, "name": "TCR", "years": [] }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
+            }
+        ],
+        "country": "CN",
+        "region": "Asia",
+        "latitude": "29.761389000000000",
+        "longitude": "121.863889000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2017,
+                "end_year": null,
+                "length": 4.015,
+                "image_id": "142.1"
+            }
+        ]
+    },
+    {
+        "id": 143,
+        "name": "Korea International Circuit",
+        "similarNames": ["Korean Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [2010, 2011, 2012, 2013] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 38, "name": "GT World Challenge Asia", "years": [2019] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
+            }
+        ],
+        "country": "KR",
+        "region": "Asia",
+        "latitude": "34.733333000000000",
+        "longitude": "126.416667000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2010,
+                "end_year": null,
+                "length": 5.615,
+                "image_id": "143.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "National Circuit",
+                "start_year": 2010,
+                "end_year": null,
+                "length": 3.045,
+                "image_id": "143.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Short Circuit",
+                "start_year": 2019,
+                "end_year": null,
+                "length": 3.312,
+                "image_id": "143.3"
+            }
+        ]
+    },
+    {
+        "id": 144,
+        "name": "Mandalika International Street Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 38, "name": "GT World Challenge Asia", "years": [2025, 2026] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
+            }
+        ],
+        "country": "ID",
+        "region": "Asia",
+        "latitude": "-8.895278000000000",
+        "longitude": "116.305833000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2021,
+                "end_year": null,
+                "length": 4.301,
+                "image_id": "144.1"
+            }
+        ]
+    },
+    {
+        "id": 145,
+        "name": "Tempelhof Airport Street Circuit",
+        "similarNames": ["Berlin ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            }
+        ],
+        "country": "DE",
+        "region": "Europe",
+        "latitude": "52.473611000000000",
+        "longitude": "13.401667000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2017,
+                "end_year": 2023,
+                "length": 2.355,
+                "image_id": "145.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Reverse ePrix Circuit",
+                "start_year": 2020,
+                "end_year": 2022,
+                "length": 2.355,
+                "image_id": "145.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Extended ePrix Circuit",
+                "start_year": 2020,
+                "end_year": 2020,
+                "length": 2.505,
+                "image_id": "145.3"
+            }
+        ]
+    },
+    {
+        "id": 146,
+        "name": "Brooklyn Street Circuit",
+        "similarNames": ["New York ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [] }
+                ]
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "40.681482000000000",
+        "longitude": "-74.015468000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2019,
+                "end_year": null,
+                "length": 2.373,
+                "image_id": "146.1"
+            }
+        ]
+    },
+    {
+        "id": 147,
+        "name": "Biscayne Bay Street Circuit",
+        "similarNames": ["Miami ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2015] }
+                ]
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "25.781944000000000",
+        "longitude": "-80.190556000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2015,
+                "end_year": 2015,
+                "length": 2.17,
+                "image_id": "147.1"
+            }
+        ]
+    },
+    {
+        "id": 148,
+        "name": "Riyadh Street Circuit",
+        "similarNames": ["Diriyah ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2018, 2019, 2021, 2022, 2023, 2024] }
+                ]
+            }
+        ],
+        "country": "SA",
+        "region": "Middle East",
+        "latitude": "24.738611000000000",
+        "longitude": "46.583889000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2018,
+                "end_year": 2024,
+                "length": 2.495,
+                "image_id": "148.1"
+            }
+        ]
+    },
+    {
+        "id": 149,
+        "name": "Excel London Circuit",
+        "similarNames": ["London ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            }
+        ],
+        "country": "UK",
+        "region": "Europe",
+        "latitude": "51.508100000000000",
+        "longitude": "0.028900000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": []
     }
 ]

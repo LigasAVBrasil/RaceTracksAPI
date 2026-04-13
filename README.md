@@ -2,7 +2,7 @@
 
 A free, open-source JSON API providing structured data and high-quality SVG maps for racing circuits around the world. This project includes both real-world and fictional tracks.
 
-> 🚧 **Work in Progress:** This API is actively under development! We are continuously working on implementing new maps and expanding our database. Our current roadmap prioritizes real-world tracks in the following order: **1. IndyCar Series**, **2. Australian Supercars**, **3. BTCC**, and **4. Turismo Carretera**. More real-world and fictional circuits will be added over time.
+> 🚧 **Work in Progress:** This API is actively under development! We are continuously working on implementing new maps and expanding our database. Our current roadmap prioritizes real-world tracks in the following order: **1. Australian Supercars**, **GT World Challenge**, **3. BTCC**, and **4. Turismo Carretera**. More real-world and fictional circuits will be added over time.
 
 ## 📌 Features
 

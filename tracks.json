@@ -671,14 +671,14 @@
     {
         "id": 7,
         "name": "Shanghai International Circuit",
-        "similarNames": ["Chinese Grand Prix", "Shanghai E-Prix"],
+        "similarNames": ["Chinese Grand Prix", "Shanghai ePrix"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
-                    { "id": 12, "name": "Formula E", "years": null },
+                    { "id": 12, "name": "Formula E", "years": [2024, 2025, 2026] },
                     {
                         "id": 33,
                         "name": "Formula 4",
@@ -692,9 +692,14 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 13, "name": "GT World Challenge", "years": null },
-                    { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-                    { "id": 38, "name": "GT World Challenge Asia", "years": [2017, 2018, 2019, 2024, 2026] }
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 38, "name": "GT World Challenge Asia", "years": [2017, 2018, 2019, 2024, 2026] }
+                        ]
+                    },
+                    { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
                 ]
             },
             {
@@ -1149,25 +1154,33 @@
                 "name": "Open Wheel",
                 "subcategories": [
                     { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 12, "name": "Formula E", "years": [2015, 2017, 2019, 2021, 2022, 2023, 2024, 2025, 2026] },
                     {
                         "id": 45,
                         "name": "Formula 2",
                         "subcategories": [
                             { "id": 9, "name": "FIA Formula 2", "years": [2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] }
-                        ]
+                        ],
+                        "years": []
                     },
                     {
                         "id": 46,
                         "name": "Formula 3",
                         "subcategories": [
                             { "id": 10, "name": "FIA Formula 3", "years": [2023, 2024, 2025, 2026] }
-                        ]
+                        ],
+                        "years": []
                     }
                 ]
             },
             {
                 "id": 4,
                 "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
                 "subcategories": []
             }
         ],
@@ -1861,13 +1874,14 @@
     {
         "id": 21,
         "name": "Autódromo Hermanos Rodríguez",
-        "similarNames": ["Mexican Grand Prix"],
+        "similarNames": ["Mexican Grand Prix", "Mexico City ePrix"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 8, "name": "Formula 1", "years": null }
+                    { "id": 8, "name": "Formula 1", "years": null },
+                    { "id": 12, "name": "Formula E", "years": [2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024, 2025, 2026] }
                 ]
             },
             {
@@ -6603,7 +6617,7 @@
     {
         "id": 95,
         "name": "Misano World Circuit",
-        "similarNames": null,
+        "similarNames": ["Misano ePrix"],
         "categories": [
             {
                 "id": 1,
@@ -6761,13 +6775,13 @@
     {
         "id": 97,
         "name": "Circuit Ricardo Tormo",
-        "similarNames": ["Circuit de Valencia"],
+        "similarNames": ["Circuit de Valencia", "Valencia ePrix"],
         "categories": [
             {
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 12, "name": "Formula E", "years": [] },
+                    { "id": 12, "name": "Formula E", "years": [2021] },
                     {
                         "id": 33,
                         "name": "Formula 4",
@@ -9227,7 +9241,7 @@
                 "id": 1,
                 "name": "Open Wheel",
                 "subcategories": [
-                    { "id": 12, "name": "Formula E", "years": [] }
+                    { "id": 12, "name": "Formula E", "years": [2017, 2018, 2019, 2021, 2022] }
                 ]
             }
         ],
@@ -9327,6 +9341,638 @@
         "longitude": "0.028900000000000",
         "isFictional": false,
         "fictionalSource": null,
-        "layouts": []
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2023,
+                "end_year": null,
+                "length": 2.086,
+                "image_id": "149.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "ePrix Circuit",
+                "start_year": 2021,
+                "end_year": 2021,
+                "length": 2.252,
+                "image_id": "149.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "ePrix Circuit",
+                "start_year": 2022,
+                "end_year": 2022,
+                "length": 2.141,
+                "image_id": "149.3"
+            }
+        ]
+    },
+    {
+        "id": 150,
+        "name": "Battersea Park Street Circuit",
+        "similarNames": ["London ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2015, 2016] }
+                ]
+            }
+        ],
+        "country": "UK",
+        "region": "Europe",
+        "latitude": "51.479167000000000",
+        "longitude": "-0.157222000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2015,
+                "end_year": 2016,
+                "length": 2.925,
+                "image_id": "150.1"
+            }
+        ]
+    },
+    {
+        "id": 151,
+        "name": "Autódromo Miguel E. Abed",
+        "similarNames": ["Puebla ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2021] },
+                    { "id": 33, "name": "Formula 4", "years": [] },
+                    { "id": 46, "name": "Formula 3", "years": [] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            }
+        ],
+        "country": "MX",
+        "region": "North America",
+        "latitude": "19.030000000000000",
+        "longitude": "-97.988056000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 1995,
+                "end_year": null,
+                "length": 2.06,
+                "image_id": "151.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Resistencia Circuit",
+                "start_year": 2006,
+                "end_year": null,
+                "length": 3.3,
+                "image_id": "151.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "International Short Circuit",
+                "start_year": 2006,
+                "end_year": null,
+                "length": 2.982,
+                "image_id": "151.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "International Circuit",
+                "start_year": 2006,
+                "end_year": null,
+                "length": 3.363,
+                "image_id": "151.4"
+            }
+        ]
+    },
+    {
+        "id": 152,
+        "name": "Hong Kong Central Harbourfront Circuit",
+        "similarNames": ["Hong Kong ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2016, 2017, 2019] }
+                ]
+            }
+        ],
+        "country": "HK",
+        "region": "Asia",
+        "latitude": "22.281944000000000",
+        "longitude": "114.158056000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2016,
+                "end_year": 2019,
+                "length": 1.86,
+                "image_id": "152.1"
+            }
+        ]
+    },
+    {
+        "id": 153,
+        "name": "Haitang Bay Circuit",
+        "similarNames": ["Sanya ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2019, 2026] }
+                ]
+            }
+        ],
+        "country": "CN",
+        "region": "Asia",
+        "latitude": "18.355000000000000",
+        "longitude": "109.736944000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2019,
+                "end_year": null,
+                "length": 2.236,
+                "image_id": "153.1"
+            }
+        ]
+    },
+    {
+        "id": 154,
+        "name": "Circuito Cittadino dell'EUR",
+        "similarNames": ["Rome ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2018, 2019, 2021, 2022, 2023] }
+                ]
+            }
+        ],
+        "country": "IT",
+        "region": "Europe",
+        "latitude": "41.834444000000000",
+        "longitude": "12.473056000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2021,
+                "end_year": 2023,
+                "length": 3.385,
+                "image_id": "154.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "ePrix Circuit",
+                "start_year": 2018,
+                "end_year": 2019,
+                "length": 2.849,
+                "image_id": "154.2"
+            }
+        ]
+    },
+    {
+        "id": 155,
+        "name": "Circuit International Automobile Moulay El Hassan",
+        "similarNames": ["Marrakesh ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2016, 2018, 2019, 2020, 2022] },
+                    { "id": 45, "name": "Formula 2", "years": [] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 41, "name": "TCR", "years": [] }
+                ]
+            }
+        ],
+        "country": "MA",
+        "region": "Africa",
+        "latitude": "31.586389000000000",
+        "longitude": "-7.986111000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Semi-Permanent Circuit",
+                "start_year": 2016,
+                "end_year": 2022,
+                "length": 2.971,
+                "image_id": "155.1"
+            },
+            {
+                "layout_id": 2,
+                "name": " Street Circuit",
+                "start_year": 2009,
+                "end_year": 2015,
+                "length": 4.545,
+                "image_id": "155.2"
+            }
+        ]
+    },
+    {
+        "id": 156,
+        "name": "Paris Street Circuit",
+        "similarNames": ["Paris ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2016, 2017, 2018, 2019] }
+                ]
+            }
+        ],
+        "country": "FR",
+        "region": "Europe",
+        "latitude": "48.855000000000000",
+        "longitude": "2.312500000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2016,
+                "end_year": 2019,
+                "length": 1.93,
+                "image_id": "156.1"
+            }
+        ]
+    },
+    {
+        "id": 157,
+        "name": "Jakarta International e-Prix Circuit",
+        "similarNames": ["Jakarta ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2022, 2023, 2025] }
+                ]
+            }
+        ],
+        "country": "ID",
+        "region": "Asia",
+        "latitude": "-6.118333000000000",
+        "longitude": "106.858722000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2022,
+                "end_year": 2025,
+                "length": 2.37,
+                "image_id": "157.1"
+            }
+        ]
+    },
+    {
+        "id": 158,
+        "name": "Parque O'Higgins Circuit",
+        "similarNames": ["Santiago ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2019, 2020] }
+                ]
+            }
+        ],
+        "country": "CL",
+        "region": "South America",
+        "latitude": "-33.462500000000000",
+        "longitude": "-70.659722000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2019,
+                "end_year": 2019,
+                "length": 2.348,
+                "image_id": "158.1"
+            }
+        ]
+    },
+    {
+        "id": 159,
+        "name": "Punta del Este Street Circuit",
+        "similarNames": ["Punta del Este ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2014, 2015, 2018] },
+                    { "id": 46, "name": "Formula 3", "years": [] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            }
+        ],
+        "country": "UY",
+        "region": "South America",
+        "latitude": "-34.954722000000000",
+        "longitude": "-54.934444000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2015,
+                "end_year": 2018,
+                "length": 2.785,
+                "image_id": "159.1"
+            }
+        ]
+    },
+    {
+        "id": 160,
+        "name": "Tokyo Street Circuit",
+        "similarNames": ["Tokyo ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2024, 2025, 2026] }
+                ]
+            }
+        ],
+        "country": "JP",
+        "region": "Asia",
+        "latitude": "35.633333000000000",
+        "longitude": "139.800556000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2025,
+                "end_year": null,
+                "length": 2.575,
+                "image_id": "160.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "ePrix Circuit",
+                "start_year": 2024,
+                "end_year": 2024,
+                "length": 2.585,
+                "image_id": "160.2"
+            }
+        ]
+    },
+    {
+        "id": 161,
+        "name": "Circuito del Jarama",
+        "similarNames": ["Madrid ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1968, 1970, 1972, 1974, 1976, 1977, 1978, 1979, 1981] },
+                    { "id": 12, "name": "Formula E", "years": [2026] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 41, "name": "TCR", "years": [] }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "ES",
+        "region": "Europe",
+        "latitude": "40.617222000000000",
+        "longitude": "-3.585556000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1991,
+                "end_year": null,
+                "length": 3.85,
+                "image_id": "161.1"
+            }
+        ]
+    },
+    {
+        "id": 162,
+        "name": "Zurich Street Circuit",
+        "similarNames": ["Zürich ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2018] }
+                ]
+            }
+        ],
+        "country": "CH",
+        "region": "Europe",
+        "latitude": "47.361389000000000",
+        "longitude": "8.535278000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2018,
+                "end_year": 2018,
+                "length": 2.465,
+                "image_id": "162.1"
+            }
+        ]
+    },
+    {
+        "id": 163,
+        "name": "Bern Street Circuit",
+        "similarNames": ["Swiss ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2019] }
+                ]
+            }
+        ],
+        "country": "CH",
+        "region": "Europe",
+        "latitude": "46.947749000000000",
+        "longitude": "7.462146000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2019,
+                "end_year": 2019,
+                "length": 2.668,
+                "image_id": "163.1"
+            }
+        ]
+    },
+    {
+        "id": 164,
+        "name": "Seoul Street Circuit",
+        "similarNames": ["Seoul ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2022] }
+                ]
+            }
+        ],
+        "country": "KR",
+        "region": "Asia",
+        "latitude": "37.515025000000000",
+        "longitude": "127.073725000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2022,
+                "end_year": 2022,
+                "length": 2.618,
+                "image_id": "164.1"
+            }
+        ]
+    },
+    {
+        "id": 165,
+        "name": "Hyderabad Street Circuit",
+        "similarNames": ["Hyderabad ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2023] }
+                ]
+            }
+        ],
+        "country": "IN",
+        "region": "Asia",
+        "latitude": "17.409722000000000",
+        "longitude": "78.471667000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2023,
+                "end_year": 2023,
+                "length": 2.835,
+                "image_id": "165.1"
+            }
+        ]
+    },
+    {
+        "id": 166,
+        "name": "Cape Town Street Circuit",
+        "similarNames": ["Cape Town ePrix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 12, "name": "Formula E", "years": [2023] }
+                ]
+            }
+        ],
+        "country": "ZA",
+        "region": "Africa",
+        "latitude": "-33.903458000000000",
+        "longitude": "18.411147000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "ePrix Circuit",
+                "start_year": 2023,
+                "end_year": 2023,
+                "length": 2.921,
+                "image_id": "166.1"
+            }
+        ]
     }
 ]

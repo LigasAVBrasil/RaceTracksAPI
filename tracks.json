@@ -1826,7 +1826,9 @@
             {
                 "id": 4,
                 "name": "Touring Car",
-                "subcategories": []
+                "subcategories": [
+                    { "id": 11, "name": "V8 Supercars", "years": [2013] }
+                ]
             },
             {
                 "id": 5,
@@ -10205,6 +10207,204 @@
                 "end_year": null,
                 "length": 1.609,
                 "image_id": "170.4"
+            }
+        ]
+    },
+    {
+        "id": 171,
+        "name": "Canberra Street Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 11, "name": "V8 Supercars", "years": [2000, 2001, 2002] }
+                ]
+            }
+        ],
+        "country": "AU",
+        "region": "Oceania",
+        "latitude": "-35.298611000000000",
+        "longitude": "149.127500000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2000,
+                "end_year": 2002,
+                "length": 3.99,
+                "image_id": "171.1"
+            }
+        ]
+    },
+    {
+        "id": 172,
+        "name": "Gnoo Blas Motor Racing Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 11, "name": "V8 Supercars", "years": [1960] }
+                ]
+            }
+        ],
+        "country": "AU",
+        "region": "Oceania",
+        "latitude": "-33.316944000000000",
+        "longitude": "149.094167000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1953,
+                "end_year": 1961,
+                "length": 6.03,
+                "image_id": "172.1"
+            }
+        ]
+    },
+    {
+        "id": 173,
+        "name": "Hamilton Street Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 11, "name": "V8 Supercars", "years": [2008, 2009, 2010, 2011, 2012] }
+                ]
+            }
+        ],
+        "country": "NZ",
+        "region": "Oceania",
+        "latitude": "-37.785556000000000",
+        "longitude": "175.268056000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2008,
+                "end_year": 2012,
+                "length": 3.31,
+                "image_id": "173.1"
+            }
+        ]
+    },
+    {
+        "id": 174,
+        "name": "Hidden Valley Raceway",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 37, "name": "GT World Challenge Australia", "years": [2026] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 11, "name": "V8 Supercars", "years": [1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            }
+        ],
+        "country": "AU",
+        "region": "Oceania",
+        "latitude": "-12.449167000000000",
+        "longitude": "130.906944000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1986,
+                "end_year": null,
+                "length": 2.87,
+                "image_id": "174.1"
+            }
+        ]
+    },
+    {
+        "id": 175,
+        "name": "Homebush Street Circuit",
+        "similarNames": ["Sydney Olympic Park"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 37, "name": "GT World Challenge Australia", "years": [2009, 2012] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 11, "name": "V8 Supercars", "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016] }
+                ]
+            }
+        ],
+        "country": "AU",
+        "region": "Oceania",
+        "latitude": "-33.844722000000000",
+        "longitude": "151.066111000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2009,
+                "end_year": 2016,
+                "length": 3.42,
+                "image_id": "175.1"
             }
         ]
     }

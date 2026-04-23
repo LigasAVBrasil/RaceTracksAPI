@@ -2123,6 +2123,13 @@
                 "subcategories": [
                     { "id": 19, "name": "LMP2", "years": null }
                 ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 11, "name": "V8 Supercars", "years": [2010, 2011, 2012] }
+                ]
             }
         ],
         "country": "AE",
@@ -10699,13 +10706,268 @@
         "id": 182,
         "name": "Phillip Island Grand Prix Circuit",
         "similarNames": ["Australian Grand Prix"],
-        "categories": [],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 11, "name": "V8 Supercars", "years": [1976, 1977, 1990, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
         "country": "AU",
         "region": "Oceania",
         "latitude": "-38.503056000000000",
         "longitude": "145.236389000000000",
         "isFictional": false,
         "fictionalSource": null,
-        "layouts": []
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1988,
+                "end_year": null,
+                "length": 4.448,
+                "image_id": "182.1"
+            }
+        ]
+    },
+    {
+        "id": 183,
+        "name": "Pukekohe Park Raceway",
+        "similarNames": ["Auckland SuperSprint", "New Zealand Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 2000] },
+                    { "id": 33, "name": "Formula 4", "years": [] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 11, "name": "V8 Supercars", "years": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2022] }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
+            }
+        ],
+        "country": "NZ",
+        "region": "Oceania",
+        "latitude": "-37.215556000000000",
+        "longitude": "174.918889000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2013,
+                "end_year": 2023,
+                "length": 2.91,
+                "image_id": "183.1"
+            }
+        ]
+    },
+    {
+        "id": 184,
+        "name": "Queensland Raceway",
+        "similarNames": ["Ipswich Super 400"],
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 37, "name": "GT World Challenge Australia", "years": [2005, 2006, 2007, 2013, 2016, 2017, 2022, 2023, 2024, 2025, 2026] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 11, "name": "V8 Supercars", "years": [1999, 2000, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2025, 2026] }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "AU",
+        "region": "Oceania",
+        "latitude": "-27.690278000000000",
+        "longitude": "152.652500000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "National Circuit",
+                "start_year": 1999,
+                "end_year": null,
+                "length": 3.126,
+                "image_id": "184.1"
+            }
+        ]
+    },
+    {
+        "id": 185,
+        "name": "Reid Park Street Circuit",
+        "similarNames": ["Townsville Street Circuit"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    {
+                        "id": 13,
+                        "name": "GT World Challenge",
+                        "subcategories": [
+                            { "id": 37, "name": "GT World Challenge Australia", "years": [2011, 2014, 2015, 2016, 2017] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 11, "name": "V8 Supercars", "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
+            }
+        ],
+        "country": "AU",
+        "region": "Oceania",
+        "latitude": "-19.271944000000000",
+        "longitude": "146.809167000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2009,
+                "end_year": null,
+                "length": 2.86,
+                "image_id": "185.1"
+            }
+        ]
+    },
+    {
+        "id": 186,
+        "name": "Ruapuna Park",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 11, "name": "V8 Supercars", "years": [2026] }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "One-Make Series",
+                "subcategories": []
+            }
+        ],
+        "country": "NZ",
+        "region": "Oceania",
+        "latitude": "-43.530556000000000",
+        "longitude": "172.479722000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Grand Prix Circuit",
+                "start_year": 1993,
+                "end_year": null,
+                "length": 3.33,
+                "image_id": "186.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Long Circuit",
+                "start_year": 1993,
+                "end_year": null,
+                "length": 3.38,
+                "image_id": "186.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Outer Circuit",
+                "start_year": 1993,
+                "end_year": null,
+                "length": 2.173,
+                "image_id": "186.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Club Circuit",
+                "start_year": 1993,
+                "end_year": null,
+                "length": 2.285,
+                "image_id": "186.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "B Circuit",
+                "start_year": 1993,
+                "end_year": null,
+                "length": 1.7,
+                "image_id": "186.5"
+            },
+            {
+                "layout_id": 6,
+                "name": "A Circuit + Dipper",
+                "start_year": 1993,
+                "end_year": null,
+                "length": 1.19,
+                "image_id": "186.6"
+            }
+        ]
     }
 ]

@@ -299,6 +299,29 @@
 				</div>
 
 				<div class="filter-group">
+					<label>Years</label>
+					<div class="min-max-wrapper">
+						<input
+							type="number"
+							id="min-year"
+							placeholder="1909"
+							min="1900"
+							step="1"
+						/>
+						<span style="color: var(--text-muted)">-</span>
+						<input
+							type="number"
+							id="max-year"
+							placeholder="2026"
+							min="1900"
+							step="1"
+						/>
+					</div>
+				</div>
+
+				<div style="flex-basis: 100%; height: 0; margin: 0"></div>
+
+				<div class="filter-group">
 					<label for="region-filter">Region</label>
 					<select
 						id="region-filter"
@@ -500,6 +523,11 @@
 				const maxLength =
 					parseFloat(document.getElementById("max-length").value) || Infinity;
 
+				const minYearStr = document.getElementById("min-year").value;
+				const maxYearStr = document.getElementById("max-year").value;
+				const filterMinYear = parseInt(minYearStr) || 0;
+				const filterMaxYear = parseInt(maxYearStr) || Infinity;
+
 				const filteredTracks = allTracksData
 					.map((track) => {
 						const matchesRegion =
@@ -534,7 +562,22 @@
 							const length = parseFloat(layout.length);
 							const matchesLength = length >= minLength && length <= maxLength;
 
-							return matchesSearch && matchesLength;
+							let matchesYear = true;
+							if (minYearStr || maxYearStr) {
+								if (layout.start_year) {
+									const lStart = parseInt(layout.start_year);
+									const lEnd = layout.end_year
+										? parseInt(layout.end_year)
+										: new Date().getFullYear();
+
+									matchesYear =
+										lStart <= filterMaxYear && lEnd >= filterMinYear;
+								} else {
+									matchesYear = false;
+								}
+							}
+
+							return matchesSearch && matchesLength && matchesYear;
 						});
 
 						return { ...track, layouts: filteredLayouts };
@@ -573,6 +616,12 @@
 				.addEventListener("input", applyFilters);
 			document
 				.getElementById("max-length")
+				.addEventListener("input", applyFilters);
+			document
+				.getElementById("min-year")
+				.addEventListener("input", applyFilters);
+			document
+				.getElementById("max-year")
 				.addEventListener("input", applyFilters);
 
 			document.addEventListener("DOMContentLoaded", loadTracks);

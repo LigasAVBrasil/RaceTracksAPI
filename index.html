@@ -602,6 +602,23 @@
 				}
 			}
 
+			document.addEventListener("keydown", function (e) {
+				if (e.key === "/") {
+					const activeTag = document.activeElement.tagName.toLowerCase();
+
+					if (
+						activeTag === "input" ||
+						activeTag === "textarea" ||
+						activeTag === "select"
+					) {
+						return;
+					}
+
+					e.preventDefault();
+					document.getElementById("search-input").focus();
+				}
+			});
+
 			document
 				.getElementById("region-filter")
 				.addEventListener("change", applyFilters);

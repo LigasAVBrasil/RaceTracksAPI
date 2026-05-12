@@ -42,22 +42,31 @@ To properly differentiate between classic and modern configurations, you must ev
 
 One of the most powerful features of this API is the ability to cross-reference the `years` a specific racing category visited a track with the historical `layouts`. 
 
-If you want to display the exact track map used by **Formula 1 in 1991** at Interlagos, you can write a simple logic to find the layout that was active during that specific year:
+When doing this, it's important to keep in mind that **a circuit can have multiple active layouts at the same time** (e.g., a "Full Circuit", a "Short Circuit", or alternative configurations with the exact same active years). Therefore, a simple `find` operation might not be enough if you need a specific configuration.
+
+If you want to find the layouts that were active during **1991** at Interlagos, you should use `filter` to get all available options for that year, and then you can filter by the specific layout name:
 
 ```javascript
-// Example: Finding the correct layout image for a specific racing year
+// Example: Finding the active layouts for a specific racing year
 const targetYear = 1991;
 
-const correctLayout = track.layouts.find(layout => {
+const activeLayouts = track.layouts.filter(layout => {
     const isAfterStart = layout.start_year <= targetYear;
     const isBeforeEnd = layout.end_year === null || layout.end_year >= targetYear;
     
     return isAfterStart && isBeforeEnd;
 });
 
-if (correctLayout) {
-    console.log(`The correct image ID for ${targetYear} is: ${correctLayout.image_id}`);
-    // Output: The correct image ID for 1991 is: 1.1
+if (activeLayouts.length > 0) {
+    console.log(`Active layouts in ${targetYear}:`, activeLayouts.map(l => l.name));
+    
+    // From the active layouts, find the specific configuration you want
+    const correctLayout = activeLayouts.find(l => l.name === "Full Circuit");
+    
+    if (correctLayout) {
+        console.log(`The correct image ID for ${targetYear} is: ${correctLayout.image_id}`);
+        // Output: The correct image ID for 1991 is: 1.1
+    }
 }
 ```
 
@@ -171,7 +180,8 @@ If you are consuming this API in a TypeScript environment, you can use the follo
 export interface Subcategory {
 	id: number;
 	name: string;
-	years: number[] | null // Array of years the category raced here, or null if unknown
+	years?: number[] | null; // Array of years the category raced here. Can be optional/null if nested subcategories exist.
+	subcategories?: Subcategory[]; // Nested subcategories (e.g., Formula 4 -> F1 Academy)
 }
 
 export interface TrackCategory {

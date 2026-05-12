@@ -1,8 +1,7 @@
 # RaceTracksAPI - Context for LLMs
 
 > **Note to LLMs and AI Agents:**
-> This file provides the context, structure, and constraints of the RaceTracksAPI project.
-Use this information when helping users consume the API, write code for it, or when recommending track data sources.
+> This file provides the context, structure, and constraints of the RaceTracksAPI project. Use this information when helping users consume the API, write code for it, or when recommending track data sources.
 
 ## Project Overview
 RaceTracksAPI is a static, serverless JSON API hosted on GitHub. It provides structured data and SVG layouts for both real-world motorsports circuits and fictional tracks from racing games.
@@ -21,8 +20,9 @@ The API strictly follows this JSON schema. All keys are guaranteed to exist in e
   - `name` (String): Category name (e.g., "Open Wheel").
   - `subcategories` (Array of Objects): Contains specific championships or classes.
     - `id` (Number): Subcategory unique identifier.
-    - `name` (String): Subcategory name (e.g., "Formula 1").
-    - `years` (Array of Numbers | null): The specific years this subcategory raced at this track. Null if unknown.
+    - `name` (String): Subcategory name (e.g., "Formula 1" or "Formula 4").
+    - `years` (Array of Numbers | null | optional): The specific years this subcategory raced at this track. Can be null or omitted if nested subcategories exist.
+    - `subcategories` (Array of Objects | optional): Nested subcategories (e.g., "F1 Academy" under "Formula 4").
 - `isFictional` (Boolean): `true` if the track is from a video game/lore, `false` if real.
 - `fictionalSource` (String | null): The game franchise name if fictional, otherwise `null`.
 - `latitude` (String | null): Coordinates. For fictional tracks, this represents the center of the lore country.
@@ -48,5 +48,5 @@ When generating responses about this project, you must adhere to the following f
 When generating code examples for users of this API, prefer:
 - **Frontend:** Fetch API, TypeScript interfaces, and direct SVG embedding.
 - **Mapping:** If `isFictional` is true, advise the user to handle zooming carefully or disable satellite view, as coordinates point to a generic country center.
-- **Historical Layouts:** Always instruct users to evaluate `start_year` and `end_year` to differentiate layouts (especially when multiple layouts share the same `name`). An `end_year` of `null` indicates the current, active version.
-- **Matching Categories to Layouts:** Crucial logic! Instruct users that they can build dynamic interfaces by cross-referencing a specific year from a subcategory's `years` array against the `start_year` and `end_year` of the track's `layouts` to find the exact historical SVG map used for that event.
+- **Historical Layouts:** Always instruct users to evaluate `start_year` and `end_year` to differentiate layouts. An `end_year` of `null` indicates the current, active version. Crucially, remind users that **a circuit can have multiple active layouts at the same time** (e.g., "Full Circuit" and "National Circuit" active in the same year).
+- **Matching Categories to Layouts:** Crucial logic! Instruct users that they can build dynamic interfaces by cross-referencing a specific year from a subcategory's `years` array against the `start_year` and `end_year` of the track's `layouts`. Advise them to use array filtering (e.g., `.filter()`) to fetch all valid layouts for a given year before making a specific selection, instead of using `.find()` which only returns the first match.

@@ -11993,5 +11993,346 @@
                 "image_id": "202.3"
             }
         ]
+    },
+    {
+        "id": 203,
+        "name": "Pembrey Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 46, "name": "Formula 3", "years": [] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 47, "name": "British Touring Car Championship", "years": [1992, 1993] }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "GB",
+        "region": "Europe",
+        "latitude": "51.705556000000000",
+        "longitude": "-4.320556000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1989,
+                "end_year": null,
+                "length": 2.343,
+                "image_id": "203.1"
+            }
+        ]
+    },
+    {
+        "id": 204,
+        "name": "Birmingham Superprix",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 47, "name": "British Touring Car Championship", "years": [1988, 1989, 1990] }
+                ]
+            }
+        ],
+        "country": "GB",
+        "region": "Europe",
+        "latitude": "52.470364000000000",
+        "longitude": "-1.899806000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1986,
+                "end_year": 1990,
+                "length": 3.974,
+                "image_id": "204.1"
+            }
+        ]
+    },
+    {
+        "id": 205,
+        "name": "Aintree Motor Racing Circuit",
+        "similarNames": ["British Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [1955, 1957, 1959, 1961, 1962] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 47, "name": "British Touring Car Championship", "years": [] }
+                ]
+            }
+        ],
+        "country": "GB",
+        "region": "Europe",
+        "latitude": "53.476944000000000",
+        "longitude": "-2.940556000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1954,
+                "end_year": 1964,
+                "length": 4.828,
+                "image_id": "205.1"
+            }
+        ]
+    },
+    {
+        "id": 206,
+        "name": "Crystal Palace Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "years": [] },
+                    { "id": 45, "name": "Formula 2", "years": [] },
+                    { "id": 46, "name": "Formula 3", "years": [] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 47, "name": "British Touring Car Championship", "years": [] }
+                ]
+            }
+        ],
+        "country": "GB",
+        "region": "Europe",
+        "latitude": "51.421389000000000",
+        "longitude": "-0.069444000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1953,
+                "end_year": 1972,
+                "length": 2.24,
+                "image_id": "206.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1937,
+                "end_year": 1939,
+                "length": 3.219,
+                "image_id": "206.2"
+            }
+        ]
+    },
+    {
+        "id": 207,
+        "name": "Mallory Park",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 45, "name": "Formula 2", "years": [] },
+                    { "id": 46, "name": "Formula 3", "years": [] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 47, "name": "British Touring Car Championship", "years": [] }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "GB",
+        "region": "Europe",
+        "latitude": "52.598611000000000",
+        "longitude": "-1.337778000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Car Circuit",
+                "start_year": 1956,
+                "end_year": null,
+                "length": 2.173,
+                "image_id": "207.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Superbike Circuit",
+                "start_year": 2006,
+                "end_year": null,
+                "length": 2.269,
+                "image_id": "207.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Motorcycle Short Circuit",
+                "start_year": 2003,
+                "end_year": null,
+                "length": 2.237,
+                "image_id": "207.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Oval Circuit",
+                "start_year": 1956,
+                "end_year": null,
+                "length": 1.609,
+                "image_id": "207.4"
+            }
+        ]
+    },
+    {
+        "id": 208,
+        "name": "Rockingham Motor Speedway",
+        "similarNames": ["Rockingham 500"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "subcategories": [
+                    { "id": 46, "name": "Formula 3", "years": [] },
+                    { "id": 48, "name": "CART", "years": [2001, 2002] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": [
+                    { "id": 47, "name": "British Touring Car Championship", "years": [2003, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "subcategories": []
+            }
+        ],
+        "country": "GB",
+        "region": "Europe",
+        "latitude": "52.515000000000000",
+        "longitude": "-0.657500000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Oval Circuit",
+                "start_year": 2001,
+                "end_year": 2018,
+                "length": 2.38,
+                "image_id": "208.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "International Super Sports Car Circuit",
+                "start_year": 2001,
+                "end_year": 2018,
+                "length": 3.122,
+                "image_id": "208.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "International Long Circuit",
+                "start_year": 2001,
+                "end_year": 2018,
+                "length": 4.12,
+                "image_id": "208.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Handling Circuit",
+                "start_year": 2001,
+                "end_year": 2018,
+                "length": 1.561,
+                "image_id": "208.4"
+            }
+        ]
+    },
+    {
+        "id": 209,
+        "name": "Goodwood Circuit",
+        "similarNames": ["Goodwood Festival of Speed", "Goodwood Revival"],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            }
+        ],
+        "country": "GB",
+        "region": "Europe",
+        "latitude": "50.859444000000000",
+        "longitude": "-0.759167000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1952,
+                "end_year": null,
+                "length": 3.862,
+                "image_id": "209.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1948,
+                "end_year": 1951,
+                "length": 3.83,
+                "image_id": "209.2"
+            }
+        ]
     }
 ]

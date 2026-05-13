@@ -2,7 +2,7 @@
 
 A free, open-source JSON API providing structured data and high-quality SVG maps for racing circuits around the world. This project includes both real-world and fictional tracks.
 
-> 🚧 **Work in Progress:** This API is actively under development! We are continuously working on implementing new maps and expanding our database. Our current roadmap prioritizes real-world tracks in the following order: **1. British Touring Cars**, **2. Turismo Carretera**, and **3. GT World Challenge**. More real-world and fictional circuits will be added over time.
+> 🚧 **Work in Progress:** This API is actively under development! We are continuously working on implementing new maps and expanding our database. Our current roadmap prioritizes real-world tracks in the following order: **1. Turismo Carretera**, **2. CART/INDYCAR Adjustments**, **3. A1GP/EuroBOSS**, **4. SMP F4 Championship**, and **5. GT World Challenge**. More real-world and fictional circuits will be added over time.
 
 ## 📌 Features
 

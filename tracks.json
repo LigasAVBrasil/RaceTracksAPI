@@ -1851,7 +1851,9 @@
                 "name": "GT",
                 "subcategories": [
                     { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
-                    { "id": 28, "name": "LMGTE", "years": [2013, 2014, 2015, 2016, 2017, 2020] }
+                    { "id": 20, "name": "GTD", "years": [2014, 2015, 2016, 2017] },
+                    { "id": 28, "name": "LMGTE", "years": [2013, 2014, 2015, 2016, 2017, 2020] },
+                    { "id": 54, "name": "GTLM", "years": [2014, 2015, 2016, 2017] }
                 ]
             },
             {
@@ -1860,7 +1862,9 @@
                 "subcategories": [
                     { "id": 16, "name": "Hypercar", "years": [2024, 2025, 2026] },
                     { "id": 19, "name": "LMP2", "years": [2013, 2014, 2015, 2016, 2017, 2020, 2024, 2025, 2026] },
-                    { "id": 27, "name": "LMP1", "years": [2013, 2014, 2015, 2016, 2017, 2020] }
+                    { "id": 27, "name": "LMP1", "years": [2013, 2014, 2015, 2016, 2017, 2020] },
+                    { "id": 55, "name": "IMSA Prototype", "years": [2014, 2015, 2016, 2017] },
+                    { "id": 56, "name": "Formula Le Mans", "years": [2014, 2015, 2016, 2017] }
                 ]
             },
             {
@@ -1884,7 +1888,8 @@
                 "id": 25,
                 "name": "Endurance",
                 "subcategories": [
-                    { "id": 30, "name": "FIA WEC", "years": [2013, 2014, 2015, 2016, 2017, 2020, 2024, 2025, 2026] }
+                    { "id": 30, "name": "FIA WEC", "years": [2013, 2014, 2015, 2016, 2017, 2020, 2024, 2025, 2026] },
+                    { "id": 31, "name": "IMSA", "years": [2014, 2015, 2016, 2017] }
                 ]
             }
         ],
@@ -2485,15 +2490,19 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 20, "name": "GTD", "years": null }
+                    { "id": 20, "name": "GTD", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    { "id": 18, "name": "GTP", "years": null },
-                    { "id": 19, "name": "LMP2", "years": null }
+                    { "id": 18, "name": "GTP", "years": [2023, 2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 32, "name": "LMP3", "years": [2021, 2022, 2023] },
+                    { "id": 55, "name": "IMSA Prototype", "years": [2014, 2015, 2016, 2017, 2018] },
+                    { "id": 56, "name": "Formula Le Mans", "years": [2014, 2015, 2016, 2017] },
+                    { "id": 57, "name": "DPi", "years": [2019, 2020, 2021, 2022] }
                 ]
             },
             {
@@ -2505,6 +2514,13 @@
                 "id": 5,
                 "name": "NASCAR",
                 "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 31, "name": "IMSA", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
             }
         ],
         "country": "US",
@@ -2573,8 +2589,9 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 20, "name": "GTD", "years": null },
-                    { "id": 28, "name": "LMGTE", "years": [2012, 2019, 2022, 2023] }
+                    { "id": 20, "name": "GTD", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 28, "name": "LMGTE", "years": [2012, 2019, 2022, 2023] },
+                    { "id": 54, "name": "GTLM", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] }
                 ]
             },
             {
@@ -2582,9 +2599,13 @@
                 "name": "Prototype",
                 "subcategories": [
                     { "id": 16, "name": "Hypercar", "years": [2022, 2023] },
-                    { "id": 18, "name": "GTP", "years": null },
-                    { "id": 19, "name": "LMP2", "years": [2012, 2019, 2022, 2023] },
-                    { "id": 27, "name": "LMP1", "years": [2012, 2019] }
+                    { "id": 18, "name": "GTP", "years": [2023, 2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 27, "name": "LMP1", "years": [2012, 2019] },
+                    { "id": 32, "name": "LMP3", "years": [2021, 2022, 2023] },
+                    { "id": 55, "name": "IMSA Prototype", "years": [2014, 2015, 2016, 2017, 2018] },
+                    { "id": 56, "name": "Formula Le Mans", "years": [2014, 2015, 2016, 2017] },
+                    { "id": 57, "name": "DPi", "years": [2019, 2020, 2021, 2022] }
                 ]
             },
             {
@@ -2598,7 +2619,8 @@
                 "id": 25,
                 "name": "Endurance",
                 "subcategories": [
-                    { "id": 30, "name": "FIA WEC", "years": [2012, 2019, 2022, 2023] }
+                    { "id": 30, "name": "FIA WEC", "years": [2012, 2019, 2022, 2023] },
+                    { "id": 31, "name": "IMSA", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -2668,15 +2690,24 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 20, "name": "GTD", "years": null }
+                    { "id": 20, "name": "GTD", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 54, "name": "GTLM", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2021] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    { "id": 18, "name": "GTP", "years": null },
-                    { "id": 19, "name": "LMP2", "years": [] }
+                    { "id": 18, "name": "GTP", "years": [2023, 2024, 2025, 2026] },
+                    { "id": 55, "name": "IMSA Prototype", "years": [2014, 2015, 2016, 2017, 2018] },
+                    { "id": 57, "name": "DPi", "years": [2019, 2021, 2022] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 31, "name": "IMSA", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -2737,22 +2768,34 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 20, "name": "GTD", "years": null },
-                    { "id": 53, "name": "Intercontinental GT Challenge", "years": [2017, 2018, 2019] }
+                    { "id": 20, "name": "GTD", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 53, "name": "Intercontinental GT Challenge", "years": [2017, 2018, 2019] },
+                    { "id": 54, "name": "GTLM", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    { "id": 18, "name": "GTP", "years": null },
-                    { "id": 19, "name": "LMP2", "years": null }
+                    { "id": 18, "name": "GTP", "years": [2023, 2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 32, "name": "LMP3", "years": [2021, 2022, 2023] },
+                    { "id": 55, "name": "IMSA Prototype", "years": [2014, 2015, 2016, 2017, 2018] },
+                    { "id": 56, "name": "Formula Le Mans", "years": [2014, 2015, 2016, 2017] },
+                    { "id": 57, "name": "DPi", "years": [2019, 2020, 2021, 2022] }
                 ]
             },
             {
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 31, "name": "IMSA", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
             }
         ],
         "country": "US",
@@ -2782,8 +2825,8 @@
     },
     {
         "id": 31,
-        "name": "Detroit Street Circuit",
-        "similarNames": ["Detroit Grand Prix"],
+        "name": "Detroit Downtown Street Circuit",
+        "similarNames": ["Detroit Grand Prix", "Detroit Sports Car Classic"],
         "categories": [
             {
                 "id": 1,
@@ -2796,15 +2839,21 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 20, "name": "GTD", "years": null }
+                    { "id": 20, "name": "GTD", "years": [2024, 2025, 2026] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    { "id": 18, "name": "GTP", "years": null },
-                    { "id": 19, "name": "LMP2", "years": null }
+                    { "id": 18, "name": "GTP", "years": [2024, 2025, 2026] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 31, "name": "IMSA", "years": [2024, 2025, 2026] }
                 ]
             }
         ],
@@ -2866,15 +2915,20 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 20, "name": "GTD", "years": null }
+                    { "id": 20, "name": "GTD", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 54, "name": "GTLM", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2021] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    { "id": 18, "name": "GTP", "years": null },
-                    { "id": 19, "name": "LMP2", "years": null }
+                    { "id": 18, "name": "GTP", "years": [2023, 2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2019, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 32, "name": "LMP3", "years": [2021, 2022, 2023] },
+                    { "id": 55, "name": "IMSA Prototype", "years": [2014, 2015, 2016, 2017, 2018] },
+                    { "id": 56, "name": "Formula Le Mans", "years": [2014, 2015, 2016, 2017] },
+                    { "id": 57, "name": "DPi", "years": [2019, 2021, 2022] }
                 ]
             },
             {
@@ -2891,7 +2945,7 @@
                 "id": 25,
                 "name": "Endurance",
                 "subcategories": [
-                    { "id": 31, "name": "IMSA", "years": [] }
+                    { "id": 31, "name": "IMSA", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -2955,21 +3009,25 @@
     {
         "id": 33,
         "name": "Mosport Park",
-        "similarNames": ["Canadian Tire Motorsport Park", "Mosport International Raceway"],
+        "similarNames": ["Canadian Tire Motorsport Park", "Mosport International Raceway", "Chevrolet Grand Prix"],
         "categories": [
             {
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 20, "name": "GTD", "years": null }
+                    { "id": 20, "name": "GTD", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2022, 2023, 2024, 2025, 2026] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    { "id": 18, "name": "GTP", "years": null },
-                    { "id": 19, "name": "LMP2", "years": null }
+                    { "id": 18, "name": "GTP", "years": [2023, 2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2019, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 32, "name": "LMP3", "years": [2021, 2022, 2023] },
+                    { "id": 55, "name": "IMSA Prototype", "years": [2014, 2015, 2016, 2017, 2018] },
+                    { "id": 56, "name": "Formula Le Mans", "years": [2014, 2015, 2016, 2017] },
+                    { "id": 57, "name": "DPi", "years": [2019, 2022] }
                 ]
             },
             {
@@ -2981,7 +3039,7 @@
                 "id": 25,
                 "name": "Endurance",
                 "subcategories": [
-                    { "id": 31, "name": "IMSA", "years": [] }
+                    { "id": 31, "name": "IMSA", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2022, 2023, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -3018,15 +3076,27 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 20, "name": "GTD", "years": null }
+                    { "id": 20, "name": "GTD", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 54, "name": "GTLM", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    { "id": 18, "name": "GTP", "years": null },
-                    { "id": 19, "name": "LMP2", "years": null }
+                    { "id": 18, "name": "GTP", "years": [2023, 2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 32, "name": "LMP3", "years": [2021, 2022, 2023] },
+                    { "id": 55, "name": "IMSA Prototype", "years": [2014, 2015, 2016, 2017, 2018] },
+                    { "id": 56, "name": "Formula Le Mans", "years": [2014, 2015, 2016, 2017] },
+                    { "id": 57, "name": "DPi", "years": [2019, 2020, 2021, 2022] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 31, "name": "IMSA", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
             }
         ],
@@ -3064,13 +3134,28 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 20, "name": "GTD", "years": null }
+                    { "id": 20, "name": "GTD", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 54, "name": "GTLM", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    { "id": 56, "name": "Formula Le Mans", "years": [2014, 2015, 2016, 2017] }
                 ]
             },
             {
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 31, "name": "IMSA", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
             }
         ],
         "country": "US",
@@ -3133,7 +3218,7 @@
     {
         "id": 36,
         "name": "Indianapolis Motor Speedway",
-        "similarNames": ["Indy 500", "Indianapolis 500", "United States Grand Prix", "Grand Prix of Indianapolis", "Indianapolis 8 Hour"],
+        "similarNames": ["Indy 500", "Indianapolis 500", "United States Grand Prix", "Grand Prix of Indianapolis", "Indianapolis 8 Hour", "Battle on the Bricks"],
         "categories": [
             {
                 "id": 1,
@@ -3147,22 +3232,33 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 20, "name": "GTD", "years": null },
-                    { "id": 53, "name": "Intercontinental GT Challenge", "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                    { "id": 20, "name": "GTD", "years": [2014, 2023, 2024, 2025, 2026] },
+                    { "id": 53, "name": "Intercontinental GT Challenge", "years": [2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 54, "name": "GTLM", "years": [2014] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    { "id": 18, "name": "GTP", "years": null },
-                    { "id": 19, "name": "LMP2", "years": null }
+                    { "id": 18, "name": "GTP", "years": [2023, 2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2023, 2024, 2025, 2026] },
+                    { "id": 32, "name": "LMP3", "years": [2023] },
+                    { "id": 55, "name": "IMSA Prototype", "years": [2014] },
+                    { "id": 56, "name": "Formula Le Mans", "years": [2014] }
                 ]
             },
             {
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 31, "name": "IMSA", "years": [2014, 2023, 2024, 2025, 2026] }
+                ]
             }
         ],
         "country": "US",
@@ -3223,21 +3319,33 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
-                    { "id": 20, "name": "GTD", "years": null }
+                    { "id": 20, "name": "GTD", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 54, "name": "GTLM", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "subcategories": [
-                    { "id": 18, "name": "GTP", "years": null },
-                    { "id": 19, "name": "LMP2", "years": null }
+                    { "id": 18, "name": "GTP", "years": [2023, 2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 32, "name": "LMP3", "years": [2021, 2022, 2023] },
+                    { "id": 55, "name": "IMSA Prototype", "years": [2014, 2015, 2016, 2017, 2018] },
+                    { "id": 56, "name": "Formula Le Mans", "years": [2014, 2015, 2016, 2017] },
+                    { "id": 57, "name": "DPi", "years": [2019, 2020, 2021, 2022] }
                 ]
             },
             {
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 31, "name": "IMSA", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
             }
         ],
         "country": "US",
@@ -5268,7 +5376,20 @@
             {
                 "id": 2,
                 "name": "GT",
-                "subcategories": []
+                "subcategories": [
+                    { "id": 20, "name": "GTD", "years": [2018, 2019, 2020, 2021, 2022] },
+                    { "id": 54, "name": "GTLM", "years": [2018, 2019, 2020, 2021] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "years": [2019, 2020, 2021, 2022] },
+                    { "id": 32, "name": "LMP3", "years": [2021, 2022] },
+                    { "id": 55, "name": "IMSA Prototype", "years": [2018] },
+                    { "id": 57, "name": "DPi", "years": [2019, 2020, 2021, 2022] }
+                ]
             },
             {
                 "id": 4,
@@ -5284,7 +5405,7 @@
                 "id": 25,
                 "name": "Endurance",
                 "subcategories": [
-                    { "id": 31, "name": "IMSA", "years": [] }
+                    { "id": 31, "name": "IMSA", "years": [2018, 2019, 2020, 2021, 2022] }
                 ]
             }
         ],
@@ -5461,13 +5582,6 @@
                 "id": 5,
                 "name": "NASCAR",
                 "subcategories": []
-            },
-            {
-                "id": 25,
-                "name": "Endurance",
-                "subcategories": [
-                    { "id": 31, "name": "IMSA", "years": [] }
-                ]
             }
         ],
         "country": "US",
@@ -8166,6 +8280,14 @@
                 ]
             },
             {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 20, "name": "GTD", "years": [2020] },
+                    { "id": 54, "name": "GTLM", "years": [2020] }
+                ]
+            },
+            {
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": []
@@ -8174,6 +8296,13 @@
                 "id": 5,
                 "name": "NASCAR",
                 "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 31, "name": "IMSA", "years": [2020] }
+                ]
             }
         ],
         "country": "US",
@@ -8238,7 +8367,7 @@
     },
     {
         "id": 120,
-        "name": "Detroit Belle Isle",
+        "name": "Detroit Belle Isle Street Circuit",
         "similarNames": ["Detroit Grand Prix"],
         "categories": [
             {
@@ -8258,13 +8387,31 @@
                         "subcategories": [
                             { "id": 36, "name": "GT World Challenge America", "years": [] }
                         ]
-                    }
+                    },
+                    { "id": 20, "name": "GTD", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022] },
+                    { "id": 54, "name": "GTLM", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2021] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    { "id": 55, "name": "IMSA Prototype", "years": [2014, 2015, 2016, 2017, 2018] },
+                    { "id": 56, "name": "Formula Le Mans", "years": [2014, 2015, 2016, 2017] },
+                    { "id": 57, "name": "DPi", "years": [2019, 2021, 2022] }
                 ]
             },
             {
                 "id": 4,
                 "name": "Touring Car",
                 "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 31, "name": "IMSA", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022] }
+                ]
             }
         ],
         "country": "US",
@@ -9012,9 +9159,23 @@
                 ]
             },
             {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    { "id": 56, "name": "Formula Le Mans", "years": [2014] }
+                ]
+            },
+            {
                 "id": 5,
                 "name": "NASCAR",
                 "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 31, "name": "IMSA", "years": [2014] }
+                ]
             }
         ],
         "country": "US",
@@ -12636,6 +12797,77 @@
                 "end_year": 2009,
                 "length": 4.26,
                 "image_id": "212.4"
+            }
+        ]
+    },
+    {
+        "id": 213,
+        "name": "Lime Rock Park",
+        "similarNames": ["Northeast Grand Prix"],
+        "categories": [
+            {
+                "id": 2,
+                "name": "GT",
+                "subcategories": [
+                    { "id": 20, "name": "GTD", "years": [2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023] },
+                    { "id": 54, "name": "GTLM", "years": [2015, 2016, 2017, 2018, 2019, 2021] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "subcategories": [
+                    { "id": 56, "name": "Formula Le Mans", "years": [2015, 2016, 2017] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "subcategories": []
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Endurance",
+                "subcategories": [
+                    { "id": 31, "name": "IMSA", "years": [2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023] }
+                ]
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "41.927689000000000",
+        "longitude": "-73.383597000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1957,
+                "end_year": null,
+                "length": 2.462,
+                "image_id": "213.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit + Uphill Chicane",
+                "start_year": 2008,
+                "end_year": null,
+                "length": 2.372,
+                "image_id": "213.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Full Circuit + Two Chicanes",
+                "start_year": 2008,
+                "end_year": null,
+                "length": 2.419,
+                "image_id": "213.3"
             }
         ]
     }

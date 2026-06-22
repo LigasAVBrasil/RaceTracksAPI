@@ -24,7 +24,7 @@
                 "subcategories": [
                     { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
                     { "id": 21, "name": "DTM", "years": [1996] },
-                    { "id": 28, "name": "LMGTE", "years": [2012, 2013, 2014] }
+                    { "id": 28, "name": "LMGTE", "years": [2007, 2012, 2013, 2014] }
                 ]
             },
             {
@@ -32,8 +32,8 @@
                 "name": "Prototype",
                 "subcategories": [
                     { "id": 16, "name": "Hypercar", "years": [2024, 2025, 2026] },
-                    { "id": 19, "name": "LMP2", "years": [2012, 2013, 2014] },
-                    { "id": 27, "name": "LMP1", "years": [2012, 2013, 2014] }
+                    { "id": 19, "name": "LMP2", "years": [2007, 2012, 2013, 2014] },
+                    { "id": 27, "name": "LMP1", "years": [2007, 2012, 2013, 2014] }
                 ]
             },
             {
@@ -66,6 +66,7 @@
                 "id": 25,
                 "name": "Endurance",
                 "subcategories": [
+                    { "id": 29, "name": "ELMS", "years": [2007] },
                     { "id": 30, "name": "FIA WEC", "years": [2012, 2013, 2014, 2024, 2025, 2026] }
                 ]
             }
@@ -2297,8 +2298,8 @@
                             { "id": 39, "name": "GT World Challenge Europe", "years": [2020, 2022] }
                         ]
                     },
-                    { "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] },
-                    { "id": 28, "name": "LMGTE", "years": [] }
+                    { "id": 17, "name": "LMGT3", "years": [2013, 2014, 2015, 2024, 2025, 2026] },
+                    { "id": 28, "name": "LMGTE", "years": [2011, 2013, 2014, 2015, 2016, 2022] }
                 ]
             },
             {
@@ -2306,8 +2307,10 @@
                 "name": "Prototype",
                 "subcategories": [
                     { "id": 16, "name": "Hypercar", "years": [2024, 2025, 2026] },
-                    { "id": 19, "name": "LMP2", "years": [] },
-                    { "id": 32, "name": "LMP3", "years": [] }
+                    { "id": 19, "name": "LMP2", "years": [2011, 2013, 2014, 2015, 2016, 2022, 2024, 2025] },
+                    { "id": 27, "name": "LMP1", "years": [2011] },
+                    { "id": 32, "name": "LMP3", "years": [2015, 2016, 2022, 2024, 2025] },
+                    { "id": 56, "name": "Formula Le Mans", "years": [2011, 2013] }
                 ]
             },
             {
@@ -2319,7 +2322,7 @@
                 "id": 25,
                 "name": "Endurance",
                 "subcategories": [
-                    { "id": 29, "name": "ELMS", "years": [] },
+                    { "id": 29, "name": "ELMS", "years": [2011, 2013, 2014, 2015, 2016, 2022, 2024, 2025] },
                     { "id": 30, "name": "FIA WEC", "years": [2024, 2025, 2026] }
                 ]
             }
@@ -4745,7 +4748,8 @@
                             { "id": 39, "name": "GT World Challenge Europe", "years": [2014, 2015, 2026] }
                         ]
                     },
-                    { "id": 28, "name": "LMGTE", "years": [2021, 2023] }
+                    { "id": 17, "name": "LMGT3", "years": [2024, 2025] },
+                    { "id": 28, "name": "LMGTE", "years": [2009, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
                 ]
             },
             {
@@ -4753,7 +4757,10 @@
                 "name": "Prototype",
                 "subcategories": [
                     { "id": 16, "name": "Hypercar", "years": [2021, 2023] },
-                    { "id": 19, "name": "LMP2", "years": [2021, 2023] }
+                    { "id": 19, "name": "LMP2", "years": [2021, 2023] },
+                    { "id": 27, "name": "LMP1", "years": [2009, 2010] },
+                    { "id": 32, "name": "LMP3", "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+                    { "id": 56, "name": "Formula Le Mans", "years": [2010] }
                 ]
             },
             {
@@ -4770,6 +4777,7 @@
                 "id": 25,
                 "name": "Endurance",
                 "subcategories": [
+                    { "id": 29, "name": "ELMS", "years": [2009, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
                     { "id": 30, "name": "FIA WEC", "years": [2021, 2023] }
                 ]
             }
@@ -7296,13 +7304,17 @@
                 "id": 2,
                 "name": "GT",
                 "subcategories": [
+                    { "id": 17, "name": "LMGT3", "years": [2024] },
                     { "id": 21, "name": "DTM", "years": [2007, 2008] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
-                "subcategories": []
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "years": [2024] },
+                    { "id": 32, "name": "LMP3", "years": [2024] }
+                ]
             },
             {
                 "id": 4,

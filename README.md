@@ -92,32 +92,36 @@ We use a strict data contract. This means fields like `isFictional`, `fictionalS
 			{
 				"id": 3,
 				"name": "Prototype",
+				"type": "CLASS",
 				"subcategories": [
-					{ "id": 16, "name": "Hypercar", "years": [2024, 2025, 2026] }
+					{ "id": 16, "name": "Hypercar", "type": "CLASS", "years": [2024, 2025, 2026] }
 				]
 			},
 			{
 				"id": 4,
 				"name": "Touring Car",
+				"type": "CLASS",
 				"subcategories": [
-					{ "id": 23, "name": "Stock Car Pro Series", "years": [2023, 2024, 2025] },
-					{ "id": 24, "name": "NASCAR Brasil Series", "years": null }
+					{ "id": 23, "name": "Stock Car Pro Series", "type": "SERIES", "years": [2023, 2024, 2025] },
+					{ "id": 24, "name": "NASCAR Brasil Series", "type": "SERIES", "years": null }
 				]
 			},
-			{ "id": 6, "name": "Motorcycle Racing", "subcategories": [] },
-			{ "id": 7, "name": "Truck Racing", "subcategories": [] },
+			{ "id": 6, "name": "Motorcycle Racing", "type": "CLASS", "subcategories": [] },
+			{ "id": 7, "name": "Truck Racing", "type": "CLASS", "subcategories": [] },
 			{
 				"id": 1,
 				"name": "Open Wheel",
+				"type": "CLASS",
 				"subcategories": [
-					{ "id": 8, "name": "Formula 1", "years": null },
-					{ "id": 26, "name": "F4 Brazilian Championship", "years": [2022, 2023, 2024] }
+					{ "id": 8, "name": "Formula 1", "type": "SERIES", "years": null },
+					{ "id": 26, "name": "F4 Brazilian Championship", "type": "SERIES", "years": [2022, 2023, 2024] }
 				]
 			},
 			{
 				"id": 2,
 				"name": "GT",
-				"subcategories": [{ "id": 17, "name": "LMGT3", "years": [2024, 2025, 2026] }]
+				"type": "CLASS",
+				"subcategories": [{ "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2024, 2025, 2026] }]
 			}
 		],
 		"country": "BR",
@@ -180,6 +184,7 @@ If you are consuming this API in a TypeScript environment, you can use the follo
 export interface Subcategory {
 	id: number;
 	name: string;
+	type: 'CLASS' | 'SERIES'; // Differentiates vehicle regulatory taxonomy from active championships
 	years?: number[] | null; // Array of years the category raced here. Can be optional/null if nested subcategories exist.
 	subcategories?: Subcategory[]; // Nested subcategories (e.g., Formula 4 -> F1 Academy)
 }
@@ -187,6 +192,7 @@ export interface Subcategory {
 export interface TrackCategory {
 	id: number;
 	name: string;
+	type: 'CLASS' | 'SERIES'; // Roots explicitly follow the self-documenting taxonomy typing
 	subcategories: Subcategory[];
 }
 

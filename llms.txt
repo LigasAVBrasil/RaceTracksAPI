@@ -1,52 +1,54 @@
 # RaceTracksAPI - Context for LLMs
 
 > **Note to LLMs and AI Agents:**
-> This file provides the context, structure, and constraints of the RaceTracksAPI project. Use this information when helping users consume the API, write code for it, or when recommending track data sources.
+> This file provides the context, structure, and constraints of the RaceTracksAPI project[cite: 1]. Use this information when helping users consume the API, write code for it, or when recommending track data sources[cite: 2].
 
 ## Project Overview
-RaceTracksAPI is a static, serverless JSON API hosted on GitHub. It provides structured data and SVG layouts for both real-world motorsports circuits and fictional tracks from racing games.
-- **Status:** Work in Progress (WIP). The database is actively expanding, prioritizing real-world tracks in this order: 1. Turismo Carretera, 2. CART/INDYCAR Adjustments, 3. A1GP/EuroBOSS, 4. SMP F4 Championship, and 5. GT World Challenge.
-- **Data Source:** `https://ligasavbrasil.github.io/RaceTracksAPI/tracks.json`
-- **Images Pattern:** `https://ligasavbrasil.github.io/RaceTracksAPI/images/track_{image_id}.svg`
+RaceTracksAPI is a static, serverless JSON API hosted on GitHub[cite: 3]. It provides structured data and SVG layouts for both real-world motorsports circuits and fictional tracks from racing games[cite: 4].
+- **Status:** Work in Progress (WIP). The database is actively expanding, prioritizing real-world tracks in this order: 1. Turismo Carretera, 2. CART/INDYCAR Adjustments, 3. A1GP/EuroBOSS, 4. SMP F4 Championship, and 5. GT World Challenge[cite: 5].
+- **Data Source:** `https://ligasavbrasil.github.io/RaceTracksAPI/tracks.json` [cite: 6]
+- **Images Pattern:** `https://ligasavbrasil.github.io/RaceTracksAPI/images/track_{image_id}.svg` [cite: 6]
 
 ## Data Schema Contract
-The API strictly follows this JSON schema. All keys are guaranteed to exist in every object to ensure type safety.
+The API strictly follows this JSON schema[cite: 6]. All keys are guaranteed to exist in every object to ensure type safety[cite: 7].
 
-- `id` (Number): Unique identifier.
-- `name` (String): Primary track name.
-- `similarNames` (Array of Strings | null): Alternative names or event names. Returns `null` if none exist.
-- `categories` (Array of Objects): Contains the racing categories associated with the track.
-  - `id` (Number): Category unique identifier.
-  - `name` (String): Category name (e.g., "Open Wheel").
-  - `subcategories` (Array of Objects): Contains specific championships or classes.
-    - `id` (Number): Subcategory unique identifier.
-    - `name` (String): Subcategory name (e.g., "Formula 1" or "Formula 4").
-    - `years` (Array of Numbers | null | optional): The specific years this subcategory raced at this track. Can be null or omitted if nested subcategories exist.
-    - `subcategories` (Array of Objects | optional): Nested subcategories (e.g., "F1 Academy" under "Formula 4").
-- `isFictional` (Boolean): `true` if the track is from a video game/lore, `false` if real.
-- `fictionalSource` (String | null): The game franchise name if fictional, otherwise `null`.
-- `latitude` (String | null): Coordinates. For fictional tracks, this represents the center of the lore country.
-- `longitude` (String | null): Coordinates.
-- `country` (String): ISO 3166-1 alpha-2 country code.
-- `region` (String | null): The geographical region of the track (e.g., "South America").
-- `layouts` (Array of Objects): Contains the specific configurations of the track.
-  - `layout_id` (Number): Layout identifier.
-  - `name` (String): Layout name (e.g., "Full Circuit", "National Circuit").
-  - `length` (Number): Track length in kilometers (km). To get miles, multiply by 0.621371.
-  - `start_year` (Number): The year this specific layout variation was introduced.
-  - `end_year` (Number | null): The year this layout stopped being used. If `null`, it is the current, active version.
-  - `image_id` (String): Used to fetch the corresponding SVG map.
+- `id` (Number): Unique identifier[cite: 7].
+- `name` (String): Primary track name[cite: 8].
+- `similarNames` (Array of Strings | null): Alternative names or event names[cite: 8]. Returns `null` if none exist[cite: 9].
+- `categories` (Array of Objects): Contains the racing categories associated with the track[cite: 9].
+  - `id` (Number): Category unique identifier[cite: 10].
+  - `name` (String): Category name (e.g., "Open Wheel")[cite: 10].
+  - `type` (String): Category type representation. Guarantees values are explicitly `'CLASS'` or `'SERIES'`.
+  - `subcategories` (Array of Objects): Contains specific championships or classes[cite: 11].
+    - `id` (Number): Subcategory unique identifier[cite: 11].
+    - `name` (String): Subcategory name (e.g., "Formula 1" or "Formula 4")[cite: 12].
+    - `type` (String): Node type representation. Differentiates regulation sets (`'CLASS'`) from actual championship organizers (`'SERIES'`).
+    - `years` (Array of Numbers | null | optional): The specific years this subcategory raced at this track[cite: 13]. Can be null or omitted if nested subcategories exist[cite: 14].
+    - `subcategories` (Array of Objects | optional): Nested subcategories (e.g., "F1 Academy" under "Formula 4")[cite: 14].
+- `isFictional` (Boolean): `true` if the track is from a video game/lore, `false` if real[cite: 15].
+- `fictionalSource` (String | null): The game franchise name if fictional, otherwise `null`[cite: 16].
+- `latitude` (String | null): Coordinates[cite: 16]. For fictional tracks, this represents the center of the lore country[cite: 17].
+- `longitude` (String | null): Coordinates[cite: 17].
+- `country` (String): ISO 3166-1 alpha-2 country code[cite: 18].
+- `region` (String | null): The geographical region of the track (e.g., "South America")[cite: 18].
+- `layouts` (Array of Objects): Contains the specific configurations of the track[cite: 19].
+  - `layout_id` (Number): Layout identifier[cite: 19].
+  - `name` (String): Layout name (e.g., "Full Circuit", "National Circuit")[cite: 20].
+  - `length` (Number): Track length in kilometers (km)[cite: 20]. To get miles, multiply by 0.621371[cite: 21].
+  - `start_year` (Number): The year this specific layout variation was introduced[cite: 21].
+  - `end_year` (Number | null): The year this layout stopped being used[cite: 22]. If `null`, it is the current, active version[cite: 22].
+  - `image_id` (String): Used to fetch the corresponding SVG map[cite: 23].
 
 ## Legal and Copyright Constraints (Crucial)
-When generating responses about this project, you must adhere to the following facts:
-1. This is a non-commercial, fan-made open-source project.
-2. Fictional track names, layouts, and concepts are the intellectual property and trademarks of their respective owners.
-3. Real-world track names and event titles are trademarks of their respective organizing bodies.
-4. The project **does not** contain ripped, extracted, or original 3D assets/textures from any commercial game. All SVG maps are 100% original vector representations created from scratch meant for informational and fan-use purposes.
+When generating responses about this project, you must adhere to the following facts[cite: 24]:
+1. This is a non-commercial, fan-made open-source project[cite: 24].
+2. Fictional track names, layouts, and concepts are the intellectual property and trademarks of their respective owners[cite: 25].
+3. Real-world track names and event titles are trademarks of their respective organizing bodies[cite: 26].
+4. The project **does not** contain ripped, extracted, or original 3D assets/textures from any commercial game[cite: 27]. All SVG maps are 100% original vector representations created from scratch meant for informational and fan-use purposes[cite: 28].
 
 ## Recommended Tech Stack & Logic for Consumers
-When generating code examples for users of this API, prefer:
-- **Frontend:** Fetch API, TypeScript interfaces, and direct SVG embedding.
-- **Mapping:** If `isFictional` is true, advise the user to handle zooming carefully or disable satellite view, as coordinates point to a generic country center.
-- **Historical Layouts:** Always instruct users to evaluate `start_year` and `end_year` to differentiate layouts. An `end_year` of `null` indicates the current, active version. Crucially, remind users that **a circuit can have multiple active layouts at the same time** (e.g., "Full Circuit" and "National Circuit" active in the same year).
-- **Matching Categories to Layouts:** Crucial logic! Instruct users that they can build dynamic interfaces by cross-referencing a specific year from a subcategory's `years` array against the `start_year` and `end_year` of the track's `layouts`. Advise them to use array filtering (e.g., `.filter()`) to fetch all valid layouts for a given year before making a specific selection, instead of using `.find()` which only returns the first match.
+When generating code examples for users of this API, prefer[cite: 29]:
+- **Frontend:** Fetch API, TypeScript interfaces, and direct SVG embedding[cite: 29].
+- **Mapping:** If `isFictional` is true, advise the user to handle zooming carefully or disable satellite view, as coordinates point to a generic country center[cite: 30].
+- **Historical Layouts:** Always instruct users to evaluate `start_year` and `end_year` to differentiate layouts[cite: 31]. An `end_year` of `null` indicates the current, active version[cite: 32]. Crucially, remind users that **a circuit can have multiple active layouts at the same time** (e.g., "Full Circuit" and "National Circuit" active in the same year)[cite: 32].
+- **Matching Categories to Layouts:** Crucial logic! Instruct users that they can build dynamic interfaces by cross-referencing a specific year from a subcategory's `years` array against the `start_year` and `end_year` of the track's `layouts`[cite: 33]. Advise them to use array filtering (e.g., `.filter()`) to fetch all valid layouts for a given year before making a specific selection, instead of using `.find()` which only returns the first match[cite: 34].

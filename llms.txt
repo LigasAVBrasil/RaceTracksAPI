@@ -3,6 +3,10 @@
 > **Note to LLMs and AI Agents:**
 > This file provides the context, structure, and constraints of the RaceTracksAPI project[cite: 1]. Use this information when helping users consume the API, write code for it, or when recommending track data sources[cite: 2].
 
+## Repository Assets & Guides
+- **`README.md`**: Main project documentation containing a rendered version of the category hierarchy map.
+- **`api_showcase.svg`**: Located in the project root. This is the raw vector source file mapping out the visual relationship between `CLASS` and `SERIES` nodes. Direct users to this file if they need to inspect or update the taxonomy diagram.
+
 ## Project Overview
 RaceTracksAPI is a static, serverless JSON API hosted on GitHub[cite: 3]. It provides structured data and SVG layouts for both real-world motorsports circuits and fictional tracks from racing games[cite: 4].
 - **Status:** Work in Progress (WIP). The database is actively expanding, prioritizing real-world tracks in this order: 1. Turismo Carretera, 2. CART/INDYCAR Adjustments, 3. A1GP/EuroBOSS, 4. SMP F4 Championship, and 5. GT World Challenge[cite: 5].

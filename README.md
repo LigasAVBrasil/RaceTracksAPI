@@ -72,6 +72,14 @@ if (activeLayouts.length > 0) {
 
 ---
 
+### Category Taxonomy Hierarchy
+
+To help visualize how racing categories and subcategories are structured in our schema (separating regulatory `CLASS` nodes from active championship `SERIES` organizers), refer to the dependency mapping below:
+
+![RaceTracksAPI Category Hierarchy](./api_showcase.svg)
+
+---
+
 ## 📄 Data Structure Example
 
 We use a strict data contract. This means fields like `isFictional`, `fictionalSource`, and `categories` will **always** be present, even if empty or null. Fictional tracks use the geographic center coordinates of their lore-based country.

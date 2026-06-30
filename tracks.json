@@ -41,7 +41,8 @@
                         "subcategories": [
                             { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2007, 2012, 2013, 2014] }
                         ]
-                    }
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2007] }
                 ]
             },
             {
@@ -51,7 +52,8 @@
                 "subcategories": [
                     { "id": 16, "name": "Hypercar", "type": "CLASS", "years": [2024, 2025, 2026] },
                     { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2007, 2012, 2013, 2014] },
-                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2007, 2012, 2013, 2014] }
+                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2007, 2012, 2013, 2014] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2007] }
                 ]
             },
             {
@@ -105,7 +107,8 @@
                             { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2024, 2025, 2026] },
                             { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2007, 2012, 2013, 2014] },
                             { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2007, 2012, 2013, 2014] },
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2007, 2012, 2013, 2014] }
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2007, 2012, 2013, 2014] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2007] }
                         ],
                         "years": [2007]
                     },
@@ -159,12 +162,6 @@
                     { "id": 23, "name": "Stock Car Pro Series", "type": "SERIES", "years": [1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
                     { "id": 24, "name": "NASCAR Brasil Series", "type": "SERIES", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                 ]
-            },
-            {
-                "id": 62,
-                "name": "LMGT1",
-                "type": "CLASS",
-                "subcategories": []
             }
         ],
         "country": "BR",
@@ -401,7 +398,8 @@
                         "subcategories": [
                             { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
                         ]
-                    }
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2004, 2005, 2007, 2008] }
                 ]
             },
             {
@@ -412,7 +410,8 @@
                     { "id": 16, "name": "Hypercar", "type": "CLASS", "years": [2021, 2022, 2023] },
                     { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
                     { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2004, 2005, 2007, 2008] },
-                    { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2017, 2018, 2019, 2020, 2021, 2022] }
+                    { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2017, 2018, 2019, 2020, 2021, 2022] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2004, 2005, 2007, 2008] }
                 ]
             },
             {
@@ -436,7 +435,8 @@
                             { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
                             { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2004, 2005, 2007, 2008] },
                             { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
-                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2017, 2018, 2019, 2020, 2021, 2022] }
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2017, 2018, 2019, 2020, 2021, 2022] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2004, 2005, 2007, 2008] }
                         ],
                         "years": [2004, 2005, 2007, 2008, 2017, 2018, 2019, 2020, 2021, 2022]
                     },
@@ -503,12 +503,6 @@
                 "subcategories": [
                     { "id": 21, "name": "DTM", "type": "SERIES", "years": [2021] }
                 ]
-            },
-            {
-                "id": 62,
-                "name": "LMGT1",
-                "type": "CLASS",
-                "subcategories": []
             }
         ],
         "country": "IT",
@@ -706,9 +700,10 @@
                         "name": "GTE",
                         "type": "CLASS",
                         "subcategories": [
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
                         ]
-                    }
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010] }
                 ]
             },
             {
@@ -717,8 +712,11 @@
                 "type": "CLASS",
                 "subcategories": [
                     { "id": 16, "name": "Hypercar", "type": "CLASS", "years": [2021, 2022, 2023, 2024, 2025, 2026] },
-                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
-                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] }
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
+                    { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2011] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010] }
                 ]
             },
             {
@@ -746,10 +744,14 @@
                         "type": "SERIES",
                         "subcategories": [
                             { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2024, 2025, 2026] },
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
-                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
-                        ]
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2011] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010] }
+                        ],
+                        "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
                     },
                     {
                         "id": 30,
@@ -758,9 +760,9 @@
                         "subcategories": [
                             { "id": 16, "name": "Hypercar", "type": "CLASS", "years": [2021, 2022, 2023, 2024, 2025, 2026] },
                             { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2024, 2025, 2026] },
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
-                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
                         ],
                         "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
                     },
@@ -769,7 +771,9 @@
                         "name": "IMSA",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2011] }
                         ]
                     }
                 ]
@@ -779,7 +783,7 @@
                 "name": "Spec Series",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
                     {
                         "id": 33,
                         "name": "Formula 4",
@@ -804,7 +808,8 @@
                             { "id": 10, "name": "FIA Formula 3", "type": "SERIES", "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
                             { "id": 34, "name": "W Series", "type": "SERIES", "years": [2021] }
                         ]
-                    }
+                    },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2011] }
                 ]
             },
             {
@@ -930,9 +935,19 @@
                                     { "id": 39, "name": "GT World Challenge Europe", "type": "SERIES", "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                                 ]
                             },
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2024, 2025, 2026] },
                             { "id": 21, "name": "DTM", "type": "SERIES", "years": [2006, 2007, 2008, 2009] }
                         ]
-                    }
+                    },
+                    {
+                        "id": 59,
+                        "name": "GTE",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2008, 2009, 2019, 2021, 2022, 2023] }
+                        ]
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2008, 2009] }
                 ]
             },
             {
@@ -940,7 +955,10 @@
                 "name": "Prototype",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": null }
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2008, 2009, 2019, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2008, 2009] },
+                    { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2019, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2008, 2009] }
                 ]
             },
             {
@@ -961,15 +979,24 @@
                         "name": "ELMS",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": null }
-                        ]
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2024, 2025, 2026] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2008, 2009, 2019, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2008, 2009] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2008, 2009, 2019, 2021, 2022, 2023] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2019, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2008, 2009] }
+                        ],
+                        "years": [2008, 2009, 2019, 2021, 2022, 2023, 2024, 2025, 2026]
                     },
                     {
                         "id": 30,
                         "name": "FIA WEC",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": null }
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2024, 2025, 2026] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2008, 2009, 2019, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2008, 2009] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2008, 2009, 2019, 2021, 2022, 2023] }
                         ]
                     },
                     {
@@ -977,7 +1004,8 @@
                         "name": "IMSA",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": null }
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2008, 2009, 2019, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2019, 2021, 2022, 2023, 2024, 2025, 2026] }
                         ]
                     }
                 ]
@@ -987,7 +1015,7 @@
                 "name": "Spec Series",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": null },
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2008, 2009, 2019, 2021, 2022, 2023, 2024, 2025, 2026] },
                     {
                         "id": 33,
                         "name": "Formula 4",
@@ -2119,9 +2147,28 @@
                         "name": "GT3",
                         "type": "CLASS",
                         "subcategories": [
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2013, 2014, 2015] },
                             { "id": 21, "name": "DTM", "type": "SERIES", "years": [2001, 2002, 2003, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2021, 2022, 2023, 2024, 2025, 2026] }
                         ]
+                    },
+                    {
+                        "id": 59,
+                        "name": "GTE",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2021] }
+                        ]
                     }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2021] },
+                    { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016, 2017, 2018, 2021] },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2013] }
                 ]
             },
             {
@@ -2133,10 +2180,51 @@
                 ]
             },
             {
+                "id": 25,
+                "name": "Multi-Class Championships",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 29,
+                        "name": "ELMS",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2013, 2014, 2015] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2021] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2021] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016, 2017, 2018, 2021] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2013] }
+                        ],
+                        "years": [2013, 2014, 2015, 2016, 2017, 2018, 2021]
+                    },
+                    {
+                        "id": 30,
+                        "name": "FIA WEC",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2013, 2014, 2015] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2021] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2021] }
+                        ]
+                    },
+                    {
+                        "id": 31,
+                        "name": "IMSA",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2021] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016, 2017, 2018, 2021] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2013] }
+                        ]
+                    }
+                ]
+            },
+            {
                 "id": 40,
                 "name": "Spec Series",
                 "type": "CLASS",
                 "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2013, 2014, 2015, 2016, 2017, 2018, 2021] },
                     {
                         "id": 33,
                         "name": "Formula 4",
@@ -2162,7 +2250,8 @@
                             { "id": 10, "name": "FIA Formula 3", "type": "SERIES", "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
                             { "id": 34, "name": "W Series", "type": "SERIES", "years": [2021] }
                         ]
-                    }
+                    },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2013] }
                 ]
             },
             {
@@ -2280,6 +2369,7 @@
                                     { "id": 39, "name": "GT World Challenge Europe", "type": "SERIES", "years": [2014, 2015, 2016, 2017, 2018, 2019] }
                                 ]
                             },
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2013, 2014, 2015, 2025] },
                             { "id": 21, "name": "DTM", "type": "SERIES", "years": [] }
                         ]
                     },
@@ -2288,9 +2378,10 @@
                         "name": "GTE",
                         "type": "CLASS",
                         "subcategories": [
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
                         ]
-                    }
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010] }
                 ]
             },
             {
@@ -2298,8 +2389,11 @@
                 "name": "Prototype",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2025] },
+                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
+                    { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016, 2017, 2018, 2019, 2025] },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2011, 2013] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010] }
                 ]
             },
             {
@@ -2321,19 +2415,25 @@
                         "name": "ELMS",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
-                        ]
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2013, 2014, 2015, 2025] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2025] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016, 2017, 2018, 2019, 2025] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2011, 2013] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010] }
+                        ],
+                        "years": [2004, 2005, 2007, 2008, 2009, 2010, 2011, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2025]
                     },
                     {
                         "id": 30,
                         "name": "FIA WEC",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2013, 2014, 2015, 2025] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2025] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
                         ],
                         "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
                     },
@@ -2342,7 +2442,9 @@
                         "name": "IMSA",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] }
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2025] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016, 2017, 2018, 2019, 2025] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2011, 2013] }
                         ]
                     }
                 ]
@@ -2352,7 +2454,7 @@
                 "name": "Spec Series",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2025] },
                     {
                         "id": 33,
                         "name": "Formula 4",
@@ -2378,7 +2480,8 @@
                             { "id": 10, "name": "FIA Formula 3", "type": "SERIES", "years": [2019, 2020, 2022, 2023, 2024, 2025, 2026] },
                             { "id": 34, "name": "W Series", "type": "SERIES", "years": [2021, 2022] }
                         ]
-                    }
+                    },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2011, 2013] }
                 ]
             },
             {
@@ -2513,9 +2616,30 @@
                                     { "id": 39, "name": "GT World Challenge Europe", "type": "SERIES", "years": [2016, 2017, 2018, 2019] }
                                 ]
                             },
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2013] },
                             { "id": 21, "name": "DTM", "type": "SERIES", "years": [2014, 2016, 2017, 2018] }
                         ]
-                    }
+                    },
+                    {
+                        "id": 59,
+                        "name": "GTE",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2010, 2013] }
+                        ]
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2010] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2010, 2013] },
+                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2010] },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2013] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2010] }
                 ]
             },
             {
@@ -2527,10 +2651,52 @@
                 ]
             },
             {
+                "id": 25,
+                "name": "Multi-Class Championships",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 29,
+                        "name": "ELMS",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2013] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2010, 2013] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2010] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2010, 2013] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2013] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2010] }
+                        ],
+                        "years": [2010, 2013]
+                    },
+                    {
+                        "id": 30,
+                        "name": "FIA WEC",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2013] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2010, 2013] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2010] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2010, 2013] }
+                        ]
+                    },
+                    {
+                        "id": 31,
+                        "name": "IMSA",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2010, 2013] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2013] }
+                        ]
+                    }
+                ]
+            },
+            {
                 "id": 40,
                 "name": "Spec Series",
                 "type": "CLASS",
                 "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2010, 2013] },
                     { "id": 33, "name": "Formula 4", "type": "CLASS", "years": [] },
                     {
                         "id": 45,
@@ -2549,7 +2715,8 @@
                             { "id": 34, "name": "W Series", "type": "SERIES", "years": [2021, 2022] }
                         ]
                     },
-                    { "id": 51, "name": "Italian F4 Championship", "type": "SERIES", "years": [2019] }
+                    { "id": 51, "name": "Italian F4 Championship", "type": "SERIES", "years": [2019] },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2013] }
                 ]
             },
             {
@@ -5505,6 +5672,7 @@
                         "name": "GTE",
                         "type": "CLASS",
                         "subcategories": [
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2012] },
                             { "id": 54, "name": "GTLM", "type": "CLASS", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] }
                         ]
                     }
@@ -5516,10 +5684,10 @@
                 "type": "CLASS",
                 "subcategories": [
                     { "id": 18, "name": "GTP", "type": "CLASS", "years": [2023, 2024, 2025, 2026] },
-                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2014, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
                     { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2021, 2022, 2023] },
                     { "id": 55, "name": "IMSA Prototype", "type": "CLASS", "years": [2014, 2015, 2016, 2017, 2018] },
-                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2014, 2015, 2016, 2017] },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2012, 2014, 2015, 2016, 2017] },
                     { "id": 57, "name": "DPi", "type": "CLASS", "years": [2019, 2020, 2021, 2022] }
                 ]
             },
@@ -5539,17 +5707,20 @@
                         "name": "ELMS",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2014, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2012] },
                             { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2021, 2022, 2023] },
-                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2014, 2015, 2016, 2017] }
-                        ]
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2012, 2014, 2015, 2016, 2017] }
+                        ],
+                        "years": [2012]
                     },
                     {
                         "id": 30,
                         "name": "FIA WEC",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2014, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2012] }
                         ]
                     },
                     {
@@ -5558,12 +5729,12 @@
                         "type": "SERIES",
                         "subcategories": [
                             { "id": 18, "name": "GTP", "type": "CLASS", "years": [2023, 2024, 2025, 2026] },
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2014, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
                             { "id": 20, "name": "GTD", "type": "CLASS", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
                             { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2021, 2022, 2023] },
                             { "id": 54, "name": "GTLM", "type": "CLASS", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021] },
                             { "id": 55, "name": "IMSA Prototype", "type": "CLASS", "years": [2014, 2015, 2016, 2017, 2018] },
-                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2014, 2015, 2016, 2017] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2012, 2014, 2015, 2016, 2017] },
                             { "id": 57, "name": "DPi", "type": "CLASS", "years": [2019, 2020, 2021, 2022] }
                         ],
                         "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
@@ -5575,8 +5746,8 @@
                 "name": "Spec Series",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
-                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2014, 2015, 2016, 2017] }
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2014, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2012, 2014, 2015, 2016, 2017] }
                 ]
             }
         ],
@@ -7220,6 +7391,7 @@
                         "name": "GT3",
                         "type": "CLASS",
                         "subcategories": [
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2014, 2015] },
                             { "id": 21, "name": "DTM", "type": "SERIES", "years": [2004] }
                         ]
                     },
@@ -7228,7 +7400,7 @@
                         "name": "GTE",
                         "type": "CLASS",
                         "subcategories": [
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2014, 2015, 2016] }
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2011, 2014, 2015, 2016] }
                         ]
                     }
                 ]
@@ -7238,7 +7410,10 @@
                 "name": "Prototype",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016] }
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2011, 2014, 2015, 2016] },
+                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2011] },
+                    { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016] },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2011] }
                 ]
             },
             {
@@ -7260,8 +7435,12 @@
                         "name": "ELMS",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2014, 2015, 2016] },
-                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016] }
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2014, 2015] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2011, 2014, 2015, 2016] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2011] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2011, 2014, 2015, 2016] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2011] }
                         ],
                         "years": [2011, 2014, 2015, 2016]
                     },
@@ -7270,7 +7449,10 @@
                         "name": "FIA WEC",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2014, 2015, 2016] }
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2014, 2015] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2011, 2014, 2015, 2016] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2011] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2011, 2014, 2015, 2016] }
                         ]
                     },
                     {
@@ -7278,7 +7460,9 @@
                         "name": "IMSA",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016] }
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2011, 2014, 2015, 2016] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2011] }
                         ]
                     }
                 ]
@@ -7288,7 +7472,9 @@
                 "name": "Spec Series",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 23, "name": "Stock Car Pro Series", "type": "SERIES", "years": [1982] }
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2011, 2014, 2015, 2016] },
+                    { "id": 23, "name": "Stock Car Pro Series", "type": "SERIES", "years": [1982] },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2011] }
                 ]
             },
             {
@@ -7382,9 +7568,10 @@
                         "name": "GTE",
                         "type": "CLASS",
                         "subcategories": [
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2015, 2016, 2017] }
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017] }
                         ]
-                    }
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009] }
                 ]
             },
             {
@@ -7392,8 +7579,9 @@
                 "name": "Prototype",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2015, 2016, 2017] },
-                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2015, 2016, 2017] }
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017] },
+                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009] }
                 ]
             },
             {
@@ -7420,19 +7608,21 @@
                         "name": "ELMS",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2015, 2016, 2017] },
-                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2015, 2016, 2017] },
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2015, 2016, 2017] }
-                        ]
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009] }
+                        ],
+                        "years": [2004, 2005, 2006, 2007, 2008, 2009]
                     },
                     {
                         "id": 30,
                         "name": "FIA WEC",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2015, 2016, 2017] },
-                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2015, 2016, 2017] },
-                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2015, 2016, 2017] }
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017] }
                         ],
                         "years": [2015, 2016, 2017]
                     },
@@ -7441,7 +7631,7 @@
                         "name": "IMSA",
                         "type": "SERIES",
                         "subcategories": [
-                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2015, 2016, 2017] }
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017] }
                         ]
                     }
                 ]
@@ -7451,7 +7641,7 @@
                 "name": "Spec Series",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2015, 2016, 2017] }
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2004, 2005, 2006, 2007, 2008, 2009, 2015, 2016, 2017] }
                 ]
             },
             {
@@ -7625,7 +7815,8 @@
                         "subcategories": [
                             { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2009, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
                         ]
-                    }
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2009, 2010] }
                 ]
             },
             {
@@ -7637,7 +7828,8 @@
                     { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2021, 2023] },
                     { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2009, 2010] },
                     { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
-                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010] }
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2009, 2010] }
                 ]
             },
             {
@@ -7667,7 +7859,8 @@
                             { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2009, 2010] },
                             { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2009, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
                             { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
-                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010] }
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2009, 2010] }
                         ],
                         "years": [2009, 2010, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
                     },
@@ -7704,12 +7897,6 @@
                     { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2021, 2023] },
                     { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010] }
                 ]
-            },
-            {
-                "id": 62,
-                "name": "LMGT1",
-                "type": "CLASS",
-                "subcategories": []
             }
         ],
         "country": "PT",
@@ -9935,14 +10122,28 @@
                         "subcategories": [
                             { "id": 21, "name": "DTM", "type": "SERIES", "years": [2002, 2003] }
                         ]
-                    }
+                    },
+                    {
+                        "id": 59,
+                        "name": "GTE",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2006, 2012] }
+                        ]
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2006] }
                 ]
             },
             {
                 "id": 3,
                 "name": "Prototype",
                 "type": "CLASS",
-                "subcategories": []
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2006, 2012] },
+                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2006] },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2012] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2006] }
+                ]
             },
             {
                 "id": 4,
@@ -9964,7 +10165,38 @@
                 "name": "Multi-Class Championships",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 29, "name": "ELMS", "type": "SERIES", "years": [] }
+                    {
+                        "id": 29,
+                        "name": "ELMS",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2006, 2012] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2006] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2006, 2012] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2012] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2006] }
+                        ],
+                        "years": [2006, 2012]
+                    },
+                    {
+                        "id": 30,
+                        "name": "FIA WEC",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2006, 2012] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2006] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2006, 2012] }
+                        ]
+                    },
+                    {
+                        "id": 31,
+                        "name": "IMSA",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2006, 2012] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2012] }
+                        ]
+                    }
                 ]
             },
             {
@@ -9972,6 +10204,7 @@
                 "name": "Spec Series",
                 "type": "CLASS",
                 "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2006, 2012] },
                     {
                         "id": 33,
                         "name": "Formula 4",
@@ -9979,7 +10212,8 @@
                         "subcategories": [
                             { "id": 52, "name": "British F4 Championship", "type": "SERIES", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                         ]
-                    }
+                    },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2012] }
                 ]
             },
             {
@@ -10261,7 +10495,26 @@
                         "subcategories": [
                             { "id": 21, "name": "DTM", "type": "SERIES", "years": [2005] }
                         ]
-                    }
+                    },
+                    {
+                        "id": 59,
+                        "name": "GTE",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2005, 2006] }
+                        ]
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2005, 2006] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2005, 2006] },
+                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2005, 2006] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2005, 2006] }
                 ]
             },
             {
@@ -10289,7 +10542,44 @@
                 "name": "Multi-Class Championships",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 29, "name": "ELMS", "type": "SERIES", "years": [2005, 2006] }
+                    {
+                        "id": 29,
+                        "name": "ELMS",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2005, 2006] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2005, 2006] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2005, 2006] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2005, 2006] }
+                        ],
+                        "years": [2005, 2006]
+                    },
+                    {
+                        "id": 30,
+                        "name": "FIA WEC",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2005, 2006] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2005, 2006] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2005, 2006] }
+                        ]
+                    },
+                    {
+                        "id": 31,
+                        "name": "IMSA",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2005, 2006] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "Spec Series",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2005, 2006] }
                 ]
             },
             {
@@ -11002,7 +11292,72 @@
                                 "subcategories": [
                                     { "id": 39, "name": "GT World Challenge Europe", "type": "SERIES", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
                                 ]
-                            }
+                            },
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2013, 2014, 2015, 2024, 2025, 2026] }
+                        ]
+                    },
+                    {
+                        "id": 59,
+                        "name": "GTE",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
+                        ]
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2010] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2010, 2011] },
+                    { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2011, 2012, 2013] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2010] }
+                ]
+            },
+            {
+                "id": 25,
+                "name": "Multi-Class Championships",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 29,
+                        "name": "ELMS",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2013, 2014, 2015, 2024, 2025, 2026] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2010, 2011] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2011, 2012, 2013] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2010] }
+                        ],
+                        "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+                    },
+                    {
+                        "id": 30,
+                        "name": "FIA WEC",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 17, "name": "LMGT3", "type": "CLASS", "years": [2013, 2014, 2015, 2024, 2025, 2026] },
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2010, 2011] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023] }
+                        ]
+                    },
+                    {
+                        "id": 31,
+                        "name": "IMSA",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2011, 2012, 2013] }
                         ]
                     }
                 ]
@@ -11012,6 +11367,7 @@
                 "name": "Spec Series",
                 "type": "CLASS",
                 "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
                     {
                         "id": 33,
                         "name": "Formula 4",
@@ -11037,7 +11393,8 @@
                             { "id": 10, "name": "FIA Formula 3", "type": "SERIES", "years": [2019, 2021] },
                             { "id": 34, "name": "W Series", "type": "SERIES", "years": [2022] }
                         ]
-                    }
+                    },
+                    { "id": 56, "name": "Formula Le Mans", "type": "CLASS", "years": [2010, 2011, 2012, 2013] }
                 ]
             }
         ],
@@ -11131,7 +11488,26 @@
                             },
                             { "id": 21, "name": "DTM", "type": "SERIES", "years": [2010, 2011, 2012] }
                         ]
-                    }
+                    },
+                    {
+                        "id": 59,
+                        "name": "GTE",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2007] }
+                        ]
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2007] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2007] },
+                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2007] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2007] }
                 ]
             },
             {
@@ -11155,11 +11531,49 @@
                 "subcategories": []
             },
             {
+                "id": 25,
+                "name": "Multi-Class Championships",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 29,
+                        "name": "ELMS",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2007] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2007] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2007] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2007] }
+                        ],
+                        "years": [2007]
+                    },
+                    {
+                        "id": 30,
+                        "name": "FIA WEC",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2007] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2007] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2007] }
+                        ]
+                    },
+                    {
+                        "id": 31,
+                        "name": "IMSA",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2007] }
+                        ]
+                    }
+                ]
+            },
+            {
                 "id": 40,
                 "name": "Spec Series",
                 "type": "CLASS",
                 "subcategories": [
                     { "id": 12, "name": "Formula E", "type": "SERIES", "years": [2021] },
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2007] },
                     {
                         "id": 33,
                         "name": "Formula 4",
@@ -15407,7 +15821,27 @@
                 "id": 2,
                 "name": "GT",
                 "type": "CLASS",
-                "subcategories": []
+                "subcategories": [
+                    {
+                        "id": 59,
+                        "name": "GTE",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2006] }
+                        ]
+                    },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2006] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2006] },
+                    { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2006] },
+                    { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2006] }
+                ]
             },
             {
                 "id": 4,
@@ -15430,11 +15864,49 @@
                 "subcategories": []
             },
             {
+                "id": 25,
+                "name": "Multi-Class Championships",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 29,
+                        "name": "ELMS",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2006] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2006] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2006] },
+                            { "id": 62, "name": "LMGT1", "type": "CLASS", "years": [2006] }
+                        ],
+                        "years": [2006]
+                    },
+                    {
+                        "id": 30,
+                        "name": "FIA WEC",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2006] },
+                            { "id": 27, "name": "LMP1", "type": "CLASS", "years": [2006] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2006] }
+                        ]
+                    },
+                    {
+                        "id": 31,
+                        "name": "IMSA",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2006] }
+                        ]
+                    }
+                ]
+            },
+            {
                 "id": 40,
                 "name": "Spec Series",
                 "type": "CLASS",
                 "subcategories": [
-                    { "id": 12, "name": "Formula E", "type": "SERIES", "years": [2026] }
+                    { "id": 12, "name": "Formula E", "type": "SERIES", "years": [2026] },
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2006] }
                 ]
             }
         ],

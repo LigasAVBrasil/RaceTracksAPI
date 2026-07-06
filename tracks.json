@@ -19618,7 +19618,105 @@
         "id": 214,
         "name": "MotorLand Aragón",
         "similarNames": ["Circuito de Alcañiz"],
-        "categories": [],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 46, "name": "Formula 3", "type": "CLASS", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 59,
+                        "name": "GTE",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2023] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2023] },
+                    { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2023] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 41, "name": "TCR", "type": "CLASS", "years": [] }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "NASCAR",
+                "type": "CLASS",
+                "subcategories": []
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "type": "CLASS",
+                "subcategories": []
+            },
+            {
+                "id": 25,
+                "name": "Multi-Class Championships",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 29,
+                        "name": "ELMS",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2023] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2023] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2023] }
+                        ],
+                        "years": [2023]
+                    },
+                    {
+                        "id": 30,
+                        "name": "FIA WEC",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2023] },
+                            { "id": 28, "name": "LMGTE", "type": "CLASS", "years": [2023] }
+                        ]
+                    },
+                    {
+                        "id": 31,
+                        "name": "IMSA",
+                        "type": "SERIES",
+                        "subcategories": [
+                            { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2023] },
+                            { "id": 32, "name": "LMP3", "type": "CLASS", "years": [2023] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "Spec Series",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 19, "name": "LMP2", "type": "CLASS", "years": [2023] },
+                    { "id": 46, "name": "Formula 3", "type": "CLASS", "years": [] }
+                ]
+            }
+        ],
         "country": "ES",
         "region": "Europe",
         "latitude": "41.078333000000000",

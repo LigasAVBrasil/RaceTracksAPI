@@ -20268,7 +20268,47 @@
         "id": 215,
         "name": "Chicago Motor Speedway",
         "similarNames": ["Sportsman's Park"],
-        "categories": [],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 61,
+                        "name": "North American Open Wheel",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 48, "name": "CART", "type": "SERIES", "years": [1999, 2000, 2001, 2002] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 5, "name": "NASCAR", "type": "CLASS", "years": [] }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "Spec Series",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 5, "name": "NASCAR", "type": "CLASS", "years": [] }
+                ]
+            },
+            {
+                "id": 60,
+                "name": "Silhouette Racing Class",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 5, "name": "NASCAR", "type": "CLASS", "years": [] }
+                ]
+            }
+        ],
         "country": "US",
         "region": "North America",
         "latitude": "41.830556000000000",

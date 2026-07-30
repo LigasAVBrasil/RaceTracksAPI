@@ -20325,5 +20325,51 @@
                 "image_id": "215.1"
             }
         ]
+    },
+    {
+        "id": 216,
+        "name": "Cleveland Burke Lakefront Airport",
+        "similarNames": ["Grand Prix of Cleveland"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 61,
+                        "name": "North American Open Wheel",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 48, "name": "CART", "type": "SERIES", "years": [1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007] }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "41.517500000000000",
+        "longitude": "-81.683333000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1982,
+                "end_year": 1989,
+                "length": 3.991,
+                "image_id": "216.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Full Circuit",
+                "start_year": 1990,
+                "end_year": 2007,
+                "length": 3.389,
+                "image_id": "216.2"
+            }
+        ]
     }
 ]

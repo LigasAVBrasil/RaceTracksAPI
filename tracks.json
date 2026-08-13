@@ -20516,6 +20516,7 @@
                 "name": "Open Wheel",
                 "type": "CLASS",
                 "subcategories": [
+                    { "id": 8, "name": "Formula 1", "type": "SERIES", "years": [1981, 1982, 1983, 1984] },
                     {
                         "id": 61,
                         "name": "North American Open Wheel",
@@ -20543,5 +20544,63 @@
                 "image_id": "220.1"
             }
         ]
+    },
+    {
+        "id": 221,
+        "name": "Streets of Las Vegas",
+        "similarNames": ["Las Vegas Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 61,
+                        "name": "North American Open Wheel",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 48, "name": "CART", "type": "SERIES", "years": [2007] }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "36.169722000000000",
+        "longitude": "-115.148611000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": []
+    },
+    {
+        "id": 223,
+        "name": "Meadowlands Sports Complex",
+        "similarNames": ["Meadowlands Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 61,
+                        "name": "North American Open Wheel",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 48, "name": "CART", "type": "SERIES", "years": [1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991] }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "40.814167000000000",
+        "longitude": "-74.073889000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": []
     }
 ]

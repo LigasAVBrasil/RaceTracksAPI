@@ -5276,7 +5276,8 @@
                         "name": "North American Open Wheel",
                         "type": "CLASS",
                         "subcategories": [
-                            { "id": 22, "name": "IndyCar Series", "type": "SERIES", "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                            { "id": 22, "name": "IndyCar Series", "type": "SERIES", "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 48, "name": "CART", "type": "SERIES", "years": [1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2006, 2007] }
                         ]
                     }
                 ]
@@ -8961,7 +8962,8 @@
                         "name": "North American Open Wheel",
                         "type": "CLASS",
                         "subcategories": [
-                            { "id": 22, "name": "IndyCar Series", "type": "SERIES", "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                            { "id": 22, "name": "IndyCar Series", "type": "SERIES", "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] },
+                            { "id": 48, "name": "CART", "type": "SERIES", "years": [2003] }
                         ]
                     }
                 ]
@@ -20719,6 +20721,68 @@
                 "end_year": 2006,
                 "length": 3.39,
                 "image_id": "224.1"
+            }
+        ]
+    },
+    {
+        "id": 225,
+        "name": "Riverside International Raceway",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 61,
+                        "name": "North American Open Wheel",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 48, "name": "CART", "type": "SERIES", "years": [1981, 1982, 1983] }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "33.933389000000000",
+        "longitude": "-117.272278000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1969,
+                "end_year": 1988,
+                "length": 5.311,
+                "image_id": "225.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Short Circuit",
+                "start_year": 1969,
+                "end_year": 1988,
+                "length": 4.216,
+                "image_id": "225.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Sports Car Circuit",
+                "start_year": 1969,
+                "end_year": 1988,
+                "length": 4.099,
+                "image_id": "225.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "Full Circuit",
+                "start_year": 1957,
+                "end_year": 1968,
+                "length": 5.23,
+                "image_id": "225.4"
             }
         ]
     }

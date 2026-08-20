@@ -20788,5 +20788,43 @@
                 "image_id": "225.4"
             }
         ]
+    },
+    {
+        "id": 226,
+        "name": "San Jose Street Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 61,
+                        "name": "North American Open Wheel",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 48, "name": "CART", "type": "SERIES", "years": [2005, 2006, 2007] }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "country": "US",
+        "region": "North America",
+        "latitude": "37.328056000000000",
+        "longitude": "-121.890556000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2006,
+                "end_year": 2007,
+                "length": 2.33,
+                "image_id": "226.1"
+            }
+        ]
     }
 ]

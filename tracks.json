@@ -8345,7 +8345,8 @@
                         "name": "North American Open Wheel",
                         "type": "CLASS",
                         "subcategories": [
-                            { "id": 22, "name": "IndyCar Series", "type": "SERIES", "years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011] }
+                            { "id": 22, "name": "IndyCar Series", "type": "SERIES", "years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011] },
+                            { "id": 48, "name": "CART", "type": "SERIES", "years": [1998, 1999, 2000, 2001, 2002] }
                         ]
                     }
                 ]
@@ -11132,6 +11133,14 @@
                         "type": "CLASS",
                         "subcategories": [
                             { "id": 34, "name": "W Series", "type": "SERIES", "years": [2019] }
+                        ]
+                    },
+                    {
+                        "id": 61,
+                        "name": "North American Open Wheel",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 48, "name": "CART", "type": "SERIES", "years": [2007] }
                         ]
                     }
                 ]

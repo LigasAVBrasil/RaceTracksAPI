@@ -20945,5 +20945,76 @@
                 "image_id": "228.1"
             }
         ]
+    },
+    {
+        "id": 229,
+        "name": "Autódromo Oscar Cabalén",
+        "similarNames": ["Córdoba"],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [1967, 1968, 1973, 1975, 1977, 1978, 1979, 1980, 1982, 1985, 1986, 1987, 1992, 1993, 2002, 2005, 2006, 2007, 2008, 2011, 2013, 2015, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            },
+            {
+                "id": 60,
+                "name": "Silhouette Racing Class",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [1967, 1968, 1973, 1975, 1977, 1978, 1979, 1980, 1982, 1985, 1986, 1987, 1992, 1993, 2002, 2005, 2006, 2007, 2008, 2011, 2013, 2015, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            }
+        ],
+        "country": "AR",
+        "region": "South America",
+        "latitude": "-31.575833000000000",
+        "longitude": "-64.361389000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "No. 3 Circuit",
+                "start_year": 1998,
+                "end_year": null,
+                "length": 4.045,
+                "image_id": "229.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "No. 4 Circuit",
+                "start_year": 1998,
+                "end_year": null,
+                "length": 2.3,
+                "image_id": "229.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "No. 2 Circuit",
+                "start_year": 1975,
+                "end_year": null,
+                "length": 2.601,
+                "image_id": "229.3"
+            },
+            {
+                "layout_id": 4,
+                "name": "No. 5 Circuit",
+                "start_year": 2012,
+                "end_year": null,
+                "length": 3.8,
+                "image_id": "229.4"
+            },
+            {
+                "layout_id": 5,
+                "name": "No. 1 Circuit",
+                "start_year": 1968,
+                "end_year": 1993,
+                "length": 3.202,
+                "image_id": "229.5"
+            }
+        ]
     }
 ]

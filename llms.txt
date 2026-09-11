@@ -9,7 +9,7 @@
 
 ## Project Overview
 RaceTracksAPI is a static, serverless JSON API hosted on GitHub[cite: 3]. It provides structured data and SVG layouts for both real-world motorsports circuits and fictional tracks from racing games[cite: 4].
-- **Status:** Work in Progress (WIP). The database is actively expanding, prioritizing real-world tracks in this order: 1. Turismo Carretera, 2. CART/INDYCAR Adjustments, 3. A1GP/EuroBOSS, 4. SMP F4 Championship, and 5. GT World Challenge[cite: 5].
+- **Status:** Work in Progress (WIP). The database is actively expanding, prioritizing real-world tracks in this order: 1. Turismo Carretera, 2. A1GP/EuroBOSS, 3. SMP F4 Championship, and 4. GT World Challenge[cite: 5].
 - **Data Source:** `https://ligasavbrasil.github.io/RaceTracksAPI/tracks.json` [cite: 6]
 - **Images Pattern:** `https://ligasavbrasil.github.io/RaceTracksAPI/images/track_{image_id}.svg` [cite: 6]
 

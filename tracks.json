@@ -20952,11 +20952,49 @@
         "similarNames": ["Córdoba"],
         "categories": [
             {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "type": "CLASS", "years": [] },
+                    { "id": 46, "name": "Formula 3", "type": "CLASS", "years": [] }
+                ]
+            },
+            {
                 "id": 4,
                 "name": "Touring Car",
                 "type": "CLASS",
                 "subcategories": [
+                    {
+                        "id": 41,
+                        "name": "TCR",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 43, "name": "TCR South America", "type": "SERIES", "years": [2021, 2023, 2026] }
+                        ]
+                    },
                     { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [1967, 1968, 1973, 1975, 1977, 1978, 1979, 1980, 1982, 1985, 1986, 1987, 1992, 1993, 2002, 2005, 2006, 2007, 2008, 2011, 2013, 2015, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Motorcycle Racing",
+                "type": "CLASS",
+                "subcategories": []
+            },
+            {
+                "id": 7,
+                "name": "Truck Racing",
+                "type": "CLASS",
+                "subcategories": []
+            },
+            {
+                "id": 40,
+                "name": "Spec Series",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "type": "CLASS", "years": [] },
+                    { "id": 46, "name": "Formula 3", "type": "CLASS", "years": [] }
                 ]
             },
             {
@@ -21014,6 +21052,45 @@
                 "end_year": 1993,
                 "length": 3.202,
                 "image_id": "229.5"
+            }
+        ]
+    },
+    {
+        "id": 230,
+        "name": "Autódromo General San Martín",
+        "similarNames": ["Automóvil Club Comodoro Rivadavia"],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [1969, 2004, 2005, 2006, 2007, 2013, 2015, 2017, 2022] }
+                ]
+            },
+            {
+                "id": 60,
+                "name": "Silhouette Racing Class",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [1969, 2004, 2005, 2006, 2007, 2013, 2015, 2017, 2022] }
+                ]
+            }
+        ],
+        "country": "AR",
+        "region": "South America",
+        "latitude": "-45.902611000000000",
+        "longitude": "-67.545361000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "No. 1 Circuit",
+                "start_year": 1969,
+                "end_year": null,
+                "length": 3.764,
+                "image_id": "230.1"
             }
         ]
     }

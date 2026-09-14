@@ -21093,5 +21093,75 @@
                 "image_id": "230.1"
             }
         ]
+    },
+    {
+        "id": 231,
+        "name": "Circuito de Madring",
+        "similarNames": ["Spanish Grand Prix"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "type": "SERIES", "years": [2026] },
+                    {
+                        "id": 45,
+                        "name": "Formula 2",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 9, "name": "FIA Formula 2", "type": "SERIES", "years": [2026] }
+                        ]
+                    },
+                    {
+                        "id": 46,
+                        "name": "Formula 3",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 10, "name": "FIA Formula 3", "type": "SERIES", "years": [2026] }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "Spec Series",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 45,
+                        "name": "Formula 2",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 9, "name": "FIA Formula 2", "type": "SERIES", "years": [2026] }
+                        ]
+                    },
+                    {
+                        "id": 46,
+                        "name": "Formula 3",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 10, "name": "FIA Formula 3", "type": "SERIES", "years": [2026] }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "country": "ES",
+        "region": "Europe",
+        "latitude": "40.465278000000000",
+        "longitude": "-3.615278000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2026,
+                "end_year": null,
+                "length": 5.414,
+                "image_id": "231.1"
+            }
+        ]
     }
 ]

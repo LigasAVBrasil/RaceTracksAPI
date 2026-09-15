@@ -21163,5 +21163,68 @@
                 "image_id": "231.1"
             }
         ]
+    },
+    {
+        "id": 232,
+        "name": "Autódromo de Concepción del Uruguay",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "type": "CLASS", "years": [] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "type": "CLASS",
+                "subcategories": [
+                    {
+                        "id": 41,
+                        "name": "TCR",
+                        "type": "CLASS",
+                        "subcategories": [
+                            { "id": 43, "name": "TCR South America", "type": "SERIES", "years": [2021] }
+                        ]
+                    },
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            },
+            {
+                "id": 40,
+                "name": "Spec Series",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "type": "CLASS", "years": [] }
+                ]
+            },
+            {
+                "id": 60,
+                "name": "Silhouette Racing Class",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            }
+        ],
+        "country": "AR",
+        "region": "South America",
+        "latitude": "-32.460327156549400",
+        "longitude": "-58.310468063228800",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2014,
+                "end_year": null,
+                "length": 4.279,
+                "image_id": "232.1"
+            }
+        ]
     }
 ]

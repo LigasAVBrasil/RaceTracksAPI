@@ -21379,5 +21379,52 @@
                 "image_id": "235.3"
             }
         ]
+    },
+    {
+        "id": 236,
+        "name": "Autódromo Ciudad de Viedma",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            },
+            {
+                "id": 60,
+                "name": "Silhouette Racing Class",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026] }
+                ]
+            }
+        ],
+        "country": "AR",
+        "region": "South America",
+        "latitude": "-40.856806000000000",
+        "longitude": "-63.019694000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Circuito 1 + Chicane",
+                "start_year": 2004,
+                "end_year": null,
+                "length": 4.15,
+                "image_id": "236.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Circuito 2",
+                "start_year": 2004,
+                "end_year": null,
+                "length": 1.15,
+                "image_id": "236.2"
+            }
+        ]
     }
 ]

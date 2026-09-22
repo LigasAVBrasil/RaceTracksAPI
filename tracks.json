@@ -21426,5 +21426,50 @@
                 "image_id": "236.2"
             }
         ]
+    },
+    {
+        "id": 237,
+        "name": "Autódromo Juan Manuel Fangio",
+        "similarNames": ["Balcarce"],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011] }
+                ]
+            },
+            {
+                "id": 60,
+                "name": "Silhouette Racing Class",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011] }
+                ]
+            }
+        ],
+        "country": "AR",
+        "region": "South America",
+        "latitude": "-37.883028000000000",
+        "longitude": "-58.267056000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1972,
+                "end_year": null,
+                "length": 4.522,
+                "image_id": "237.1"
+            }
+        ]
     }
 ]

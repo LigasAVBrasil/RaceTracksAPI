@@ -21471,5 +21471,44 @@
                 "image_id": "237.1"
             }
         ]
+    },
+    {
+        "id": 238,
+        "name": "Punta Indio Naval Air Base Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [1991, 1993, 1994, 1995, 1996, 2001] }
+                ]
+            },
+            {
+                "id": 60,
+                "name": "Silhouette Racing Class",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [1991, 1993, 1994, 1995, 1996, 2001] }
+                ]
+            }
+        ],
+        "country": "AR",
+        "region": "South America",
+        "latitude": "-35.352991034254500",
+        "longitude": "-57.290623174563386",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 1991,
+                "end_year": 2001,
+                "length": 4.7,
+                "image_id": "238.1"
+            }
+        ]
     }
 ]

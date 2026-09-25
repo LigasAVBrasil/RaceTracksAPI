@@ -21556,8 +21556,8 @@
             },
             {
                 "layout_id": 2,
-                "name": "Oval Circuit + 2 Chicanes",
-                "start_year": 1953,
+                "name": "Oval Circuit + 3 Chicanes",
+                "start_year": 1993,
                 "end_year": null,
                 "length": 4.662,
                 "image_id": "239.2"
@@ -21565,7 +21565,7 @@
             {
                 "layout_id": 3,
                 "name": "No. 2 Circuit",
-                "start_year": 1953,
+                "start_year": 1982,
                 "end_year": null,
                 "length": 3.05,
                 "image_id": "239.3"

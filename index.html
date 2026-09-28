@@ -4,6 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>RaceTracksAPI - Circuit Maps & Data</title>
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="https://raw.githubusercontent.com/LigasAVBrasil/assets/refs/heads/main/logo.svg"
+		/>
 		<style>
 			@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
 
@@ -105,7 +110,7 @@
 				gap: 0.5rem;
 			}
 
-			.filter-group label {
+			.filter-group > label:not(.toggle-wrapper) {
 				font-size: 0.8rem;
 				font-weight: 600;
 				color: var(--text-muted);
@@ -167,6 +172,71 @@
 			.min-max-wrapper input::-webkit-inner-spin-button {
 				-webkit-appearance: none;
 				margin: 0;
+			}
+
+			/* Main Layouts Toggle Styles */
+			.toggle-wrapper {
+				display: flex;
+				align-items: center;
+				gap: 0.75rem;
+				height: 42px;
+				cursor: pointer;
+				user-select: none;
+			}
+
+			.switch {
+				position: relative;
+				display: inline-block;
+				width: 44px;
+				height: 24px;
+				flex-shrink: 0;
+			}
+
+			.switch input {
+				opacity: 0;
+				width: 0;
+				height: 0;
+			}
+
+			.slider {
+				position: absolute;
+				cursor: pointer;
+				inset: 0;
+				background-color: var(--bg-color);
+				border: 1px solid #333;
+				transition: all 0.2s ease;
+				border-radius: 24px;
+			}
+
+			.slider::before {
+				position: absolute;
+				content: "";
+				height: 16px;
+				width: 16px;
+				left: 3px;
+				bottom: 3px;
+				background-color: var(--text-muted);
+				transition: all 0.2s ease;
+				border-radius: 50%;
+			}
+
+			.switch input:checked + .slider {
+				background-color: rgb(from var(--accent-green) r g b / 0.2);
+				border-color: var(--accent-green);
+			}
+
+			.switch input:checked + .slider::before {
+				transform: translateX(20px);
+				background-color: var(--accent-green);
+			}
+
+			.toggle-text {
+				font-family: inherit;
+				font-size: 0.95rem;
+				font-weight: 400;
+				text-transform: none;
+				letter-spacing: normal;
+				color: var(--text-main);
 			}
 
 			.counter-wrapper {
@@ -385,6 +455,17 @@
 					</select>
 				</div>
 
+				<div class="filter-group">
+					<label>Layout Type</label>
+					<label class="toggle-wrapper" for="main-layout-toggle">
+						<span class="switch">
+							<input type="checkbox" id="main-layout-toggle" />
+							<span class="slider"></span>
+						</span>
+						<span class="toggle-text">Main Layouts Only</span>
+					</label>
+				</div>
+
 				<div class="counter-wrapper">
 					<span
 						id="track-counter"
@@ -552,6 +633,7 @@
 					.getElementById("search-input")
 					.value.toLowerCase()
 					.trim();
+				const mainOnly = document.getElementById("main-layout-toggle").checked;
 
 				const minLength =
 					parseFloat(document.getElementById("min-length").value) || 0;
@@ -588,6 +670,10 @@
 						}
 
 						const filteredLayouts = track.layouts.filter((layout) => {
+							if (mainOnly && !/\.1$/.test(String(layout.image_id))) {
+								return false;
+							}
+
 							const layoutNameMatch = layout.name
 								.toLowerCase()
 								.includes(searchValue);
@@ -659,6 +745,9 @@
 				.addEventListener("change", applyFilters);
 			document
 				.getElementById("category-filter")
+				.addEventListener("change", applyFilters);
+			document
+				.getElementById("main-layout-toggle")
 				.addEventListener("change", applyFilters);
 			document
 				.getElementById("search-input")

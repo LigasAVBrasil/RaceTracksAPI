@@ -21571,5 +21571,80 @@
                 "image_id": "239.3"
             }
         ]
+    },
+    {
+        "id": 240,
+        "name": "Kuwait Motor Town",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "type": "CLASS", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 58, "name": "GT3", "type": "CLASS", "years": [] }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Prototype",
+                "type": "CLASS",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "type": "CLASS",
+                "subcategories": []
+            },
+            {
+                "id": 40,
+                "name": "Spec Series",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "type": "CLASS", "years": [] }
+                ]
+            }
+        ],
+        "country": "KW",
+        "region": "Middle East",
+        "latitude": "28.930000000000000",
+        "longitude": "48.141667000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2019,
+                "end_year": null,
+                "length": 5.609,
+                "image_id": "240.1"
+            },
+            {
+                "layout_id": 2,
+                "name": "Alternative Circuit",
+                "start_year": 2019,
+                "end_year": null,
+                "length": 5.542,
+                "image_id": "240.2"
+            },
+            {
+                "layout_id": 3,
+                "name": "Short Circuit",
+                "start_year": 2019,
+                "end_year": null,
+                "length": 2.86,
+                "image_id": "240.3"
+            }
+        ]
     }
 ]

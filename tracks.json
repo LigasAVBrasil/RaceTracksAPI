@@ -21646,5 +21646,50 @@
                 "image_id": "240.3"
             }
         ]
+    },
+    {
+        "id": 241,
+        "name": "Kazan Ring",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "type": "CLASS", "years": [] }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "type": "CLASS",
+                "subcategories": []
+            },
+            {
+                "id": 40,
+                "name": "Spec Series",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 33, "name": "Formula 4", "type": "CLASS", "years": [] }
+                ]
+            }
+        ],
+        "country": "RU",
+        "region": "Europe",
+        "latitude": "55.865556000000000",
+        "longitude": "49.265833000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2011,
+                "end_year": null,
+                "length": 3.476,
+                "image_id": "241.1"
+            }
+        ]
     }
 ]

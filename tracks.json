@@ -21691,5 +21691,53 @@
                 "image_id": "241.1"
             }
         ]
+    },
+    {
+        "id": 242,
+        "name": "Valencia Street Circuit",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 8, "name": "Formula 1", "type": "SERIES", "years": [2008, 2009, 2010, 2011, 2012] },
+                    { "id": 45, "name": "Formula 2", "type": "CLASS", "years": [] },
+                    { "id": 46, "name": "Formula 3", "type": "CLASS", "years": [] }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "GT",
+                "type": "CLASS",
+                "subcategories": []
+            },
+            {
+                "id": 40,
+                "name": "Spec Series",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 45, "name": "Formula 2", "type": "CLASS", "years": [] },
+                    { "id": 46, "name": "Formula 3", "type": "CLASS", "years": [] }
+                ]
+            }
+        ],
+        "country": "ES",
+        "region": "Europe",
+        "latitude": "39.458778000000000",
+        "longitude": "-0.325556000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2008,
+                "end_year": 2012,
+                "length": 5.419,
+                "image_id": "242.1"
+            }
+        ]
     }
 ]

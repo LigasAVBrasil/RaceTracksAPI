@@ -21575,7 +21575,7 @@
     {
         "id": 240,
         "name": "Kuwait Motor Town",
-        "similarNames": null,
+        "similarNames": ["12 Hours of Kuwait"],
         "categories": [
             {
                 "id": 1,
@@ -21695,7 +21695,7 @@
     {
         "id": 242,
         "name": "Valencia Street Circuit",
-        "similarNames": null,
+        "similarNames": ["European Grand Prix"],
         "categories": [
             {
                 "id": 1,
@@ -21737,6 +21737,43 @@
                 "end_year": 2012,
                 "length": 5.419,
                 "image_id": "242.1"
+            }
+        ]
+    },
+    {
+        "id": 243,
+        "name": "Circuit Jules Tacheny Mettet",
+        "similarNames": null,
+        "categories": [
+            {
+                "id": 1,
+                "name": "Open Wheel",
+                "type": "CLASS",
+                "subcategories": []
+            },
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 41, "name": "TCR", "type": "CLASS", "years": [] }
+                ]
+            }
+        ],
+        "country": "BE",
+        "region": "Europe",
+        "latitude": "50.304031000000000",
+        "longitude": "4.657500000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2010,
+                "end_year": null,
+                "length": 2.31,
+                "image_id": "243.1"
             }
         ]
     }

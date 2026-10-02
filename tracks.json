@@ -21776,5 +21776,44 @@
                 "image_id": "243.1"
             }
         ]
+    },
+    {
+        "id": 244,
+        "name": "Autódromo Enrique Freile",
+        "similarNames": ["El Calafate"],
+        "categories": [
+            {
+                "id": 4,
+                "name": "Touring Car",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [2023, 2024, 2025, 2026] }
+                ]
+            },
+            {
+                "id": 60,
+                "name": "Silhouette Racing Class",
+                "type": "CLASS",
+                "subcategories": [
+                    { "id": 63, "name": "Turismo Carretera", "type": "SERIES", "years": [2023, 2024, 2025, 2026] }
+                ]
+            }
+        ],
+        "country": "AR",
+        "region": "South America",
+        "latitude": "-50.322928000000000",
+        "longitude": "-72.151294000000000",
+        "isFictional": false,
+        "fictionalSource": null,
+        "layouts": [
+            {
+                "layout_id": 1,
+                "name": "Full Circuit",
+                "start_year": 2023,
+                "end_year": null,
+                "length": 3.8,
+                "image_id": "244.1"
+            }
+        ]
     }
 ]
